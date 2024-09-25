@@ -142,8 +142,9 @@ def write_combined_data_to_csv(data, sellers, prices, csv_file="scraping_data.cs
 
 def main():
     chrome_options = Options()
-    chrome_options.binary_location = '/usr/bin/google-chrome'
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    service = Service('chromedriver.exe')
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
         accept_condition(driver)

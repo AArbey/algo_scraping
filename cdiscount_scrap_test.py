@@ -38,6 +38,7 @@ def solve_hcaptcha_and_submit_form(driver, captcha_page_url, site_key, two_captc
 
 
 def accept_condition(driver):
+    driver.implicitly_wait(30)
     print("------------------accept_condition--------------------")
     try:
         driver.get(URL)
@@ -146,9 +147,11 @@ def write_combined_data_to_csv(sellers, prices, product_name, csv_file="scraping
 
 def main():
 
-    service = Service('/home/yasma_abdlk/Downloads/chromedriver-linux64/chromedriver')
     chrome_options = Options()
-    chrome_options.binary_location = '/usr/bin/google-chrome'
+    chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    chrome_options.add_argument("--disable-gpu")
+    ##chrome_options.add_argument("--headless")
+    service = Service('chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
@@ -157,6 +160,7 @@ def main():
         two_captcha_api_key = "48769c3dfb7194a2639f7f5627378bad"
 
         solve_hcaptcha_and_submit_form(driver, captcha_page_url, site_key, two_captcha_api_key)
+        time.sleep(5)
         accept_condition(driver)
 
         product_to_search = 'xia1699956501953'
