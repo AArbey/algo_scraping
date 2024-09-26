@@ -27,18 +27,13 @@ HTML_SELECTORS = {
     "more_offers_link": "offres neuves",
     "seller_name": "slrName",
     "seller_status": "slrType",
+    "seller_rating": "//*[@id='fpmContent']/div/div[1]/div/div/span",
     "get_price": "c-price c-price--xl c-price--promo",
-    "shipping_country": "c-shipping__country",
-    "product_condition": "c-productCondition"
+    "delivery_fee": "priceColor",
+    "delivery_date": "//*[@id='fpmContent']/div/div[3]/table/tbody/tr[4]/td[2]/span"
 }
 
-def solve_hcaptcha_and_submit_form(driver, captcha_page_url, site_key, two_captcha_api_key):
-    sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-    os.getenv(two_captcha_api_key, site_key)
-
-
 def accept_condition(driver):
-    driver.implicitly_wait(30)
     print("------------------accept_condition--------------------")
     try:
         driver.get(URL)
@@ -94,23 +89,37 @@ def get_more_offers_page(driver):
         return None
 
 def fetch_data_from_pages(driver, url, html_selector, data_type):
-
     if not url:
         print(f"No valid URL for fetching {data_type}.")
         return []
 
     fetched_data = []
+    delivery_fee = []
+    seller_ratings = []
+    delivery_dates = []
+
     while url:
         try:
             driver.get(url)
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
 
             soup = BeautifulSoup(driver.page_source, 'lxml')
+
             if data_type == 'sellers':
                 sellers = soup.find_all('a', class_=HTML_SELECTORS[html_selector])
                 seller_statuses = soup.find_all('span', class_=HTML_SELECTORS["seller_status"])
-                fetched_data.extend([(sellers[i].get_text(strip=True), seller_statuses[i].get_text(strip=True)) for i in range(len(sellers))])
+                delivery_fee = soup.find_all('span', class_=HTML_SELECTORS["delivery_fee"])
+                ratings_elements = driver.find_elements(By.XPATH, HTML_SELECTORS["seller_rating"])
+                seller_ratings = [rating.text.strip() for rating in ratings_elements]
+                delivery_date_elements = driver.find_elements(By.XPATH, HTML_SELECTORS["delivery_date"])
+                delivery_dates = [date.text.strip() for date in delivery_date_elements]
+
+                fetched_data.extend([
+                    (sellers[i].get_text(strip=True), seller_statuses[i].get_text(strip=True), seller_ratings[i], delivery_fee[i].get_text(strip=True), delivery_dates[i]) 
+                    for i in range(len(sellers))
+                ])
             else:
+                delivery_fee = soup.find_all('span', class_=HTML_SELECTORS["delivery_fee"])
                 elements = soup.find_all('p', class_=HTML_SELECTORS[html_selector])
                 fetched_data.extend([elem.get_text(strip=True) for elem in elements])
 
@@ -133,17 +142,15 @@ def write_combined_data_to_csv(sellers, prices, product_name, csv_file="scraping
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
         if not file_exists:
-            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Timestamp"])
-    min_length = min(len(sellers), len(prices))
-    with open(csv_file, "a", newline="") as f:
-        writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Timestamp"])
+            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
+
+        min_length = min(len(sellers), len(prices))
+        writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
         for i in range(min_length):
-            seller_name, seller_status = sellers[i]
-            writer.writerow(["Cdiscount", product_name, prices[i], seller_name, seller_status, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
+            seller_name, seller_status, seller_rating, delivery_fee, delivery_date = sellers[i]
+            writer.writerow(["Cdiscount", product_name, prices[i], seller_name, seller_status, seller_rating, delivery_fee, delivery_date, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
         writer.writerow(["----------------------------------------------------------------------------------------------------------"])
     print(f"Combined data written to {csv_file}")
-
 
 def main():
 
@@ -155,12 +162,6 @@ def main():
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
-        captcha_page_url = URL
-        site_key = "f6af350b-e1f0-4be9-847a-de731e69489a"
-        two_captcha_api_key = "48769c3dfb7194a2639f7f5627378bad"
-
-        solve_hcaptcha_and_submit_form(driver, captcha_page_url, site_key, two_captcha_api_key)
-        time.sleep(5)
         accept_condition(driver)
 
         product_to_search = 'xia1699956501953'
