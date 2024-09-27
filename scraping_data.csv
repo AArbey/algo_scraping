@@ -1,228 +1,1004 @@
 Platform,Product Name,Price,Seller,Timestamp
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""134.,30 €"",Techstark,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""150.,42 €"",Equokka,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""150.,84 €"",2KINGS,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""152.,62 €"",Stock e-commerce,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""161.,87 €"",Espace-Disque,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""162.,87 €"",Avanturis,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""167.,10 €"",Maxmovil,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""167.,19 €"",ESSEBI SHOP,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""171.,41 €"",Big Hub,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""173.,73 €"",Topbiz,17/09/2024 17:00:44"
-"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""173.,78 €"",DIGITAL BAY,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""134.,30 ï¿½"",Techstark,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""150.,42 ï¿½"",Equokka,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""150.,84 ï¿½"",2KINGS,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""152.,62 ï¿½"",Stock e-commerce,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""161.,87 ï¿½"",Espace-Disque,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""162.,87 ï¿½"",Avanturis,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""167.,10 ï¿½"",Maxmovil,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""167.,19 ï¿½"",ESSEBI SHOP,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""171.,41 ï¿½"",Big Hub,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""173.,73 ï¿½"",Topbiz,17/09/2024 17:00:44"
+"E.Leclerc,""Xiaomi Redmi 13C 17,1 cm (6.74"""") Double SIM Android 13 4G USB Type-C 8 Go 256 Go 5000 mAh Noir"",""173.,78 ï¿½"",DIGITAL BAY,17/09/2024 17:00:44"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,20 €"",Equokka,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 13:49:56"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 13:49:56"
-----------------------------------------------------------------------------------------------------------
-Platform,Product Name,Price,Seller,Seller Status,Timestamp
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€99,JCC,VENDEUR PRO,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,20/09/2024 14:14:48
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,20/09/2024 14:14:48
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,20 ï¿½"",Equokka,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 13:49:56"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 13:49:56"
 ----------------------------------------------------------------------------------------------------------
 Platform,Product Name,Price,Seller,Seller Status,Timestamp
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€99,JCC,VENDEUR PRO,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,20/09/2024 14:16:47
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108ï¿½99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,FANGE,VENDEUR PRO,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,Joli,VENDEUR PRO,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½99,JCC,VENDEUR PRO,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139ï¿½99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129ï¿½99,MILife Mall,VENDEUR PRO,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149ï¿½00,Top looker,VENDEUR PRO,20/09/2024 14:14:48
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299ï¿½99,LESA,VENDEUR PRO,20/09/2024 14:14:48
 ----------------------------------------------------------------------------------------------------------
 Platform,Product Name,Price,Seller,Seller Status,Timestamp
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€99,JCC,VENDEUR PRO,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,20/09/2024 14:17:58
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,20/09/2024 14:17:58
-----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,16 €"",Equokka,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 14:49:34"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 14:49:34"
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108ï¿½99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,FANGE,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,Joli,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½99,JCC,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139ï¿½99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129ï¿½99,MILife Mall,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149ï¿½00,Top looker,VENDEUR PRO,20/09/2024 14:16:47
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299ï¿½99,LESA,VENDEUR PRO,20/09/2024 14:16:47
 ----------------------------------------------------------------------------------------------------------
 Platform,Product Name,Price,Seller,Seller Status,Timestamp
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€99,JCC,VENDEUR PRO,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,20/09/2024 14:50:54
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108ï¿½99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,FANGE,VENDEUR PRO,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,Joli,VENDEUR PRO,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½99,JCC,VENDEUR PRO,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139ï¿½99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129ï¿½99,MILife Mall,VENDEUR PRO,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149ï¿½00,Top looker,VENDEUR PRO,20/09/2024 14:17:58
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299ï¿½99,LESA,VENDEUR PRO,20/09/2024 14:17:58
+----------------------------------------------------------------------------------------------------------
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,16 ï¿½"",Equokka,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 14:49:34"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 14:49:34"
 ----------------------------------------------------------------------------------------------------------
 Platform,Product Name,Price,Seller,Seller Status,Timestamp
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€99,JCC,VENDEUR PRO,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,20/09/2024 14:53:21
-Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108ï¿½99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,FANGE,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,Joli,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½99,JCC,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139ï¿½99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129ï¿½99,MILife Mall,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149ï¿½00,Top looker,VENDEUR PRO,20/09/2024 14:50:54
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299ï¿½99,LESA,VENDEUR PRO,20/09/2024 14:50:54
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,16 €"",Equokka,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 15:10:25"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 15:10:25"
+Platform,Product Name,Price,Seller,Seller Status,Timestamp
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108ï¿½99,Sanmi-fr,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,FANGE,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½98,Joli,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125ï¿½99,JCC,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139ï¿½99,LIBREMOUV,NOUVEAU VENDEUR,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129ï¿½99,MILife Mall,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149ï¿½00,Top looker,VENDEUR PRO,20/09/2024 14:53:21
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299ï¿½99,LESA,VENDEUR PRO,20/09/2024 14:53:21
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 €"",Equokka,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 15:31:15"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,16 ï¿½"",Equokka,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 15:10:25"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 15:10:25"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 €"",Equokka,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 15:52:04"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 ï¿½"",Equokka,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 15:31:15"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 15:31:15"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 €"",Equokka,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 16:12:53"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 ï¿½"",Equokka,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 15:52:04"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 15:52:04"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 €"",Equokka,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 16:33:41"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 ï¿½"",Equokka,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 16:12:53"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 16:12:53"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 €"",Equokka,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 16:54:29"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 ï¿½"",Equokka,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 16:33:41"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 16:33:41"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 €"",Equokka,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 17:15:17"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,10 ï¿½"",Equokka,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 16:54:29"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 16:54:29"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 €"",Equokka,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 17:36:06"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 ï¿½"",Equokka,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 17:15:17"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 17:15:17"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 €"",Equokka,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 17:56:54"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 ï¿½"",Equokka,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 17:36:06"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 17:36:06"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 €"",Equokka,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 18:17:42"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 ï¿½"",Equokka,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 17:56:54"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 17:56:54"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""129.,91 €"",Equokka,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 18:59:03"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""130.,03 ï¿½"",Equokka,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 18:17:42"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 18:17:42"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""129.,91 €"",Equokka,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 19:19:52"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""129.,91 ï¿½"",Equokka,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 18:59:03"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 18:59:03"
 ----------------------------------------------------------------------------------------------------------
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 €"",Techstark,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""129.,91 €"",Equokka,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 €"",Stock e-commerce,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 €"",Magic Distribution,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 €"",Maxmovil,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 €"",ESSEBI SHOP,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 €"",Espace-Disque,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 €"",Big Hub,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 €"",Topbiz,20/09/2024 19:40:43"
-"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 €"",DIGITAL BAY,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""129.,91 ï¿½"",Equokka,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 19:19:52"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 19:19:52"
+----------------------------------------------------------------------------------------------------------
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""158.,00 ï¿½"",Techstark,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""129.,91 ï¿½"",Equokka,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""148.,96 ï¿½"",Stock e-commerce,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""154.,14 ï¿½"",Magic Distribution,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""165.,48 ï¿½"",Maxmovil,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,10 ï¿½"",ESSEBI SHOP,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""167.,19 ï¿½"",Espace-Disque,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""168.,46 ï¿½"",Big Hub,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""171.,41 ï¿½"",Topbiz,20/09/2024 19:40:43"
+"E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,""173.,73 ï¿½"",DIGITAL BAY,20/09/2024 19:40:43"
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 12:16:28
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 12:16:28
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 12:17:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 12:17:31
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 12:38:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 12:38:20
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 12:59:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 12:59:09
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 13:19:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 13:19:58
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 13:40:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 13:40:46
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 14:22:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 14:22:11
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 14:43:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 14:43:00
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 15:03:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 15:03:50
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 ï¿½",Techstark,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 ï¿½",Equokka,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 ï¿½",Stock e-commerce,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 ï¿½",Avanturis,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 ï¿½",Maxmovil,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 ï¿½",ESSEBI SHOP,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 ï¿½",Espace-Disque,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 ï¿½",Topbiz,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 ï¿½",Big Hub,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 ï¿½",MS2 Digital,25/09/2024 15:24:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 ï¿½",2KINGS,25/09/2024 15:24:38
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 €",Techstark,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 €",Stock e-commerce,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 16:19:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 16:19:40
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 €",Techstark,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"151.,78 €",Stock e-commerce,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 16:41:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 16:41:34
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 €",Techstark,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 17:02:23
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 17:02:23
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,94 €",Techstark,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 17:23:12
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 17:23:12
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,91 €",Techstark,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 17:44:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 17:44:01
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,88 €",Techstark,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 18:25:26
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 18:25:26
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,85 €",Techstark,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 18:46:32
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 18:46:32
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 19:07:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 19:07:21
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 19:28:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 19:28:11
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 19:49:00
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 19:49:00
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 20:09:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 20:09:49
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 20:30:38
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 20:30:38
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 20:51:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 20:51:27
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 21:12:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 21:12:16
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 21:53:40
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 21:53:40
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 22:14:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 22:14:31
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 22:35:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 22:35:20
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 22:56:08
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 22:56:08
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 23:16:57
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 23:16:57
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 23:37:46
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 23:37:46
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,84 €",Stock e-commerce,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,25/09/2024 23:58:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,25/09/2024 23:58:35
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,83 €",Techstark,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 00:40:06
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 00:40:06
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,82 €",Techstark,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 01:00:54
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 01:00:54
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,80 €",Techstark,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 01:21:43
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 01:21:43
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,77 €",Techstark,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 01:42:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 01:42:31
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,75 €",Techstark,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 02:03:20
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 02:03:20
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,73 €",Techstark,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 02:24:09
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 02:24:09
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 02:44:58
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 02:44:58
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 03:05:47
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 03:05:47
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 03:26:35
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 03:26:35
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 03:47:24
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 03:47:24
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 04:08:13
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 04:08:13
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 04:29:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 04:29:01
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 04:49:50
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 04:49:50
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,73 €",Stock e-commerce,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 05:10:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 05:10:39
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 05:31:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 05:31:27
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 05:52:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 05:52:16
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 06:13:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 06:13:04
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 06:54:31
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 06:54:31
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 07:36:01
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 07:36:01
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 07:56:49
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 07:56:49
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"153.,34 €",Stock e-commerce,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 08:17:39
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 08:17:39
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 08:38:27
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 08:38:27
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 08:59:16
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 08:59:16
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"165.,69 €",Maxmovil,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 09:20:04
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"174.,00 €",BLAN SRL,26/09/2024 09:20:04
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,40 €",Topbiz,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 11:03:34
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 11:03:34
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 11:44:56
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 11:44:56
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 12:05:45
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 12:05:45
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"161.,21 €",Avanturis,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 12:26:33
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 12:26:33
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 12:47:22
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,26/09/2024 12:47:22
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 13:08:11
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,26/09/2024 13:08:11
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 13:28:59
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,26/09/2024 13:28:59
+----------------------------------------------------------------------------------------------------------
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"123.,72 €",Techstark,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"148.,96 €",Equokka,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"152.,76 €",Stock e-commerce,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"160.,07 €",Maxmovil,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"166.,80 €",The Cosy Shop,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"167.,19 €",ESSEBI SHOP,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"168.,29 €",Espace-Disque,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"170.,05 €",Topbiz,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"171.,41 €",Big Hub,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,04 €",MS2 Digital,26/09/2024 14:10:21
+E.Leclerc,Smartphone Xiaomi Redmi 13C 256Go 4G Noir Minuit,"176.,08 €",2KINGS,26/09/2024 14:10:21
+----------------------------------------------------------------------------------------------------------
+Platform,Product Name,Price,Seller,Seller Status,Seller Rating,Delivery Fee,Delivery Date,Timestamp
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,121€99,JCC,VENDEUR PRO,"4,5/5",Gratuit,Entre le 27/09 et le 03/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,"4,2/5","18,99€",Entre le 03/10 et le 08/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,"4,9/5",Gratuit,Entre le 27/09 et le 03/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,"3,9/5",Gratuit,Entre le 27/09 et le 03/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,Aucun avis,Gratuit,Entre le 04/10 et le 08/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,"4,2/5","13,99€",Entre le 03/10 et le 08/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,4/5,Gratuit,Entre le 04/10 et le 08/10,26/09/2024 14:26:56
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,5/5,Gratuit,Entre le 04/10 et le 08/10,26/09/2024 14:26:56
+----------------------------------------------------------------------------------------------------------
+Platform,Product Name,Price,Seller,Seller Status,Seller Rating,Delivery Fee,Delivery Date,Timestamp
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,121€99,JCC,VENDEUR PRO,"4,5/5",Gratuit,Entre le 27/09 et le 03/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,108€99,Sanmi-fr,VENDEUR PRO,"4,2/5","18,99€",Entre le 03/10 et le 08/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,FANGE,VENDEUR PRO,"4,9/5",Gratuit,Entre le 27/09 et le 03/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,125€98,Joli,VENDEUR PRO,"3,9/5",Gratuit,Entre le 27/09 et le 03/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,139€99,LIBREMOUV,NOUVEAU VENDEUR,Aucun avis,Gratuit,Entre le 04/10 et le 08/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,129€99,MILife Mall,VENDEUR PRO,"4,2/5","13,99€",Entre le 03/10 et le 08/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,149€00,Top looker,VENDEUR PRO,4/5,Gratuit,Entre le 04/10 et le 08/10,26/09/2024 14:30:59
+Cdiscount,XIAOMI Redmi 13C 256Go 4G Noir,299€99,LESA,VENDEUR PRO,5/5,Gratuit,Entre le 04/10 et le 08/10,26/09/2024 14:30:59
 ----------------------------------------------------------------------------------------------------------
