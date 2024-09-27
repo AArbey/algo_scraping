@@ -36,6 +36,15 @@ def accept_condition(driver):
     except Exception as e:
         print(f"Erreur lors de l'acceptation des conditions : {e}")
 
+def close_popup_if_present(driver):
+    try:
+        popup_close_button = WebDriverWait(driver, 5).until(
+            EC.element_to_be_clickable((By.CLASS_NAME, "ab_widget_container_popin-image_close_button"))
+        )
+        popup_close_button.click()
+    except Exception:
+        print("No popup present.")
+
 def search_product(driver, search_query):
     try:
         search_bar = WebDriverWait(driver, 10).until(
@@ -148,6 +157,7 @@ def main():
 
     try:
         accept_condition(driver)
+        close_popup_if_present(driver)
         search_product(driver, '6941812757383')
 
         product_url = get_product_url(driver)
