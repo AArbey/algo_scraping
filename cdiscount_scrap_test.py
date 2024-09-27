@@ -1,5 +1,3 @@
-import requests
-import sys
 import csv
 import os
 import time
@@ -37,7 +35,9 @@ def accept_condition(driver):
     print("------------------accept_condition--------------------")
     try:
         driver.get(URL)
-        WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.ID, HTML_SELECTORS["accept_condition"]))).click()
+        accept_button = WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.ID, HTML_SELECTORS["accept_condition"])))
+        driver.execute_script("arguments[0].scrollIntoView(true);", accept_button)
+        accept_button.click()
         print("Conditions accepted.")
     except TimeoutException:
         print("Condition acceptance button not found.")
@@ -46,6 +46,7 @@ def search_product(driver, search_query):
     print("------------------search_product--------------------")
     try:
         search_bar = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, HTML_SELECTORS["search_bar"])))
+        driver.execute_script("arguments[0].scrollIntoView(true);", search_bar)
         search_bar.click()
         search_bar.send_keys(search_query)
         search_bar.send_keys(Keys.RETURN)
@@ -56,6 +57,7 @@ def get_first_product_url(driver):
     print("------------------get_first_product_url--------------------")
     try:
         product_link = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, HTML_SELECTORS["first_product"])))
+        driver.execute_script("arguments[0].scrollIntoView(true);", product_link)
         product_link.click()
         return driver.current_url
     except Exception as e:
@@ -81,6 +83,7 @@ def get_more_offers_page(driver):
     print("------------------get_more_offers_page--------------------")
     try:
         more_offers_link = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, HTML_SELECTORS["more_offers_link"])))
+        driver.execute_script("arguments[0].scrollIntoView(true);", more_offers_link)
         more_offers_link.click()
         time.sleep(5)
         return driver.current_url
@@ -145,11 +148,11 @@ def write_combined_data_to_csv(sellers, prices, product_name, csv_file="scraping
             writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
 
         min_length = min(len(sellers), len(prices))
-        writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
         for i in range(min_length):
             seller_name, seller_status, seller_rating, delivery_fee, delivery_date = sellers[i]
             writer.writerow(["Cdiscount", product_name, prices[i], seller_name, seller_status, seller_rating, delivery_fee, delivery_date, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
         writer.writerow(["----------------------------------------------------------------------------------------------------------"])
+
     print(f"Combined data written to {csv_file}")
 
 def main():
@@ -157,7 +160,6 @@ def main():
     chrome_options = Options()
     chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
     chrome_options.add_argument("--disable-gpu")
-    ##chrome_options.add_argument("--headless")
     service = Service('chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
