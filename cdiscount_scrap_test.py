@@ -120,7 +120,7 @@ def get_more_offers_page(driver):
     print("------------------get_more_offers_page--------------------")
     try:
         more_offers_link = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, HTML_SELECTORS["more_offers_link"])))
-        driver.execute_script("arguments[0].scrollIntoView(true);", more_offers_link)
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", more_offers_link)
         more_offers_link.click()
         time.sleep(5)
         return driver.current_url
