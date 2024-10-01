@@ -1,3 +1,5 @@
+import requests
+import sys
 import csv
 import os
 import time
@@ -14,6 +16,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 URL = "https://www.cdiscount.com/"
+API_KEY = "48769c3dfb7194a2639f7f5627378bad"
+SITE_KEY = "f6af350b-e1f0-4be9-847a-de731e69489a"
 
 HTML_SELECTORS = {
     "accept_condition": "footer_tc_privacy_button_2",
@@ -30,6 +34,39 @@ HTML_SELECTORS = {
     "delivery_fee": "priceColor",
     "delivery_date": "//*[@id='fpmContent']/div/div[3]/table/tbody/tr[4]/td[2]/span"
 }
+
+def get_hcaptcha_solution():
+    response = requests.post("https://2captcha.com/in.php",
+            {'key': API_KEY, 'method': 'hcaptcha', 'sitekey': SITE_KEY, 'pageurl': URL})
+    captcha_id = response.text.split('|')[1]
+    time.sleep(20)
+    response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id=({captcha_id}')
+    while 'CAPTCHA_NOT_READY' in response.text:
+        time.sleep(5)
+        response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id=({captcha_id}')
+    return response.text.split('|')[1]
+
+def solve_captcha_if_present(driver):
+    print("------------------solve_captcha_if_present--------------------")
+    try:
+        captcha_element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[data-sitekey]')))
+        if captcha_element:
+            print("CAPTCHA detected. Solving...")
+            captcha_solution = get_hcaptcha_solution()
+            captcha_input = driver.find_element(By.ID, "h-captcha-response")
+            driver.execute_script("arguments[0].value = arguments[1];", captcha_input, captcha_solution)
+
+            submit_button = driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
+            driver.execute_script("arguments[0].click();", submit_button)
+
+            WebDriverWait(driver, 10).until_not(EC.presence_of_element_located((By.CSS_SELECTOR, '[data-sitekey]')))
+            print("CAPTCHA solved.")
+        else:
+            print("No CAPTCHA found.")
+    except TimeoutException:
+        print("No CAPTCHA detected, continuing with the next step.")
+    except Exception as e:
+        print(f"Error solving CAPTCHA: {e}")
 
 def accept_condition(driver):
     print("------------------accept_condition--------------------")
@@ -148,6 +185,7 @@ def write_combined_data_to_csv(sellers, prices, product_name, csv_file="scraping
             writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
 
         min_length = min(len(sellers), len(prices))
+        writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
         for i in range(min_length):
             seller_name, seller_status, seller_rating, delivery_fee, delivery_date = sellers[i]
             writer.writerow(["Cdiscount", product_name, prices[i], seller_name, seller_status, seller_rating, delivery_fee, delivery_date, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
@@ -164,8 +202,8 @@ def main():
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
+        solve_captcha_if_present(driver)
         accept_condition(driver)
-
         product_to_search = 'xia1699956501953'
         search_product(driver, product_to_search)
         product_url = get_first_product_url(driver)
