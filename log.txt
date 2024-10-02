@@ -1,0 +1,1 @@
+2024-10-02 15:24:35,091 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
