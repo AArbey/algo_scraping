@@ -1,4 +1,3 @@
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
 from datetime import datetime
@@ -15,6 +14,7 @@ chrome_options.add_argument("--headless")
 
 
 path="Rakuten.xlsx"
+CHROME_DATA_DIR ="C:/Users/zoero/OneDrive/Bureau/M2/web-scrapping/user-data/Local/Google/Chrome/User Data/Default"
 url_xiaomi = "https://fr.shopping.rakuten.com/offer/buy/12835760342/xiaomi-redmi-13c-17-1-cm-6-74-double-sim-android-13-4g-usb-type-c.html"
 #Xiaomi Redmi 13C 17,1 cm noir 256Go
 url_iphone14 = "https://fr.shopping.rakuten.com/mfp/shop/8450779/apple-iphone-14-pro-max?pid=9176573234&sellerLogin=tsxy&fbbaid=16433862867&rd=1"
@@ -23,8 +23,7 @@ url_iphone14 = "https://fr.shopping.rakuten.com/mfp/shop/8450779/apple-iphone-14
 df = pd.read_excel(path)
 
 def addInfoToFile(url):
-    service = Service('chromedriver.exe')
-    driver = get_driver()
+    driver = get_driver(CHROME_DATA_DIR)
     driver.get(url)
     simulate_human_behavior()
     date= datetime.today().strftime('%Y-%m-%d %H:%M')

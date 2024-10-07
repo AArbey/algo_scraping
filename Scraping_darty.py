@@ -38,7 +38,7 @@ logging.basicConfig(
 
 # FUNCTIONS
 
-def get_driver():
+def get_driver(CHROME_DATA_DIR):
     """
     Initializes and returns a Chrome WebDriver instance with specific options.
 
@@ -152,7 +152,7 @@ def scrape_darty_product_info(url):
     Returns:
         list of dict: A list of dictionaries, each containing information about a product offer.
     """
-    driver = get_driver()
+    driver = get_driver(CHROME_DATA_DIR)
     time.sleep(10)
     driver.get(url)
     logging.info("Page chargée")
@@ -261,7 +261,7 @@ def main():
             if product_info_list:
                 save_to_csv(product_info_list, CSV_FILE)
 
-            driver = get_driver()
+            driver = get_driver(CHROME_DATA_DIR)
             driver.get(URL)
             simulate_human_behavior(driver)
             time.sleep(SCRAPE_INTERVAL)
