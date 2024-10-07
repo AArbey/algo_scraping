@@ -23,7 +23,7 @@ HTML_SELECTORS = {
     "currency": "price-symbol",
     "cents": "price-cents",
     "seller": "fw-500",
-    "more_offers_link": "//button[@class='btn btn-secondary btn-tran' and contains(text(), 'Consulter')]"
+    "more_offers_link": "//button[@class='btn btn-secondary btn-tran' and contains(text(), 'Comparer') or contains(text(), 'Consulter')]"
 }
 
 def accept_condition(driver):
