@@ -155,21 +155,29 @@ def main():
     service = Service('chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
+    product_codes = ['0195949823763', '0195949822865', '0195949821967']
+
     try:
         accept_condition(driver)
         close_popup_if_present(driver)
-        search_product(driver, '6941812757383')
 
-        product_url = get_product_url(driver)
-        if product_url:
-            product_data = scrape_product(driver, product_url)
-            if product_data:
-                more_offers = click_more_offers(driver)
-                sellers, prices = [], []
-                if more_offers:
-                    sellers = fetch_data_from_pages(driver, more_offers, 'seller', 'sellers')
-                    prices = fetch_data_from_pages(driver, more_offers, 'price', 'prices')
-                    write_combined_data_to_csv(product_data, sellers, prices)
+        for product_code in product_codes:
+            search_product(driver, product_code)
+
+            product_url = get_product_url(driver)
+            if product_url:
+                product_data = scrape_product(driver, product_url)
+                if product_data:
+                    more_offers = click_more_offers(driver)
+                    sellers, prices = [], []
+                    if more_offers:
+                        sellers = fetch_data_from_pages(driver, more_offers, 'seller', 'sellers')
+                        prices = fetch_data_from_pages(driver, more_offers, 'price', 'prices')
+                        write_combined_data_to_csv(product_data, sellers, prices)
+                    else:
+                        print(f"Pas d'offres supplémentaires pour le produit {product_code}")
+            else:
+                print(f"Produit non trouvé pour le code {product_code}")
     finally:
         driver.quit()
 
