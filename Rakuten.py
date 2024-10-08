@@ -26,7 +26,7 @@ path="Rakuten.xlsx"
 
 #Pour Windows:
 CHROME_DATA_DIR ="C:/Users/ANIMATEUR/AppData/Local/Google/Chrome/User Data/Default"
-
+rakuten = "https://fr.shopping.rakuten.com/"
 url_xiaomi = "https://fr.shopping.rakuten.com/offer/buy/12835760342/xiaomi-redmi-13c-17-1-cm-6-74-double-sim-android-13-4g-usb-type-c.html"
 #Xiaomi Redmi 13C 17,1 cm noir 256Go
 url_iphone14 = "https://fr.shopping.rakuten.com/mfp/shop/8450779/apple-iphone-14-pro-max?pid=9176573234&sellerLogin=tsxy&fbbaid=16433862867&rd=1"
@@ -47,6 +47,15 @@ def get_firefox_driver():
     except Exception as e:
         print(f"Échec avec Firefox: {str(e)}")
         return None
+    
+def goToProduct(driver, url):
+    driver.get(url)
+    search_bar = driver.find_element(By.ID, "searchField")
+    search_bar.send_keys("apple-iphone-14-pro-max")
+    prices = driver.find_element(By.CLASS_NAME,"f20 dib b")
+    print(prices)
+
+
 
 def addInfoToFile(url, driver):
     driver.get(url)
@@ -79,14 +88,11 @@ def main():
     while nb<1:
         driver = get_driver(CHROME_DATA_DIR)
         
-        if driver is None:
-            print("Lancement avec Firefox...")
-            driver = get_firefox_driver()
-        
         if driver:
             try:
-                addInfoToFile(url_iphone14, driver)
-                df.to_excel(path, index=False)
+                #addInfoToFile(url_iphone14, driver)
+                #df.to_excel(path, index=False)
+                goToProduct(driver,rakuten)
                 print('Requête ', nb,'terminée avec succès')
         
             except Exception as e:

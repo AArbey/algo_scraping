@@ -33,3 +33,35 @@
 2024-10-08 16:53:15,274 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
 2024-10-08 16:53:18,803 - INFO - Simulation de comportement humain...
 2024-10-08 16:53:40,430 - INFO - Comportement humain simulé.
+2024-10-08 17:23:29,831 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 17:23:41,080 - INFO - Simulation de comportement humain...
+2024-10-08 17:24:10,291 - ERROR - Erreur lors de la simulation de comportement humain : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00BA7143+25587]
+	(No symbol) [0x00B3A2E4]
+	(No symbol) [0x00A32113]
+	(No symbol) [0x00A0E23B]
+	(No symbol) [0x00AA179F]
+	(No symbol) [0x00AB4CB9]
+	(No symbol) [0x00A9A936]
+	(No symbol) [0x00A6BA73]
+	(No symbol) [0x00A6C4CD]
+	GetHandleVerifier [0x00E84C63+3030803]
+	GetHandleVerifier [0x00ED6B99+3366473]
+	GetHandleVerifier [0x00C395F2+624802]
+	GetHandleVerifier [0x00C40E6C+655644]
+	(No symbol) [0x00B42C9D]
+	(No symbol) [0x00B3FD68]
+	(No symbol) [0x00B3FF05]
+	(No symbol) [0x00B32336]
+	BaseThreadInitThunk [0x77127BA9+25]
+	RtlInitializeExceptionChain [0x77DCC0CB+107]
+	RtlClearBits [0x77DCC04F+191]
+
+2024-10-08 17:24:22,502 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 17:24:25,736 - INFO - Simulation de comportement humain...
+2024-10-08 17:24:51,881 - INFO - Comportement humain simulé.
+2024-10-08 17:44:58,634 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 17:45:19,104 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
