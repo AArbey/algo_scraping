@@ -4,3 +4,20 @@
 2024-10-08 14:28:02,983 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
 2024-10-08 14:32:08,849 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
 2024-10-08 14:42:34,224 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-08 15:10:11,137 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-08 15:39:03,871 - INFO - ====== WebDriver manager ======
+2024-10-08 15:39:03,981 - INFO - Get LATEST geckodriver version for 125.0 firefox
+2024-10-08 15:39:04,233 - INFO - Get LATEST geckodriver version for 125.0 firefox
+2024-10-08 15:39:04,346 - INFO - There is no [linux64] geckodriver "v0.35.0" for browser firefox "125.0" in cache
+2024-10-08 15:39:04,347 - INFO - Get LATEST geckodriver version for 125.0 firefox
+2024-10-08 15:39:04,441 - INFO - Getting latest mozilla release info for v0.35.0
+2024-10-08 15:39:04,712 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz
+2024-10-08 15:39:05,246 - INFO - Driver downloading response is 200
+2024-10-08 15:39:05,392 - INFO - Get LATEST geckodriver version for 125.0 firefox
+2024-10-08 15:39:05,718 - INFO - Driver has been saved in cache [/home/40008593/.wdm/drivers/geckodriver/linux64/v0.35.0]
+2024-10-08 15:40:01,242 - INFO - ====== WebDriver manager ======
+2024-10-08 15:40:01,321 - INFO - Get LATEST geckodriver version for 125.0 firefox
+2024-10-08 15:40:01,571 - INFO - Get LATEST geckodriver version for 125.0 firefox
+2024-10-08 15:40:01,688 - INFO - Driver [/home/40008593/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
+2024-10-08 15:40:04,165 - INFO - Simulation de comportement humain...
+2024-10-08 15:40:21,239 - INFO - Comportement humain simulé.

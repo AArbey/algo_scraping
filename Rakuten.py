@@ -7,11 +7,15 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from Scraping_darty import get_driver, simulate_human_behavior
-
+from selenium.webdriver import Chrome, Firefox
 
 #Pour Linux:
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service as FirefoxService
 import os
+from webdriver_manager.firefox import GeckoDriverManager
 
 chrome_options = Options()
 chrome_options.add_argument("--disable-gpu")  # desactiver les GPU hardware acceleration
@@ -21,9 +25,7 @@ chrome_options.add_argument("--headless")
 path="Rakuten.xlsx"
 
 #Pour Windows:
-CHROME_DATA_DIR ="LOCALAPPDATA%\Google\Chrome\User Data"
-CHROME_DATA_DIR_LINUX = os.path.expanduser("~/.config/google-chrome")
-
+#CHROME_DATA_DIR ="LOCALAPPDATA%\Google\Chrome\User Data"
 
 url_xiaomi = "https://fr.shopping.rakuten.com/offer/buy/12835760342/xiaomi-redmi-13c-17-1-cm-6-74-double-sim-android-13-4g-usb-type-c.html"
 #Xiaomi Redmi 13C 17,1 cm noir 256Go
@@ -34,22 +36,13 @@ df = pd.read_excel(path)
 
 def get_firefox_driver():
     try:
-        firefox_options = FirefoxOptions()
+        firefox_options = Options()
         firefox_options.add_argument("--disable-gpu")
-        firefox_options.add_argument("--headless")  # Mode headless si tu veux éviter l'interface
-        firefox_options.add_argument("--no-sandbox")
-        firefox_options.add_argument("--disable-blink-features=AutomationControlled")
-        profile = webdriver.FirefoxProfile()
-        profile.set_preference("dom.webdriver.enabled", False)
-        profile.set_preference('useAutomationExtension', False)
-        profile.set_preference(
-            "general.useragent.override",
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
-        )
-        profile.update_preferences()
+        firefox_options.add_argument("--headless")  
+        service = Service(executable_path=GeckoDriverManager().install())
 
-        service = FirefoxService(executable_path="C:\Program Files (x86)\geckodriver.exe")  # Remplace par le chemin de geckodriver
-        driver = webdriver.Firefox(service=service, options=firefox_options, firefox_profile=profile)
+        # Lancer Firefox
+        driver = webdriver.Firefox(service=service, options=firefox_options)
         return driver
     except Exception as e:
         print(f"Échec avec Firefox: {str(e)}")
@@ -57,7 +50,7 @@ def get_firefox_driver():
 
 def addInfoToFile(url, driver):
     driver.get(url)
-    simulate_human_behavior()
+    simulate_human_behavior(driver)
     date= datetime.today().strftime('%Y-%m-%d %H:%M')
     price = driver.find_element(By.CLASS_NAME, "price").text
     name = driver.find_element(By.CLASS_NAME,"detailHeadline").text
@@ -69,7 +62,7 @@ def addInfoToFile(url, driver):
                             'Vendeur':[seller], 'Prix de livraison':[livraison_prix],
                             
                             })
-    simulate_human_behavior()
+    simulate_human_behavior(driver)
     global df
     df = pd.concat([df, new_row], ignore_index=True)
     
