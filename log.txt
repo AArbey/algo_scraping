@@ -1,3 +1,6 @@
 2024-10-02 15:24:35,091 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
 2024-10-06 20:30:42,843 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
 2024-10-06 20:37:23,820 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 14:28:02,983 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-08 14:32:08,849 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-08 14:42:34,224 - INFO - patching driver executable /home/40008593/.local/share/undetected_chromedriver/undetected_chromedriver
