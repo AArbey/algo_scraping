@@ -25,7 +25,7 @@ chrome_options.add_argument("--headless")
 path="Rakuten.xlsx"
 
 #Pour Windows:
-#CHROME_DATA_DIR ="LOCALAPPDATA%\Google\Chrome\User Data"
+CHROME_DATA_DIR ="C:/Users/ANIMATEUR/AppData/Local/Google/Chrome/User Data/Default"
 
 url_xiaomi = "https://fr.shopping.rakuten.com/offer/buy/12835760342/xiaomi-redmi-13c-17-1-cm-6-74-double-sim-android-13-4g-usb-type-c.html"
 #Xiaomi Redmi 13C 17,1 cm noir 256Go
@@ -77,8 +77,8 @@ def getMoreOffers(url):
 def main():
     nb=0
     while nb<1:
-        #driver = get_driver(CHROME_DATA_DIR)
-        driver = None
+        driver = get_driver(CHROME_DATA_DIR)
+        
         if driver is None:
             print("Lancement avec Firefox...")
             driver = get_firefox_driver()

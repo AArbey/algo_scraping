@@ -21,3 +21,15 @@
 2024-10-08 15:40:01,688 - INFO - Driver [/home/40008593/.wdm/drivers/geckodriver/linux64/v0.35.0/geckodriver] found in cache
 2024-10-08 15:40:04,165 - INFO - Simulation de comportement humain...
 2024-10-08 15:40:21,239 - INFO - Comportement humain simulé.
+2024-10-08 16:38:14,261 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:46:03,727 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:47:55,309 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:50:21,634 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:51:52,309 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:52:09,483 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:52:28,876 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:52:33,621 - INFO - Simulation de comportement humain...
+2024-10-08 16:52:46,093 - INFO - Comportement humain simulé.
+2024-10-08 16:53:15,274 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-08 16:53:18,803 - INFO - Simulation de comportement humain...
+2024-10-08 16:53:40,430 - INFO - Comportement humain simulé.
