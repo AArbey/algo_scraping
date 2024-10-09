@@ -91,8 +91,10 @@ def scrape_product(driver, product_url):
 def click_more_offers(driver):
     try:
         more_offers_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, HTML_SELECTORS["more_offers_link"]))
+            EC.visibility_of_element_located((By.XPATH, HTML_SELECTORS["more_offers_link"]))
         )
+        driver.execute_script("window.scrollBy(0, 1000);")
+        time.sleep(1)
         more_offers_button.click()
         time.sleep(2)
         return driver.current_url
