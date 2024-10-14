@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -98,6 +98,24 @@ def click_more_offers(driver):
         more_offers_button.click()
         time.sleep(2)
         return driver.current_url
+    except TimeoutException:
+        try:
+            alternative_button = WebDriverWait(driver, 10).until(
+                EC.visibility_of_element_located((By.CLASS_NAME, "choice-box-tab d-flex align-items-center justify-content-center align-self-stretch choice-box-market border-top-right ng-star-inserted"))
+            )
+            driver.execute_script("window.scrollBy(0, 1000);")
+            time.sleep(1)
+            alternative_button.click()
+            time.sleep(2)
+            more_offers_button = WebDriverWait(driver, 10).until(
+                EC.visibility_of_element_located((By.XPATH, HTML_SELECTORS["more_offers_link"]))
+            )
+            more_offers_button.click()
+            time.sleep(2)
+            return driver.current_url
+        except Exception as e:
+            print(f"Erreur lors de la tentative de clic sur l'alternative: {e}")
+            return None
     except Exception as e:
         print(f"Erreur lors du clic sur 'Consulter': {e}")
         return None
