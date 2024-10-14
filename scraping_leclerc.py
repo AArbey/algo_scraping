@@ -157,7 +157,7 @@ def main():
     service = Service('chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    product_codes = ['0195949823763', '0195949822865', '0195949821967']
+    product_codes = ['0195949823763', '0195949822865', '0195949821967', '0195949724169', '0195949723216', '0195949773488', '0195949036064', '0195949042539']
 
     try:
         accept_condition(driver)
