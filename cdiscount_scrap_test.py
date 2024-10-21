@@ -6,9 +6,9 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -35,13 +35,13 @@ HTML_SELECTORS = {
 
 def get_hcaptcha_solution():
     response = requests.post("https://2captcha.com/in.php",
-            {'key': API_KEY, 'method': 'hcaptcha', 'sitekey': SITE_KEY, 'pageurl': URL})
+                             {'key': API_KEY, 'method': 'hcaptcha', 'sitekey': SITE_KEY, 'pageurl': URL})
     captcha_id = response.text.split('|')[1]
     time.sleep(20)
-    response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id=({captcha_id}')
+    response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id={captcha_id}')
     while 'CAPTCHA_NOT_READY' in response.text:
         time.sleep(5)
-        response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id=({captcha_id}')
+        response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id={captcha_id}')
     return response.text.split('|')[1]
 
 def solve_captcha_if_present(driver):
@@ -116,10 +116,23 @@ def scrape_product_details(driver, product_url):
 
         product_seller_element = soup.select_one(HTML_SELECTORS["first_product_seller"])
         product_seller = product_seller_element.get_text(strip=True) if product_seller_element else "N/A"
-        return {"Platform": "Cdiscount", "name": product_name, "price": product_price, "seller": product_seller, "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
+
+        return {
+            "Platform": "Cdiscount",
+            "name": product_name,
+            "price": product_price,
+            "seller": product_seller,
+            "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        }
     except Exception as e:
         print(f"Error scraping product details: {e}")
-        return None
+        return {
+            "Platform": "Cdiscount",
+            "name": "N/A",
+            "price": "N/A",
+            "seller": "N/A",
+            "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        }
 
 def get_more_offers_page(driver):
     print("------------------get_more_offers_page--------------------")
@@ -146,16 +159,12 @@ def get_more_offers_page(driver):
         print(f"Error in getting more offers page: {e}")
         return None
 
-
 def fetch_data_from_pages(driver, url, html_selector, data_type):
     if not url:
         print(f"No valid URL for fetching {data_type}.")
         return []
 
     fetched_data = []
-    delivery_fee = []
-    seller_ratings = []
-    delivery_dates = []
 
     while url:
         try:
@@ -178,7 +187,6 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
                     for i in range(len(sellers))
                 ])
             else:
-                delivery_fee = soup.find_all('span', class_=HTML_SELECTORS["delivery_fee"])
                 elements = soup.find_all('p', class_=HTML_SELECTORS[html_selector])
                 fetched_data.extend([elem.get_text(strip=True) for elem in elements])
 
@@ -191,14 +199,14 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 
     return fetched_data
 
-def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\scraping_data.csv", write_product_details=True):
+def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\\scraping_data.csv", write_product_details=True):
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
 
         if write_product_details:
             writer.writerow(["Platform", "Product Name", "Price", "Seller", "Timestamp"])
-            writer.writerow([product_data["Platform"], product_data["name"], product_data["price"],"Cdiscount", product_data["timestamp"]])
+            writer.writerow([product_data["Platform"], product_data["name"], product_data["price"], product_data["seller"], product_data["timestamp"]])
             print("Product details (without additional offers) written to CSV.")
 
         if sellers and prices:
@@ -212,10 +220,8 @@ def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\scrap
     print(f"Data written to {csv_file}")
 
 def main():
-
     chrome_options = Options()
-    chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
-    chrome_options.add_argument("--disable-gpu")
+    chrome_options.binary_location = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
     service = Service('chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
@@ -237,10 +243,10 @@ def main():
                     print("More offers found, scraping second page offers only.")
                     sellers = fetch_data_from_pages(driver, other_offers_url, 'seller_name', 'sellers')
                     prices = fetch_data_from_pages(driver, other_offers_url, 'get_price', 'prices')
-                    write_combined_data_to_csv(sellers, prices, product_data, write_product_details=False)
+                    write_combined_data_to_csv(sellers, prices, product_data)
                 else:
                     print(f"No additional offers found for {product_to_search}. Writing product details only.")
-                    write_combined_data_to_csv([], [], product_data, write_product_details=True)
+                    write_combined_data_to_csv([], [], product_data)
             else:
                 print(f"Product not found for {product_to_search}")
 
