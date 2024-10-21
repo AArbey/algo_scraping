@@ -1,12 +1,10 @@
 import requests
-import sys
 import csv
 import os
 import time
 from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from twocaptcha import TwoCaptcha
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -26,7 +24,7 @@ HTML_SELECTORS = {
     "first_product_name": "h2 u-truncate",
     "first_product_price": "c-price c-price--promo c-price--xs",
     "first_product_seller": "a[aria-controls='SellerLayer']",
-    "more_offers_link": "offres neuves",
+    "more_offers_link": ["offres neuves", "offres d'occasion"],
     "seller_name": "slrName",
     "seller_status": "slrType",
     "seller_rating": "//*[@id='fpmContent']/div/div[1]/div/div/span",
@@ -72,6 +70,7 @@ def accept_condition(driver):
     print("------------------accept_condition--------------------")
     try:
         driver.get(URL)
+        solve_captcha_if_present(driver)
         accept_button = WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.ID, HTML_SELECTORS["accept_condition"])))
         driver.execute_script("arguments[0].scrollIntoView(true);", accept_button)
         accept_button.click()
@@ -105,13 +104,19 @@ def scrape_product_details(driver, product_url):
     print("------------------scrape_product_details--------------------")
     try:
         driver.get(product_url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
+        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
 
         soup = BeautifulSoup(driver.page_source, 'lxml')
-        product_name = soup.find('div', class_=HTML_SELECTORS["first_product_name"]).get_text(strip=True)
-        product_price = soup.find('span', class_=HTML_SELECTORS["first_product_price"]).get_text(strip=True)
-        product_seller = soup.select_one(HTML_SELECTORS["first_product_seller"]).get_text(strip=True)
-        return {"Platform": "Cdiscount", "name": product_name or "N/A", "price": product_price or "N/A", "seller": product_seller or "N/A", "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
+
+        product_name_element = soup.find('div', class_=HTML_SELECTORS["first_product_name"])
+        product_name = product_name_element.get_text(strip=True) if product_name_element else "N/A"
+
+        product_price_element = soup.find('span', class_=HTML_SELECTORS["first_product_price"])
+        product_price = product_price_element.get_text(strip=True) if product_price_element else "N/A"
+
+        product_seller_element = soup.select_one(HTML_SELECTORS["first_product_seller"])
+        product_seller = product_seller_element.get_text(strip=True) if product_seller_element else "N/A"
+        return {"Platform": "Cdiscount", "name": product_name, "price": product_price, "seller": product_seller, "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
     except Exception as e:
         print(f"Error scraping product details: {e}")
         return None
@@ -119,15 +124,24 @@ def scrape_product_details(driver, product_url):
 def get_more_offers_page(driver):
     print("------------------get_more_offers_page--------------------")
     try:
-        driver.execute_script("window.scrollBy(0, 500);")
-        time.sleep(1)
-        more_offers_link = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, HTML_SELECTORS["more_offers_link"]))
-        )
-        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", more_offers_link)
-        more_offers_link.click()
-        time.sleep(5)
-        return driver.current_url
+        more_offers_link = None
+        for offer_text in HTML_SELECTORS["more_offers_link"]:
+            try:
+                more_offers_link = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, offer_text))
+                )
+                if more_offers_link:
+                    break
+            except TimeoutException:
+                continue
+        if more_offers_link:
+            driver.execute_script("arguments[0].scrollIntoView(true);", more_offers_link)
+            more_offers_link.click()
+            time.sleep(5)
+            return driver.current_url
+        else:
+            print("No more offers link found.")
+            return None
     except Exception as e:
         print(f"Error in getting more offers page: {e}")
         return None
@@ -177,26 +191,25 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 
     return fetched_data
 
-def write_combined_data_to_csv(sellers, prices, product_name, csv_file="scraping_data.csv"):
-
-    if not sellers or not prices:
-        print("No sellers or prices to write.")
-        return
-
+def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\scraping_data.csv", write_product_details=True):
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
-        if not file_exists:
-            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
 
-        min_length = min(len(sellers), len(prices))
-        writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
-        for i in range(min_length):
-            seller_name, seller_status, seller_rating, delivery_fee, delivery_date = sellers[i]
-            writer.writerow(["Cdiscount", product_name, prices[i], seller_name, seller_status, seller_rating, delivery_fee, delivery_date, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
+        if write_product_details:
+            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Timestamp"])
+            writer.writerow([product_data["Platform"], product_data["name"], product_data["price"],"Cdiscount", product_data["timestamp"]])
+            print("Product details (without additional offers) written to CSV.")
+
+        if sellers and prices:
+            min_length = min(len(sellers), len(prices))
+            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
+            for i in range(min_length):
+                seller_name, seller_status, seller_rating, delivery_fee, delivery_date = sellers[i]
+                writer.writerow(["Cdiscount", product_data["name"], prices[i], seller_name, seller_status, seller_rating, delivery_fee, delivery_date, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
         writer.writerow(["----------------------------------------------------------------------------------------------------------"])
 
-    print(f"Combined data written to {csv_file}")
+    print(f"Data written to {csv_file}")
 
 def main():
 
@@ -208,7 +221,8 @@ def main():
 
     products_to_search = ['ip16512black', 'ip16256black', 'ip16p512black',
                           'ip16p256black', 'ip16p128black', 'ip16pro1tbblack',
-                          'ip16prom1tbbla', 'ip15512black', 'ip15128black', ]
+                          'ip16prom1tbbla', 'ip15512black', 'ip15128black']
+
     try:
         accept_condition(driver)
 
