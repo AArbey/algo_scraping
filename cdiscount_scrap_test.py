@@ -206,20 +206,30 @@ def main():
     service = Service('chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
+    products_to_search = ['ip16512black', 'ip16256black', 'ip16p512black',
+                          'ip16p256black', 'ip16p128black', 'ip16pro1tbblack',
+                          'ip16prom1tbbla', 'ip15512black', 'ip15128black', ]
     try:
-        solve_captcha_if_present(driver)
         accept_condition(driver)
-        product_to_search = 'xia1699956501953'
-        search_product(driver, product_to_search)
-        product_url = get_first_product_url(driver)
-        if product_url:
-            product_data = scrape_product_details(driver, product_url)
-            other_offers_url = get_more_offers_page(driver)
-            if other_offers_url:
-                sellers = fetch_data_from_pages(driver, other_offers_url, 'seller_name', 'sellers')
-                prices = fetch_data_from_pages(driver, other_offers_url, 'get_price', 'prices')
 
-                write_combined_data_to_csv(sellers, prices, product_data["name"])
+        for product_to_search in products_to_search:
+            search_product(driver, product_to_search)
+            product_url = get_first_product_url(driver)
+            if product_url:
+                product_data = scrape_product_details(driver, product_url)
+                other_offers_url = get_more_offers_page(driver)
+
+                if other_offers_url:
+                    print("More offers found, scraping second page offers only.")
+                    sellers = fetch_data_from_pages(driver, other_offers_url, 'seller_name', 'sellers')
+                    prices = fetch_data_from_pages(driver, other_offers_url, 'get_price', 'prices')
+                    write_combined_data_to_csv(sellers, prices, product_data, write_product_details=False)
+                else:
+                    print(f"No additional offers found for {product_to_search}. Writing product details only.")
+                    write_combined_data_to_csv([], [], product_data, write_product_details=True)
+            else:
+                print(f"Product not found for {product_to_search}")
+
     finally:
         driver.quit()
 
