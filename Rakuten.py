@@ -25,7 +25,10 @@ chrome_options.add_argument("--headless")
 path="Rakuten.xlsx"
 
 #Pour Windows:
-CHROME_DATA_DIR ="C:/Users/ANIMATEUR/AppData/Local/Google/Chrome/User Data/Default"
+#yanis:
+#CHROME_DATA_DIR ="C:/Users/ANIMATEUR/AppData/Local/Google/Chrome/User Data/Default"
+#Zoé:
+CHROME_DATA_DIR = "C:/Users/zoero/AppData/Local/Google/Chrome/User Data/Default"
 rakuten = "https://fr.shopping.rakuten.com/"
 url_xiaomi = "https://fr.shopping.rakuten.com/offer/buy/12835760342/xiaomi-redmi-13c-17-1-cm-6-74-double-sim-android-13-4g-usb-type-c.html"
 #Xiaomi Redmi 13C 17,1 cm noir 256Go
@@ -49,6 +52,7 @@ def get_firefox_driver():
         return None
     
 def goToProduct(driver, url):
+    """this code search the product from the search bar"""
     driver.get(url)
     search_bar = driver.find_element(By.ID, "searchField")
     search_bar.send_keys("apple-iphone-14-pro-max")
@@ -58,29 +62,27 @@ def goToProduct(driver, url):
 
 
 def addInfoToFile(url, driver):
+    """this code search the product from the url of the product"""
     driver.get(url)
     simulate_human_behavior(driver)
     date= datetime.today().strftime('%Y-%m-%d %H:%M')
     price = driver.find_element(By.CLASS_NAME, "price").text
+    time.sleep(2)
     name = driver.find_element(By.CLASS_NAME,"detailHeadline").text
     seller = driver.find_element(By.CLASS_NAME,"nameSeller").text
-    livraison_prix = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR, "ul.shipping li span.value")))
     
     new_row = pd.DataFrame({'Date': [date], 'Name': [name], 'Price': [price], 
-                            'Vendeur':[seller], 'Prix de livraison':[livraison_prix],
+                            'Vendeur':[seller]
                             
                             })
-    simulate_human_behavior(driver)
     global df
     df = pd.concat([df, new_row], ignore_index=True)
-    
+    getMoreOffers(driver)
 
-def getMoreOffers(url):
-    driver = get_driver()
-    driver.get(url)
+def getMoreOffers(driver):
     moreAnnouncementButton = driver.find_element(By.CLASS_NAME,"moreAnnouncementLink")
     moreAnnouncementButton.click()
+    print("j'y suis")
 
 
 def main():
@@ -90,13 +92,14 @@ def main():
         
         if driver:
             try:
-                #addInfoToFile(url_iphone14, driver)
-                #df.to_excel(path, index=False)
-                goToProduct(driver,rakuten)
+                addInfoToFile(url_iphone14, driver)
+                df.to_excel(path, index=False)
+                #goToProduct(driver,rakuten)
                 print('Requête ', nb,'terminée avec succès')
         
             except Exception as e:
                 print(f"Erreur lors du scraping : {str(e)}")
+               
             finally:
                 driver.quit()
         else:

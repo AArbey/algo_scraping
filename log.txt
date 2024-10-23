@@ -65,3 +65,36 @@ Stacktrace:
 2024-10-08 17:24:51,881 - INFO - Comportement humain simulé.
 2024-10-08 17:44:58,634 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
 2024-10-08 17:45:19,104 - INFO - patching driver executable C:\Users\ANIMATEUR\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-09 14:21:05,024 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-09 14:22:36,832 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:21:11,280 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:21:19,919 - INFO - Simulation de comportement humain...
+2024-10-10 19:21:57,309 - INFO - Comportement humain simulé.
+2024-10-10 19:22:57,225 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:23:04,820 - INFO - Simulation de comportement humain...
+2024-10-10 19:23:32,601 - INFO - Comportement humain simulé.
+2024-10-10 19:26:36,198 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:26:42,179 - INFO - Simulation de comportement humain...
+2024-10-10 19:27:17,317 - INFO - Comportement humain simulé.
+2024-10-10 19:30:00,287 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:30:24,719 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:30:30,176 - INFO - Simulation de comportement humain...
+2024-10-10 19:30:56,087 - INFO - Comportement humain simulé.
+2024-10-10 19:31:38,788 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:31:44,504 - INFO - Simulation de comportement humain...
+2024-10-10 19:32:14,982 - INFO - Comportement humain simulé.
+2024-10-10 19:32:32,067 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:32:37,713 - INFO - Simulation de comportement humain...
+2024-10-10 19:33:00,305 - INFO - Comportement humain simulé.
+2024-10-10 19:33:17,203 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:35:11,556 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:36:34,802 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:43:30,738 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:44:09,615 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:44:14,732 - INFO - Simulation de comportement humain...
+2024-10-10 19:44:36,124 - INFO - Comportement humain simulé.
+2024-10-10 19:44:36,273 - INFO - Simulation de comportement humain...
+2024-10-10 19:44:50,600 - INFO - Comportement humain simulé.
+2024-10-10 19:56:08,898 - INFO - patching driver executable C:\Users\zoero\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-10-10 19:56:14,445 - INFO - Simulation de comportement humain...
+2024-10-10 19:56:40,882 - INFO - Comportement humain simulé.
