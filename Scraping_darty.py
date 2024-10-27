@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # CONSTANTS
 
-CHROME_DATA_DIR = "C:/Users/thoma/AppData/Local/Google/Chrome/User Data/Default"
+CHROME_DATA_DIR = "/root/.config/google-chrome"
 SCRAPE_INTERVAL = 60 # En secondes
 
 URL = "https://www.darty.com/nav/extra/offres?codic=7663854"
@@ -55,6 +55,7 @@ def get_driver():
         webdriver.Chrome: An instance of Chrome WebDriver with the specified options.
     """
     options = uc.ChromeOptions()
+    options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-blink-features=AutomationControlled")
