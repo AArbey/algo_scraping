@@ -172,7 +172,7 @@ def write_combined_data_to_csv(data, sellers, prices, csv_file="D:\scraping_data
 def main():
     chrome_options = Options()
     chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
-    service = Service('chromedriver.exe')
+    service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     product_codes = ['0195949823763', '0195949822865', '0195949821967', '0195949724169', '0195949723216', '0195949773488', '0195949036064', '0195949042539']

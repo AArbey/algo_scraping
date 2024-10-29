@@ -130,7 +130,7 @@ def scrape_product_details(driver, product_url):
             "Platform": "Cdiscount",
             "name": "N/A",
             "price": "N/A",
-            "seller": "N/A",
+            "seller": "Cdiscount",
             "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         }
 
@@ -222,7 +222,7 @@ def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\\scra
 def main():
     chrome_options = Options()
     chrome_options.binary_location = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
-    service = Service('chromedriver.exe')
+    service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     products_to_search = ['ip16512black', 'ip16256black', 'ip16p512black',
