@@ -119,14 +119,14 @@ def click_more_offers(driver):
     except Exception as e:
         print(f"Erreur lors du clic sur 'Consulter': {e}")
         return None
-
-def fetch_data_from_pages(driver, url, html_selector, data_type):
+def fetch_data_from_pages(driver, url, data_type):
     if not url:
         print(f"URL non valide pour récupérer {data_type}.")
         return []
 
     fetched_data = []
     seen_urls = set()
+
     while url and url not in seen_urls:
         seen_urls.add(url)
         try:
@@ -135,23 +135,36 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
             soup = BeautifulSoup(driver.page_source, 'lxml')
 
             if data_type == 'sellers':
-                sellers = soup.find_all('a', class_=HTML_SELECTORS[html_selector])
-                fetched_data.extend([s.get_text(strip=True) for s in sellers])
+                sellers = soup.find_all('a', class_=HTML_SELECTORS["seller"])
+                delivery_fees = soup.find_all('span', class_=HTML_SELECTORS["delivery_fees"])
+                delivery_dates = soup.find_all('span', class_=HTML_SELECTORS["delivery_date"])
+                product_states = soup.select("span.mb-0.state-text.fw-500")
+
+                for i in range(len(sellers)):
+                    fetched_data.append({
+                        "seller": sellers[i].get_text(strip=True) if i < len(sellers) else "",
+                        "delivery_fees": delivery_fees[i].get_text(strip=True) if i < len(delivery_fees) else "",
+                        "delivery_date": delivery_dates[i].get_text(strip=True) if i < len(delivery_dates) else "",
+                        "product_state": product_states[i].get_text(strip=True) if i < len(product_states) else ""
+                    })
+
             elif data_type == 'prices':
                 prices = soup.find_all('div', class_=HTML_SELECTORS["price"])
                 currencies = soup.find_all('span', class_=HTML_SELECTORS["currency"])
                 cents = soup.find_all('span', class_=HTML_SELECTORS["cents"])
-                fetched_data.extend(
-                    [f"{prices[i].get_text(strip=True)}.{cents[i].get_text(strip=True)} {currencies[i].get_text(strip=True)}"
-                     for i in range(min(len(prices), len(currencies), len(cents)))]
-                )
+
+                fetched_data = [
+                    f"{prices[i].get_text(strip=True)}.{cents[i].get_text(strip=True)} {currencies[i].get_text(strip=True)}"
+                    for i in range(min(len(prices), len(currencies), len(cents)))
+                ]
             time.sleep(5)
         except Exception as e:
             print(f"Erreur lors de la récupération des {data_type}: {e}")
             break
+
     return fetched_data
 
-def write_combined_data_to_csv(data, sellers, prices, csv_file="D:\scraping_data.csv"):
+def write_combined_data_to_csv(data, sellers_data, prices, csv_file="test.csv"):
     if not data:
         print("Aucune donnée de produit à écrire.")
         return
@@ -159,13 +172,15 @@ def write_combined_data_to_csv(data, sellers, prices, csv_file="D:\scraping_data
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
         if not file_exists:
-            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Timestamp"])
+            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Delivery Fees", "Delivery Date", "Product State", "Timestamp"])
 
-        if sellers and prices:
-            min_length = min(len(sellers), len(prices))
+        if sellers_data and prices:
+            min_length = min(len(sellers_data), len(prices))
             for i in range(min_length):
                 writer.writerow([
-                    data["Platform"], data["name"], prices[i], sellers[i], datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                    data["Platform"], data["name"], prices[i], sellers_data[i]["seller"],
+                    sellers_data[i]["delivery_fees"], sellers_data[i]["delivery_date"],
+                    sellers_data[i].get("product_state", ""), datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                 ])
         writer.writerow(["----------------------------------------------------------------------------------------------------------"])
 
@@ -175,7 +190,7 @@ def main():
     service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    product_codes = ['0195949823763', '0195949822865', '0195949821967', '0195949724169', '0195949723216', '0195949773488', '0195949036064', '0195949042539']
+    product_codes = ['0195949822865', '0195949724169', '0195949723216', '0195949773488', '0195949036064', '0195949042539']
 
     try:
         accept_condition(driver)
@@ -189,15 +204,15 @@ def main():
                 product_data = scrape_product(driver, product_url)
                 if product_data:
                     more_offers = click_more_offers(driver)
-                    sellers, prices = [], []
+                    sellers_data, prices = [], []
                     if more_offers:
-                        sellers = fetch_data_from_pages(driver, more_offers, 'seller', 'sellers')
-                        prices = fetch_data_from_pages(driver, more_offers, 'price', 'prices')
-                        write_combined_data_to_csv(product_data, sellers, prices)
+                        sellers_data = fetch_data_from_pages(driver, more_offers, 'sellers')
+                        prices = fetch_data_from_pages(driver, more_offers, 'prices')
+                        write_combined_data_to_csv(product_data, sellers_data, prices)
                     else:
-                        print(f"Pas d'offres supplémentaires pour le produit {product_code}")
+                        print("non")
             else:
-                print(f"Produit non trouvé pour le code {product_code}")
+                print("non")
     finally:
         driver.quit()
 

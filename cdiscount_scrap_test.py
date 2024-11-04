@@ -6,9 +6,9 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -26,22 +26,22 @@ HTML_SELECTORS = {
     "first_product_seller": "a[aria-controls='SellerLayer']",
     "more_offers_link": ["offres neuves", "offres d'occasion"],
     "seller_name": "slrName",
-    "seller_status": "slrType",
-    "seller_rating": "//*[@id='fpmContent']/div/div[1]/div/div/span",
+    "seller_status": "u-ml-sm",
+    "seller_rating": "c-stars-rating__note",
     "get_price": "c-price c-price--xl c-price--promo",
     "delivery_fee": "priceColor",
     "delivery_date": "//*[@id='fpmContent']/div/div[3]/table/tbody/tr[4]/td[2]/span"
-}
+    }
 
 def get_hcaptcha_solution():
     response = requests.post("https://2captcha.com/in.php",
-                             {'key': API_KEY, 'method': 'hcaptcha', 'sitekey': SITE_KEY, 'pageurl': URL})
+            {'key': API_KEY, 'method': 'hcaptcha', 'sitekey': SITE_KEY, 'pageurl': URL})
     captcha_id = response.text.split('|')[1]
     time.sleep(20)
-    response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id={captcha_id}')
+    response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id=({captcha_id}')
     while 'CAPTCHA_NOT_READY' in response.text:
         time.sleep(5)
-        response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id={captcha_id}')
+        response = requests.get(f'https://2captcha.com/res.php?key={API_KEY}&action=get&id=({captcha_id}')
     return response.text.split('|')[1]
 
 def solve_captcha_if_present(driver):
@@ -116,23 +116,10 @@ def scrape_product_details(driver, product_url):
 
         product_seller_element = soup.select_one(HTML_SELECTORS["first_product_seller"])
         product_seller = product_seller_element.get_text(strip=True) if product_seller_element else "N/A"
-
-        return {
-            "Platform": "Cdiscount",
-            "name": product_name,
-            "price": product_price,
-            "seller": product_seller,
-            "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        }
+        return {"Platform": "Cdiscount", "name": product_name, "price": product_price, "seller": product_seller, "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
     except Exception as e:
         print(f"Error scraping product details: {e}")
-        return {
-            "Platform": "Cdiscount",
-            "name": "N/A",
-            "price": "N/A",
-            "seller": "Cdiscount",
-            "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        }
+        return None
 
 def get_more_offers_page(driver):
     print("------------------get_more_offers_page--------------------")
@@ -165,7 +152,7 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
         return []
 
     fetched_data = []
-
+    
     while url:
         try:
             driver.get(url)
@@ -177,21 +164,35 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
                 sellers = soup.find_all('a', class_=HTML_SELECTORS[html_selector])
                 seller_statuses = soup.find_all('span', class_=HTML_SELECTORS["seller_status"])
                 delivery_fee = soup.find_all('span', class_=HTML_SELECTORS["delivery_fee"])
-                ratings_elements = driver.find_elements(By.XPATH, HTML_SELECTORS["seller_rating"])
-                seller_ratings = [rating.text.strip() for rating in ratings_elements]
-                delivery_date_elements = driver.find_elements(By.XPATH, HTML_SELECTORS["delivery_date"])
-                delivery_dates = [date.text.strip() for date in delivery_date_elements]
+                ratings_elements = soup.find_all('span', class_=HTML_SELECTORS["seller_rating"])
 
-                fetched_data.extend([
-                    (sellers[i].get_text(strip=True), seller_statuses[i].get_text(strip=True), seller_ratings[i], delivery_fee[i].get_text(strip=True), delivery_dates[i]) 
-                    for i in range(len(sellers))
-                ])
+                print("Sellers Found:", [seller.get_text(strip=True) for seller in sellers])
+                print("Seller Statuses Found:", [status.get_text(strip=True) for status in seller_statuses])
+                
+                seller_ratings = [rating.get_text(strip=True) for rating in ratings_elements]
+                print("Seller Ratings Found:", seller_ratings)
+                print("Delivery Fees Found:", [fee.get_text(strip=True) for fee in delivery_fee])
+
+                for i in range(len(sellers)):
+                    seller_name = sellers[i].get_text(strip=True)
+                    seller_status = seller_statuses[i].get_text(strip=True) if i < len(seller_statuses) else "N/A"
+                    seller_rating = seller_ratings[i] if i < len(seller_ratings) else "N/A"
+                    delivery_fee_text = delivery_fee[i].get_text(strip=True) if i < len(delivery_fee) else "N/A"
+                    fetched_data.append((seller_name, seller_status, seller_rating, delivery_fee_text))
+                
+                print("Fetched Sellers Data:", fetched_data)
+
             else:
+                delivery_fee = soup.find_all('span', class_=HTML_SELECTORS["delivery_fee"])
                 elements = soup.find_all('p', class_=HTML_SELECTORS[html_selector])
                 fetched_data.extend([elem.get_text(strip=True) for elem in elements])
+                print("Fetched Prices Data:", fetched_data)
 
-            next_page = soup.find('a', string='Next')
-            url = next_page.get('href') if next_page else None
+            next_page = soup.find('a', class_='next')
+            if next_page and 'href' in next_page.attrs:
+                url = next_page['href']
+            else:
+                break
             time.sleep(5)
         except Exception as e:
             print(f"Error fetching {data_type}: {e}")
@@ -199,27 +200,28 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 
     return fetched_data
 
-def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\\scraping_data.csv", write_product_details=True):
+def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\scraping_data.csv", write_product_details=True):
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
 
         if write_product_details:
             writer.writerow(["Platform", "Product Name", "Price", "Seller", "Timestamp"])
-            writer.writerow([product_data["Platform"], product_data["name"], product_data["price"], product_data["seller"], product_data["timestamp"]])
+            writer.writerow([product_data["Platform"], product_data["name"], product_data["price"], "Cdiscount", product_data["timestamp"]])
             print("Product details (without additional offers) written to CSV.")
 
         if sellers and prices:
             min_length = min(len(sellers), len(prices))
-            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Delivery Date", "Timestamp"])
+            writer.writerow(["Platform", "Product Name", "Price", "Seller", "Seller Status", "Seller Rating", "Delivery Fee", "Timestamp"])
             for i in range(min_length):
-                seller_name, seller_status, seller_rating, delivery_fee, delivery_date = sellers[i]
-                writer.writerow(["Cdiscount", product_data["name"], prices[i], seller_name, seller_status, seller_rating, delivery_fee, delivery_date, datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
+                seller_data = sellers[i]
+                writer.writerow(["Cdiscount", product_data["name"], prices[i], seller_data[0], seller_data[1], seller_data[2], seller_data[3], datetime.now().strftime("%d/%m/%Y %H:%M:%S")])
         writer.writerow(["----------------------------------------------------------------------------------------------------------"])
 
     print(f"Data written to {csv_file}")
 
 def main():
+
     chrome_options = Options()
     chrome_options.binary_location = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
     service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
@@ -243,10 +245,10 @@ def main():
                     print("More offers found, scraping second page offers only.")
                     sellers = fetch_data_from_pages(driver, other_offers_url, 'seller_name', 'sellers')
                     prices = fetch_data_from_pages(driver, other_offers_url, 'get_price', 'prices')
-                    write_combined_data_to_csv(sellers, prices, product_data)
+                    write_combined_data_to_csv(sellers, prices, product_data, write_product_details=False)
                 else:
                     print(f"No additional offers found for {product_to_search}. Writing product details only.")
-                    write_combined_data_to_csv([], [], product_data)
+                    write_combined_data_to_csv([], [], product_data, write_product_details=True)
             else:
                 print(f"Product not found for {product_to_search}")
 
