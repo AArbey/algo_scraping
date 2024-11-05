@@ -140,9 +140,7 @@ def get_more_offers_page(driver):
             print("Found 'More Offers' link, scrolling...")
 
             driver.execute_script("arguments[0].scrollIntoView(true);", more_offers_link)
-            time.sleep(1)
-            # driver.execute_script("window.scrollBy(0, 400);")
-            time.sleep(1)
+            time.sleep(2)
             more_offers_link.click()
             print("Clicked on 'More Offers' link.")
             time.sleep(5)
@@ -209,7 +207,7 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 
     return fetched_data
 
-def write_combined_data_to_csv(sellers, prices, product_data, csv_file="test.csv", write_product_details=True):
+def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\\scraping_data.csv.csv", write_product_details=True):
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
