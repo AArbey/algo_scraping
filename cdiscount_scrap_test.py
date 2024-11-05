@@ -200,7 +200,7 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 
     return fetched_data
 
-def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\scraping_data.csv", write_product_details=True):
+def write_combined_data_to_csv(sellers, prices, product_data, csv_file="test.csv", write_product_details=True):
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
@@ -221,9 +221,8 @@ def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\scrap
     print(f"Data written to {csv_file}")
 
 def main():
-
     chrome_options = Options()
-    chrome_options.binary_location = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+    chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
     service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 

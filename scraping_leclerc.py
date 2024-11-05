@@ -23,6 +23,9 @@ HTML_SELECTORS = {
     "currency": "price-symbol",
     "cents": "price-cents",
     "seller": "fw-500",
+    "delivery_fees": "sue-text-green-dark fw-500 text-uppercase ng-star-inserted",
+    "delivery_date": "date ng-star-inserted",
+    "product_state": "mb-0.state-text.fw-500.ng-tns",
     "more_offers_link": "//button[@class='btn btn-secondary btn-tran' and contains(text(), 'Comparer') or contains(text(), 'Consulter')]"
 }
 
@@ -119,6 +122,7 @@ def click_more_offers(driver):
     except Exception as e:
         print(f"Erreur lors du clic sur 'Consulter': {e}")
         return None
+
 def fetch_data_from_pages(driver, url, data_type):
     if not url:
         print(f"URL non valide pour récupérer {data_type}.")
