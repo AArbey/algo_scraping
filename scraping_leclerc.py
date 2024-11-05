@@ -137,19 +137,31 @@ def fetch_data_from_pages(driver, url, data_type):
             driver.get(url)
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "h1")))
             soup = BeautifulSoup(driver.page_source, 'lxml')
-
             if data_type == 'sellers':
                 sellers = soup.find_all('a', class_=HTML_SELECTORS["seller"])
                 delivery_fees = soup.find_all('span', class_=HTML_SELECTORS["delivery_fees"])
                 delivery_dates = soup.find_all('span', class_=HTML_SELECTORS["delivery_date"])
-                product_states = soup.select("span.mb-0.state-text.fw-500")
+                
+                product_state_elements = driver.find_elements(
+                    By.XPATH,
+                    "//app-product-detail-offers//app-product-offer-list-item//div/div[1]/p"
+                )
+                product_states = []
+                for elem in product_state_elements:
+                    state_text = elem.text.strip()
+                    if "NEUF" in state_text:
+                        product_states.append("NEUF")
+                    elif state_text.startswith("OCCASION -"):
+                        product_states.append(state_text)
 
                 for i in range(len(sellers)):
+                    product_state_text = product_states[i] if i < len(product_states) else ""
+                    print(f"Product State: {product_state_text}")
                     fetched_data.append({
                         "seller": sellers[i].get_text(strip=True) if i < len(sellers) else "",
                         "delivery_fees": delivery_fees[i].get_text(strip=True) if i < len(delivery_fees) else "",
                         "delivery_date": delivery_dates[i].get_text(strip=True) if i < len(delivery_dates) else "",
-                        "product_state": product_states[i].get_text(strip=True) if i < len(product_states) else ""
+                        "product_state": product_state_text
                     })
 
             elif data_type == 'prices':
@@ -161,12 +173,14 @@ def fetch_data_from_pages(driver, url, data_type):
                     f"{prices[i].get_text(strip=True)}.{cents[i].get_text(strip=True)} {currencies[i].get_text(strip=True)}"
                     for i in range(min(len(prices), len(currencies), len(cents)))
                 ]
+
             time.sleep(5)
         except Exception as e:
             print(f"Erreur lors de la récupération des {data_type}: {e}")
             break
 
     return fetched_data
+
 
 def write_combined_data_to_csv(data, sellers_data, prices, csv_file="D:\\scraping_data.csv"):
     if not data:
