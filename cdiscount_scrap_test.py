@@ -133,10 +133,18 @@ def get_more_offers_page(driver):
                 if more_offers_link:
                     break
             except TimeoutException:
+                print(f"Link with text {offer_text} not found.")
                 continue
+
         if more_offers_link:
+            print("Found 'More Offers' link, scrolling...")
+
             driver.execute_script("arguments[0].scrollIntoView(true);", more_offers_link)
+            time.sleep(1)
+            # driver.execute_script("window.scrollBy(0, 400);")
+            time.sleep(1)
             more_offers_link.click()
+            print("Clicked on 'More Offers' link.")
             time.sleep(5)
             return driver.current_url
         else:
@@ -145,6 +153,7 @@ def get_more_offers_page(driver):
     except Exception as e:
         print(f"Error in getting more offers page: {e}")
         return None
+
 
 def fetch_data_from_pages(driver, url, html_selector, data_type):
     if not url:
