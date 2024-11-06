@@ -1,0 +1,1063 @@
+2024-11-05 14:38:17,488 - ERROR - Erreur lors de la lecture du fichier Excel : [Errno 2] No such file or directory: 'ID_excel.xlsx'
+2024-11-05 14:38:17,490 - INFO - Cycle complet terminé, reprise dans 1200 secondes...
+2024-11-05 14:38:34,775 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 14:38:54,366 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 14:39:14,089 - ERROR - Échec de la requête pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153. Code de statut : 403
+2024-11-05 14:39:33,464 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 14:39:53,144 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 14:40:22,627 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 14:40:51,831 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 14:41:21,157 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 14:41:50,477 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 14:42:19,638 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 14:42:48,850 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 14:43:18,094 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 14:49:18,519 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 14:49:47,704 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 14:50:17,003 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 14:50:46,227 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 14:51:15,396 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 14:51:44,570 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 14:52:13,754 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 14:52:42,974 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 14:53:12,247 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 14:53:41,559 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 14:54:10,800 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 14:54:40,105 - ERROR - Échec de la requête pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576. Code de statut : 403
+2024-11-05 14:55:09,325 - ERROR - Échec de la requête pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10. Code de statut : 403
+2024-11-05 14:55:38,423 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 14:56:07,710 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 14:56:36,865 - ERROR - Erreur lors du scraping du produit A3a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 14:57:05,899 - ERROR - Erreur lors du scraping du produit A3b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 14:57:34,932 - ERROR - Erreur lors du scraping du produit A3c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 14:58:03,965 - ERROR - Erreur lors du scraping du produit A3d : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 14:58:32,999 - ERROR - Erreur lors du scraping du produit S1a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 14:59:02,032 - ERROR - Erreur lors du scraping du produit S1b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 14:59:31,073 - ERROR - Erreur lors du scraping du produit S1c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:00:00,107 - ERROR - Erreur lors du scraping du produit S1d : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:00:29,140 - ERROR - Erreur lors du scraping du produit S2a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:00:58,174 - ERROR - Erreur lors du scraping du produit S2b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:01:27,207 - ERROR - Erreur lors du scraping du produit S2c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:01:56,241 - ERROR - Erreur lors du scraping du produit S2d : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:02:25,275 - ERROR - Erreur lors du scraping du produit S3a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:02:54,308 - ERROR - Erreur lors du scraping du produit S3b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:03:23,342 - ERROR - Erreur lors du scraping du produit S3c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:03:52,376 - ERROR - Erreur lors du scraping du produit S3d : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:04:21,410 - ERROR - Erreur lors du scraping du produit H1a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:04:50,444 - ERROR - Erreur lors du scraping du produit H1b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:05:19,478 - ERROR - Erreur lors du scraping du produit H1c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:05:48,511 - ERROR - Erreur lors du scraping du produit H2a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:06:17,545 - ERROR - Erreur lors du scraping du produit H2b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:06:46,578 - ERROR - Erreur lors du scraping du produit H2c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:07:15,611 - ERROR - Erreur lors du scraping du produit H3a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:07:44,645 - ERROR - Erreur lors du scraping du produit H3b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:08:13,678 - ERROR - Erreur lors du scraping du produit H3c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:08:42,712 - ERROR - Erreur lors du scraping du produit X1a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:09:11,745 - ERROR - Erreur lors du scraping du produit X1b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:09:40,779 - ERROR - Erreur lors du scraping du produit X2a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:10:09,812 - ERROR - Erreur lors du scraping du produit X2b : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:10:38,846 - ERROR - Erreur lors du scraping du produit X2c : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:11:07,879 - ERROR - Erreur lors du scraping du produit X3a : Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+2024-11-05 15:12:55,200 - ERROR - Erreur lors de la lecture du fichier Excel : [Errno 2] No such file or directory: 'ID_excel.xlsx'
+2024-11-05 15:12:55,202 - INFO - Cycle complet terminé, reprise dans 1200 secondes...
+2024-11-05 15:13:16,464 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 15:13:36,004 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 15:13:55,582 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 15:14:15,125 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 15:14:34,618 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 15:14:54,136 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 15:15:13,681 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 15:15:33,197 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 15:15:52,769 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 15:16:12,272 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 15:16:31,759 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 15:16:51,272 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 15:17:10,951 - ERROR - Échec de la requête pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10. Code de statut : 403
+2024-11-05 15:17:30,328 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 15:17:49,815 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 15:20:23,504 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 15:20:43,065 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 15:21:02,841 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 15:21:22,418 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 15:21:41,889 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 15:22:01,379 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 15:22:20,873 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 15:22:40,365 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 15:22:59,968 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 15:23:19,508 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 15:23:39,044 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 15:23:58,589 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 15:24:18,217 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 15:24:37,788 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 15:24:57,273 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 15:25:16,756 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 15:25:16,757 - INFO - Cycle complet terminé, reprise dans 1200 secondes...
+2024-11-05 15:29:24,902 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 15:29:44,258 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 15:30:03,626 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 15:30:22,969 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 15:30:42,322 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 15:31:01,676 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 15:31:21,035 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 15:31:40,389 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 15:31:59,742 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 15:32:19,099 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 15:32:38,453 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 15:32:57,809 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 15:33:17,211 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 15:33:36,519 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 15:33:55,878 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 15:34:15,214 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 15:34:15,214 - INFO - Cycle complet terminé, attente de 909.54 secondes avant le prochain cycle...
+2024-11-05 15:49:24,821 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 15:49:44,171 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 15:50:03,527 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 15:50:22,887 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 15:50:42,240 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 15:51:01,598 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 15:51:20,950 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 15:51:40,307 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 15:51:59,660 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 15:52:19,013 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 15:52:38,375 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 15:52:57,727 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 15:53:17,088 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 15:53:36,463 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 15:53:55,793 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 15:54:15,131 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 15:54:15,131 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...
+2024-11-05 16:09:24,812 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 16:09:44,165 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 16:10:03,519 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 16:10:22,873 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 16:10:42,232 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 16:11:01,583 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 16:11:20,942 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 16:11:40,302 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 16:11:59,651 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 16:12:19,016 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 16:12:38,364 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 16:12:57,724 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 16:13:17,079 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 16:13:36,430 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 16:13:55,785 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 16:14:15,125 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 16:14:15,125 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 16:29:24,797 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 16:29:44,154 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 16:30:03,507 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 16:30:22,861 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 16:30:42,215 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 16:31:01,596 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 16:31:20,929 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 16:31:40,288 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 16:31:59,640 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 16:32:19,002 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 16:32:38,347 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 16:32:57,703 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 16:33:17,059 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 16:33:36,421 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 16:33:55,777 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 16:34:15,110 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 16:34:15,111 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 16:49:24,815 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 16:49:44,170 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 16:50:03,517 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 16:50:22,879 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 16:50:42,227 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 16:51:01,603 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 16:51:20,947 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 16:51:40,295 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 16:51:59,682 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 16:52:19,015 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 16:52:38,368 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 16:52:57,724 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 16:53:17,084 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 16:53:36,434 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 16:53:55,789 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 16:54:15,128 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 16:54:15,128 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...
+2024-11-05 17:09:24,825 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 17:09:44,179 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 17:10:03,534 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 17:10:22,904 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 17:10:42,244 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 17:11:01,604 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 17:11:20,952 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 17:11:40,309 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 17:11:59,666 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 17:12:19,024 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 17:12:38,374 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 17:12:57,740 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 17:13:17,089 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 17:13:36,446 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 17:13:55,803 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 17:14:15,136 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 17:14:15,136 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...
+2024-11-05 17:29:24,804 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 17:29:44,158 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 17:30:03,524 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 17:30:22,865 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 17:30:42,223 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 17:31:01,575 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 17:31:20,936 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 17:31:40,291 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 17:31:59,649 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 17:32:19,000 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 17:32:38,354 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 17:32:57,709 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 17:33:17,067 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 17:33:36,419 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 17:33:55,779 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 17:34:15,115 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 17:34:15,115 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 17:49:24,893 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 17:49:44,242 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 17:50:03,597 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 17:50:22,960 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 17:50:42,308 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 17:51:01,682 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 17:51:21,022 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 17:51:40,373 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 17:51:59,730 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 17:52:19,084 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 17:52:38,444 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 17:52:57,796 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 17:53:17,154 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 17:53:36,513 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 17:53:55,864 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 17:54:15,200 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 17:54:15,201 - INFO - Cycle complet terminé, attente de 909.55 secondes avant le prochain cycle...
+2024-11-05 18:09:24,806 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 18:09:44,160 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 18:10:03,515 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 18:10:22,869 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 18:10:42,228 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 18:11:01,585 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 18:11:20,937 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 18:11:40,292 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 18:11:59,648 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 18:12:19,000 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 18:12:38,366 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 18:12:57,715 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 18:13:17,074 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 18:13:36,425 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 18:13:55,785 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 18:14:15,118 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 18:14:15,119 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 18:29:24,808 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 18:29:44,166 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 18:30:04,065 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 18:30:23,414 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 18:30:42,229 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 18:31:01,586 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 18:31:20,945 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 18:31:40,300 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 18:31:59,652 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 18:32:19,017 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 18:32:38,361 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 18:32:57,715 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 18:33:17,075 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 18:33:36,427 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 18:33:55,789 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 18:34:15,122 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 18:34:15,122 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 18:49:24,823 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 18:49:44,177 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 18:50:03,535 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 18:50:22,886 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 18:50:42,247 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 18:51:01,600 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 18:51:20,956 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 18:51:40,310 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 18:51:59,669 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 18:52:19,025 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 18:52:38,375 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 18:52:57,735 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 18:53:17,090 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 18:53:36,448 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 18:53:55,799 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 18:54:15,136 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 18:54:15,136 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...
+2024-11-05 19:09:24,818 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 19:09:44,164 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 19:10:03,520 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 19:10:22,875 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 19:10:42,234 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 19:11:01,587 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 19:11:20,947 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 19:11:40,298 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 19:11:59,660 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 19:12:19,012 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 19:12:38,367 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 19:12:57,725 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 19:13:17,080 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 19:13:36,432 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 19:13:55,789 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 19:14:15,124 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 19:14:15,124 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 19:29:24,802 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 19:29:44,159 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 19:30:03,518 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 19:30:22,868 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 19:30:42,220 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 19:31:01,578 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 19:31:20,935 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 19:31:40,294 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 19:31:59,640 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 19:32:19,001 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 19:32:38,351 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 19:32:57,715 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 19:33:17,064 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 19:33:36,420 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 19:33:55,779 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 19:34:15,113 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 19:34:15,114 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 19:49:24,817 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 19:49:44,164 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 19:50:03,520 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 19:50:22,878 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 19:50:42,228 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 19:51:01,587 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 19:51:20,991 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 19:51:40,296 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 19:51:59,653 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 19:52:19,015 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 19:52:38,364 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 19:52:57,736 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 19:53:17,075 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 19:53:36,429 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 19:53:55,787 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 19:54:15,123 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 19:54:15,123 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 20:09:24,808 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 20:09:44,166 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 20:10:03,519 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 20:10:22,873 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 20:10:42,228 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 20:11:01,585 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 20:11:20,940 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 20:11:40,294 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 20:11:59,653 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 20:12:19,018 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 20:12:38,361 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 20:12:57,715 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 20:13:17,070 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 20:13:36,428 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 20:13:55,794 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 20:14:15,120 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 20:14:15,120 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 20:29:24,805 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 20:29:44,165 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 20:30:03,518 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 20:30:22,864 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 20:30:42,226 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 20:31:01,584 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 20:31:20,936 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 20:31:40,298 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 20:31:59,647 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 20:32:19,002 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 20:32:38,354 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 20:32:57,710 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 20:33:17,067 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 20:33:36,424 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 20:33:55,783 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 20:34:15,115 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 20:34:15,115 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 20:49:24,842 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 20:49:44,169 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 20:50:03,525 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 20:50:22,884 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 20:50:42,234 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 20:51:01,592 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 20:51:20,952 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 20:51:40,301 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 20:51:59,665 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 20:52:19,013 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 20:52:38,370 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 20:52:57,724 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 20:53:17,079 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 20:53:36,439 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 20:53:55,793 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 20:54:15,126 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 20:54:15,126 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 21:09:24,820 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 21:09:44,174 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 21:10:03,526 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 21:10:22,881 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 21:10:42,244 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 21:11:01,591 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 21:11:20,949 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 21:11:40,304 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 21:11:59,660 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 21:12:19,018 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 21:12:38,373 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 21:12:57,726 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 21:13:17,080 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 21:13:36,438 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 21:13:55,795 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 21:14:15,129 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 21:14:15,129 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 21:29:24,801 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 21:29:44,156 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 21:30:03,516 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 21:30:22,869 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 21:30:42,226 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 21:31:01,580 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 21:31:20,938 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 21:31:40,296 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 21:31:59,644 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 21:32:18,998 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 21:32:38,896 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 21:32:57,709 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 21:33:17,064 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 21:33:36,419 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 21:33:55,776 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 21:34:15,113 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 21:34:15,114 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 21:49:24,818 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 21:49:44,171 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 21:50:03,533 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 21:50:22,878 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 21:50:42,235 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 21:51:01,590 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 21:51:20,946 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 21:51:40,303 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 21:51:59,655 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 21:52:19,023 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 21:52:38,369 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 21:52:57,724 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 21:53:17,078 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 21:53:36,433 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 21:53:55,789 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 21:54:15,126 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 21:54:15,126 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 22:09:24,819 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 22:09:44,175 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 22:10:03,534 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 22:10:22,882 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 22:10:42,236 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 22:11:01,593 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 22:11:20,948 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 22:11:40,305 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 22:11:59,658 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 22:12:19,019 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 22:12:38,370 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 22:12:57,723 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 22:13:17,079 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 22:13:36,437 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 22:13:55,791 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 22:14:15,130 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 22:14:15,130 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 22:29:24,800 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 22:29:44,157 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 22:30:03,515 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 22:30:22,873 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 22:30:42,219 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 22:31:01,577 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 22:31:20,934 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 22:31:40,289 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 22:31:59,643 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 22:32:18,997 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 22:32:38,353 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 22:32:57,709 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 22:33:17,065 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 22:33:36,423 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 22:33:55,781 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 22:34:15,114 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 22:34:15,114 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 22:49:24,820 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 22:49:44,175 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 22:50:03,531 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 22:50:22,880 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 22:50:42,241 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 22:51:01,612 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 22:51:20,949 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 22:51:40,308 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 22:51:59,659 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 22:52:19,016 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 22:52:38,367 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 22:52:57,725 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 22:53:17,081 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 22:53:36,436 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 22:53:55,792 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 22:54:15,130 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 22:54:15,131 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-05 23:09:24,803 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 23:09:44,155 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 23:10:03,512 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 23:10:22,875 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 23:10:42,220 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 23:11:01,576 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 23:11:20,944 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 23:11:40,289 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 23:11:59,645 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 23:12:18,999 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 23:12:38,353 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 23:12:57,709 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 23:13:17,065 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 23:13:36,418 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 23:13:55,778 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 23:14:15,114 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 23:14:15,114 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 23:29:24,805 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 23:29:44,164 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 23:30:03,519 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 23:30:22,867 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 23:30:42,227 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 23:31:01,581 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 23:31:20,938 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 23:31:40,293 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 23:32:00,177 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 23:32:19,007 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 23:32:38,358 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 23:32:57,712 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 23:33:17,068 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 23:33:36,424 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 23:33:55,782 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 23:34:15,119 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 23:34:15,119 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-05 23:49:24,820 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-05 23:49:44,171 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-05 23:50:03,525 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-05 23:50:22,879 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-05 23:50:42,234 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-05 23:51:01,591 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-05 23:51:20,945 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-05 23:51:40,302 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-05 23:51:59,657 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-05 23:52:19,011 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-05 23:52:38,365 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-05 23:52:57,724 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-05 23:53:17,079 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-05 23:53:36,433 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-05 23:53:55,787 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-05 23:54:15,127 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-05 23:54:15,127 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 00:09:24,923 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 00:09:44,285 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 00:10:03,639 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 00:10:22,994 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 00:10:42,347 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 00:11:01,698 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 00:11:21,057 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 00:11:40,412 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 00:11:59,767 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 00:12:19,120 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 00:12:38,475 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 00:12:57,833 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 00:13:17,191 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 00:13:36,543 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 00:13:55,903 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 00:14:15,238 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 00:14:15,238 - INFO - Cycle complet terminé, attente de 909.52 secondes avant le prochain cycle...
+2024-11-06 00:29:24,810 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 00:29:44,164 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 00:30:03,521 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 00:30:22,872 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 00:30:42,223 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 00:31:01,587 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 00:31:20,939 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 00:31:40,297 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 00:31:59,652 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 00:32:19,009 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 00:32:38,359 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 00:32:57,715 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 00:33:17,070 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 00:33:36,426 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 00:33:55,791 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 00:34:15,120 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 00:34:15,120 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-06 00:49:24,813 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 00:49:44,169 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 00:50:03,524 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 00:50:22,875 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 00:50:42,239 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 00:51:01,589 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 00:51:20,944 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 00:51:40,298 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 00:51:59,657 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 00:52:19,012 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 00:52:38,372 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 00:52:57,721 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 00:53:17,077 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 00:53:36,967 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 00:53:55,807 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 00:54:15,130 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 00:54:15,131 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 01:09:24,818 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 01:09:44,166 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 01:10:03,525 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 01:10:22,874 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 01:10:42,237 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 01:11:01,591 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 01:11:20,945 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 01:11:40,301 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 01:11:59,653 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 01:12:19,013 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 01:12:38,368 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 01:12:57,730 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 01:13:17,077 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 01:13:36,439 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 01:13:55,793 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 01:14:15,126 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 01:14:15,126 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 01:29:24,820 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 01:29:44,177 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 01:30:03,536 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 01:30:22,885 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 01:30:42,245 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 01:31:01,592 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 01:31:20,950 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 01:31:40,306 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 01:31:59,669 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 01:32:19,019 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 01:32:38,370 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 01:32:57,725 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 01:33:17,082 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 01:33:36,440 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 01:33:55,797 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 01:34:15,132 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 01:34:15,132 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 01:49:24,815 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 01:49:44,169 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 01:50:03,523 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 01:50:22,897 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 01:50:42,231 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 01:51:01,588 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 01:51:20,942 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 01:51:40,298 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 01:51:59,662 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 01:52:19,012 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 01:52:38,367 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 01:52:57,721 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 01:53:17,077 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 01:53:36,432 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 01:53:55,789 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 01:54:15,126 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 01:54:15,126 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 02:09:24,815 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 02:09:44,179 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 02:10:03,523 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 02:10:22,879 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 02:10:42,237 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 02:11:01,587 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 02:11:20,944 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 02:11:40,305 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 02:11:59,658 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 02:12:19,009 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 02:12:38,364 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 02:12:57,721 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 02:13:17,078 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 02:13:36,432 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 02:13:55,787 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 02:14:15,126 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 02:14:15,126 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 02:29:24,802 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 02:29:44,161 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 02:30:03,516 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 02:30:22,866 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 02:30:42,224 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 02:31:01,581 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 02:31:20,947 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 02:31:40,295 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 02:31:59,644 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 02:32:19,003 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 02:32:38,357 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 02:32:57,713 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 02:33:17,067 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 02:33:36,422 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 02:33:55,783 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 02:34:15,116 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 02:34:15,117 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-06 02:49:24,809 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 02:49:44,162 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 02:50:03,519 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 02:50:22,872 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 02:50:42,228 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 02:51:01,584 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 02:51:20,938 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 02:51:40,296 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 02:51:59,662 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 02:52:19,005 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 02:52:38,368 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 02:52:57,718 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 02:53:17,078 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 02:53:36,427 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 02:53:55,783 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 02:54:15,121 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 02:54:15,121 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-06 03:09:24,821 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 03:09:44,173 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 03:10:03,544 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 03:10:22,881 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 03:10:42,237 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 03:11:01,594 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 03:11:20,951 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 03:11:40,304 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 03:11:59,659 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 03:12:19,017 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 03:12:38,373 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 03:12:57,732 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 03:13:17,085 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 03:13:36,436 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 03:13:55,798 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 03:14:15,131 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 03:14:15,131 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 03:29:24,815 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 03:29:44,177 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 03:30:03,526 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 03:30:22,878 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 03:30:42,235 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 03:31:01,590 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 03:31:20,951 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 03:31:40,310 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 03:31:59,660 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 03:32:19,016 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 03:32:38,367 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 03:32:57,723 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 03:33:17,082 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 03:33:36,434 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 03:33:55,791 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 03:34:15,129 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 03:34:15,130 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 03:49:24,819 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 03:49:44,171 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 03:50:03,530 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 03:50:22,882 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 03:50:42,240 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 03:51:01,593 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 03:51:20,947 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 03:51:40,302 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 03:51:59,660 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 03:52:19,014 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 03:52:38,730 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 03:52:57,721 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 03:53:17,085 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 03:53:36,435 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 03:53:55,794 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 03:54:15,128 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 03:54:15,129 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 04:09:24,914 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 04:09:44,182 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 04:10:03,525 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 04:10:22,881 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 04:10:42,238 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 04:11:01,596 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 04:11:20,947 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 04:11:40,304 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 04:11:59,658 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 04:12:19,019 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 04:12:38,371 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 04:12:57,730 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 04:13:17,084 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 04:13:36,440 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 04:13:55,789 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 04:14:15,130 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 04:14:15,130 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 04:29:24,820 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 04:29:44,173 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 04:30:03,528 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 04:30:22,881 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 04:30:42,242 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 04:31:01,590 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 04:31:20,949 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 04:31:40,305 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 04:31:59,661 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 04:32:19,014 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 04:32:38,369 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 04:32:57,725 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 04:33:17,083 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 04:33:36,441 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 04:33:55,792 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 04:34:15,130 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 04:34:15,130 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 04:49:24,823 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 04:49:44,182 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 04:50:03,531 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 04:50:22,894 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 04:50:42,242 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 04:51:01,598 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 04:51:20,948 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 04:51:40,309 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 04:51:59,664 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 04:52:19,020 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 04:52:38,371 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 04:52:57,732 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 04:53:17,089 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 04:53:36,440 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 04:53:55,796 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 04:54:15,134 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 04:54:15,135 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 05:09:24,830 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 05:09:44,181 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 05:10:03,541 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 05:10:22,904 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 05:10:42,247 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 05:11:01,602 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 05:11:20,962 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 05:11:40,311 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 05:11:59,668 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 05:12:19,027 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 05:12:38,379 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 05:12:57,739 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 05:13:17,096 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 05:13:36,445 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 05:13:55,800 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 05:14:15,140 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 05:14:15,140 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 05:29:24,818 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 05:29:44,177 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 05:30:03,532 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 05:30:22,885 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 05:30:42,237 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 05:31:01,594 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 05:31:20,951 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 05:31:40,310 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 05:31:59,662 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 05:32:19,022 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 05:32:38,369 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 05:32:57,729 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 05:33:17,082 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 05:33:36,439 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 05:33:55,796 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 05:34:15,132 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 05:34:15,133 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-06 05:49:24,828 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 05:49:44,188 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 05:50:03,537 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 05:50:22,897 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 05:50:42,244 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 05:51:01,605 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 05:51:20,995 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 05:51:40,313 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 05:51:59,670 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 05:52:19,029 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 05:52:38,385 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 05:52:57,738 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 05:53:17,094 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 05:53:36,447 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 05:53:55,807 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 05:54:15,141 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 05:54:15,141 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 06:09:24,825 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 06:09:44,183 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 06:10:03,558 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 06:10:22,886 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 06:10:42,241 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 06:11:01,597 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 06:11:20,955 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 06:11:40,313 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 06:11:59,662 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 06:12:19,021 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 06:12:38,382 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 06:12:57,730 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 06:13:17,086 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 06:13:36,449 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 06:13:55,795 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 06:14:15,136 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 06:14:15,136 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 06:29:24,937 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 06:29:44,292 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 06:30:03,649 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 06:30:23,015 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 06:30:42,358 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 06:31:01,716 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 06:31:21,073 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 06:31:40,429 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 06:31:59,784 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 06:32:19,141 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 06:32:38,490 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 06:32:57,847 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 06:33:17,201 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 06:33:36,560 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 06:33:55,916 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 06:34:15,251 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 06:34:15,251 - INFO - Cycle complet terminé, attente de 909.52 secondes avant le prochain cycle...
+2024-11-06 06:49:24,844 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 06:49:44,194 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 06:50:03,552 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 06:50:22,913 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 06:50:42,263 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 06:51:01,611 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 06:51:20,973 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 06:51:40,322 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 06:51:59,679 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 06:52:19,041 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 06:52:38,391 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 06:52:57,748 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 06:53:17,103 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 06:53:36,462 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 06:53:55,812 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 06:54:15,151 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 06:54:15,151 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...
+2024-11-06 07:09:24,817 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 07:09:44,175 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 07:10:03,532 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 07:10:22,883 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 07:10:42,237 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 07:11:01,590 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 07:11:20,947 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 07:11:40,302 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 07:11:59,667 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 07:12:19,017 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 07:12:38,377 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 07:12:57,731 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 07:13:17,084 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 07:13:36,438 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 07:13:55,797 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 07:14:15,131 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 07:14:15,131 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-06 07:29:24,832 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 07:29:44,199 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 07:30:03,548 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 07:30:22,904 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 07:30:42,255 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 07:31:01,607 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 07:31:20,964 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 07:31:40,320 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 07:31:59,682 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 07:32:19,143 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 07:32:38,386 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 07:32:57,740 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 07:33:17,097 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 07:33:36,476 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 07:33:55,811 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 07:34:15,146 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 07:34:15,146 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...
+2024-11-06 07:49:24,824 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 07:49:44,179 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 07:50:03,534 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 07:50:22,887 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 07:50:42,242 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 07:51:01,598 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 07:51:20,955 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 07:51:40,312 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 07:51:59,664 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 07:52:19,022 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 07:52:38,376 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 07:52:57,731 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 07:53:17,095 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 07:53:36,443 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 07:53:55,798 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 07:54:15,136 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 07:54:15,136 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 08:09:24,823 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 08:09:44,184 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 08:10:03,534 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 08:10:22,890 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 08:10:42,248 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 08:11:01,614 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 08:11:20,957 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 08:11:40,312 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 08:11:59,668 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 08:12:19,027 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 08:12:38,378 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 08:12:57,733 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 08:13:17,091 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 08:13:36,453 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 08:13:55,803 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 08:14:15,138 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 08:14:15,138 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 08:29:24,827 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 08:29:44,180 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 08:30:03,535 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 08:30:22,889 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 08:30:42,247 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 08:31:01,600 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 08:31:20,966 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 08:31:40,315 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 08:31:59,670 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 08:32:19,026 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 08:32:38,378 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 08:32:57,731 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 08:33:17,086 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 08:33:36,445 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 08:33:55,802 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 08:34:15,138 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 08:34:15,138 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 08:49:24,826 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 08:49:44,178 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 08:50:03,536 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 08:50:22,896 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 08:50:42,251 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 08:51:01,601 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 08:51:20,957 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 08:51:40,312 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 08:51:59,670 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 08:52:19,029 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 08:52:38,380 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 08:52:57,734 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 08:53:17,095 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 08:53:36,448 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 08:53:55,802 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 08:54:15,139 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 08:54:15,140 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 09:09:24,824 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 09:09:44,184 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 09:10:03,539 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 09:10:22,896 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 09:10:42,252 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 09:11:01,610 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 09:11:20,961 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 09:11:40,312 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 09:11:59,669 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 09:12:19,024 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 09:12:38,380 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 09:12:57,734 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 09:13:17,100 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 09:13:36,442 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 09:13:55,802 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 09:14:15,138 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 09:14:15,138 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 09:29:24,819 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 09:29:44,179 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 09:30:03,556 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 09:30:22,880 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 09:30:42,237 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 09:31:01,589 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 09:31:20,950 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 09:31:40,310 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 09:31:59,665 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 09:32:19,013 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 09:32:38,372 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 09:32:57,727 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 09:33:17,083 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 09:33:36,437 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 09:33:55,798 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 09:34:15,131 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 09:34:15,131 - INFO - Cycle complet terminé, attente de 909.64 secondes avant le prochain cycle...
+2024-11-06 09:49:24,830 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 09:49:44,186 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 09:50:03,537 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 09:50:22,893 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 09:50:42,251 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 09:51:01,605 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 09:51:20,962 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 09:51:40,319 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 09:51:59,671 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 09:52:19,027 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 09:52:38,387 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 09:52:57,739 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 09:53:17,093 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 09:53:36,454 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 09:53:55,806 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 09:54:15,141 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 09:54:15,142 - INFO - Cycle complet terminé, attente de 909.63 secondes avant le prochain cycle...
+2024-11-06 10:09:24,846 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2024-11-06 10:09:44,197 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2024-11-06 10:10:03,549 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153
+2024-11-06 10:10:22,901 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484167
+2024-11-06 10:10:42,260 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484179
+2024-11-06 10:11:01,610 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362133/apple-iphone-16-pro?pid=13159477244
+2024-11-06 10:11:20,969 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/12362134/apple-iphone-16-pro-max?pid=13159484196
+2024-11-06 10:11:40,320 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874607
+2024-11-06 10:11:59,684 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874388
+2024-11-06 10:12:19,039 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623007/apple-iphone-15?pid=11517874360
+2024-11-06 10:12:38,390 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874717
+2024-11-06 10:12:57,759 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874576
+2024-11-06 10:13:17,103 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623008/apple-iphone-15-plus?pid=11517874427&filter=10
+2024-11-06 10:13:36,460 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623009/apple-iphone-15-pro?pid=11517874923
+2024-11-06 10:13:55,814 - INFO - Requête réussie pour https://fr.shopping.rakuten.com/mfp/9623010/apple-iphone-15-pro-max?pid=11517875055
+2024-11-06 10:14:15,151 - INFO - Lien invalide détecté, redémarrage de la liste.
+2024-11-06 10:14:15,151 - INFO - Cycle complet terminé, attente de 909.62 secondes avant le prochain cycle...

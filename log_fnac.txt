@@ -8551,3 +8551,1056 @@
 2024-11-05 08:16:36,508 - INFO - Le fichier JSON 'fnac_digitalData_20241105_081636.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
 2024-11-05 08:16:36,510 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
 2024-11-05 08:16:36,510 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 08:24:07,529 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 08:24:07,622 - INFO - Le fichier JSON 'fnac_digitalData_20241105_082407.json' a été créé avec succès.
+2024-11-05 08:24:07,637 - INFO - Le fichier JSON 'fnac_digitalData_20241105_082407.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 08:24:07,640 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 08:24:07,640 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 08:31:38,927 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 08:31:39,047 - INFO - Le fichier JSON 'fnac_digitalData_20241105_083139.json' a été créé avec succès.
+2024-11-05 08:31:39,068 - INFO - Le fichier JSON 'fnac_digitalData_20241105_083139.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 08:31:39,071 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 08:31:39,071 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 08:39:09,804 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 08:39:09,902 - INFO - Le fichier JSON 'fnac_digitalData_20241105_083909.json' a été créé avec succès.
+2024-11-05 08:39:09,917 - INFO - Le fichier JSON 'fnac_digitalData_20241105_083909.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 08:39:09,919 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 08:39:09,920 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 08:46:39,920 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 08:46:43,730 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 08:46:43,839 - INFO - Le fichier JSON 'fnac_digitalData_20241105_084643.json' a été créé avec succès.
+2024-11-05 08:46:43,852 - INFO - Le fichier JSON 'fnac_digitalData_20241105_084643.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 08:46:43,854 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 08:46:43,855 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 08:54:15,034 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 08:54:15,130 - INFO - Le fichier JSON 'fnac_digitalData_20241105_085415.json' a été créé avec succès.
+2024-11-05 08:54:15,143 - INFO - Le fichier JSON 'fnac_digitalData_20241105_085415.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 08:54:15,145 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 08:54:15,146 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:01:46,467 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:01:46,586 - INFO - Le fichier JSON 'fnac_digitalData_20241105_090146.json' a été créé avec succès.
+2024-11-05 09:01:46,604 - INFO - Le fichier JSON 'fnac_digitalData_20241105_090146.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:01:46,607 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:01:46,608 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:09:17,592 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:09:17,715 - INFO - Le fichier JSON 'fnac_digitalData_20241105_090917.json' a été créé avec succès.
+2024-11-05 09:09:17,730 - INFO - Le fichier JSON 'fnac_digitalData_20241105_090917.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:09:17,733 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:09:17,733 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:16:48,509 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:16:48,601 - INFO - Le fichier JSON 'fnac_digitalData_20241105_091648.json' a été créé avec succès.
+2024-11-05 09:16:48,614 - INFO - Le fichier JSON 'fnac_digitalData_20241105_091648.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:16:48,616 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:16:48,616 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:24:19,682 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:24:19,783 - INFO - Le fichier JSON 'fnac_digitalData_20241105_092419.json' a été créé avec succès.
+2024-11-05 09:24:19,794 - INFO - Le fichier JSON 'fnac_digitalData_20241105_092419.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:24:19,796 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:24:19,797 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:31:53,085 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:31:53,343 - INFO - Le fichier JSON 'fnac_digitalData_20241105_093153.json' a été créé avec succès.
+2024-11-05 09:31:53,358 - INFO - Le fichier JSON 'fnac_digitalData_20241105_093153.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:31:53,361 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:31:53,361 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:39:24,170 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:39:24,287 - INFO - Le fichier JSON 'fnac_digitalData_20241105_093924.json' a été créé avec succès.
+2024-11-05 09:39:24,299 - INFO - Le fichier JSON 'fnac_digitalData_20241105_093924.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:39:24,301 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:39:24,301 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:46:55,176 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:46:55,302 - INFO - Le fichier JSON 'fnac_digitalData_20241105_094655.json' a été créé avec succès.
+2024-11-05 09:46:55,319 - INFO - Le fichier JSON 'fnac_digitalData_20241105_094655.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:46:55,323 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:46:55,323 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 09:54:26,369 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 09:54:26,494 - INFO - Le fichier JSON 'fnac_digitalData_20241105_095426.json' a été créé avec succès.
+2024-11-05 09:54:26,512 - INFO - Le fichier JSON 'fnac_digitalData_20241105_095426.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 09:54:26,514 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 09:54:26,515 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:01:57,444 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:01:57,601 - INFO - Le fichier JSON 'fnac_digitalData_20241105_100157.json' a été créé avec succès.
+2024-11-05 10:01:57,621 - INFO - Le fichier JSON 'fnac_digitalData_20241105_100157.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:01:57,625 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:01:57,625 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:09:28,258 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:09:28,546 - INFO - Le fichier JSON 'fnac_digitalData_20241105_100928.json' a été créé avec succès.
+2024-11-05 10:09:28,564 - INFO - Le fichier JSON 'fnac_digitalData_20241105_100928.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:09:28,567 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:09:28,567 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:16:59,686 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:16:59,784 - INFO - Le fichier JSON 'fnac_digitalData_20241105_101659.json' a été créé avec succès.
+2024-11-05 10:16:59,795 - INFO - Le fichier JSON 'fnac_digitalData_20241105_101659.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:16:59,797 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:16:59,797 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:24:30,652 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:24:30,771 - INFO - Le fichier JSON 'fnac_digitalData_20241105_102430.json' a été créé avec succès.
+2024-11-05 10:24:30,784 - INFO - Le fichier JSON 'fnac_digitalData_20241105_102430.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:24:30,787 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:24:30,787 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:32:01,764 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:32:01,872 - INFO - Le fichier JSON 'fnac_digitalData_20241105_103201.json' a été créé avec succès.
+2024-11-05 10:32:01,887 - INFO - Le fichier JSON 'fnac_digitalData_20241105_103201.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:32:01,889 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:32:01,890 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:39:32,719 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:39:32,812 - INFO - Le fichier JSON 'fnac_digitalData_20241105_103932.json' a été créé avec succès.
+2024-11-05 10:39:32,822 - INFO - Le fichier JSON 'fnac_digitalData_20241105_103932.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:39:32,824 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:39:32,824 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:47:02,824 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 10:47:03,696 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:47:03,912 - INFO - Le fichier JSON 'fnac_digitalData_20241105_104703.json' a été créé avec succès.
+2024-11-05 10:47:03,927 - INFO - Le fichier JSON 'fnac_digitalData_20241105_104703.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:47:03,929 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:47:03,929 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 10:54:34,752 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 10:54:34,870 - INFO - Le fichier JSON 'fnac_digitalData_20241105_105434.json' a été créé avec succès.
+2024-11-05 10:54:34,882 - INFO - Le fichier JSON 'fnac_digitalData_20241105_105434.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 10:54:34,884 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 10:54:34,884 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:02:06,331 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:02:06,486 - INFO - Le fichier JSON 'fnac_digitalData_20241105_110206.json' a été créé avec succès.
+2024-11-05 11:02:06,506 - INFO - Le fichier JSON 'fnac_digitalData_20241105_110206.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:02:06,510 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:02:06,510 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:09:37,520 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:09:37,612 - INFO - Le fichier JSON 'fnac_digitalData_20241105_110937.json' a été créé avec succès.
+2024-11-05 11:09:37,622 - INFO - Le fichier JSON 'fnac_digitalData_20241105_110937.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:09:37,624 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:09:37,625 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:17:08,811 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:17:08,905 - INFO - Le fichier JSON 'fnac_digitalData_20241105_111708.json' a été créé avec succès.
+2024-11-05 11:17:08,916 - INFO - Le fichier JSON 'fnac_digitalData_20241105_111708.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:17:08,919 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:17:08,919 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:24:39,880 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:24:40,121 - INFO - Le fichier JSON 'fnac_digitalData_20241105_112440.json' a été créé avec succès.
+2024-11-05 11:24:40,141 - INFO - Le fichier JSON 'fnac_digitalData_20241105_112440.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:24:40,144 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:24:40,144 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:32:11,159 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:32:11,276 - INFO - Le fichier JSON 'fnac_digitalData_20241105_113211.json' a été créé avec succès.
+2024-11-05 11:32:11,295 - INFO - Le fichier JSON 'fnac_digitalData_20241105_113211.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:32:11,298 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:32:11,298 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:39:42,310 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:39:42,394 - INFO - Le fichier JSON 'fnac_digitalData_20241105_113942.json' a été créé avec succès.
+2024-11-05 11:39:42,407 - INFO - Le fichier JSON 'fnac_digitalData_20241105_113942.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:39:42,409 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:39:42,409 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:47:13,501 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:47:13,630 - INFO - Le fichier JSON 'fnac_digitalData_20241105_114713.json' a été créé avec succès.
+2024-11-05 11:47:13,650 - INFO - Le fichier JSON 'fnac_digitalData_20241105_114713.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:47:13,653 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:47:13,653 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 11:54:44,755 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 11:54:44,893 - INFO - Le fichier JSON 'fnac_digitalData_20241105_115444.json' a été créé avec succès.
+2024-11-05 11:54:44,909 - INFO - Le fichier JSON 'fnac_digitalData_20241105_115444.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 11:54:44,911 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 11:54:44,911 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:02:16,160 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:02:16,599 - INFO - Le fichier JSON 'fnac_digitalData_20241105_120216.json' a été créé avec succès.
+2024-11-05 12:02:16,633 - INFO - Le fichier JSON 'fnac_digitalData_20241105_120216.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:02:16,636 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:02:16,637 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:09:48,701 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:09:48,792 - INFO - Le fichier JSON 'fnac_digitalData_20241105_120948.json' a été créé avec succès.
+2024-11-05 12:09:48,806 - INFO - Le fichier JSON 'fnac_digitalData_20241105_120948.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:09:48,808 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:09:48,809 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:17:19,492 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:17:19,579 - INFO - Le fichier JSON 'fnac_digitalData_20241105_121719.json' a été créé avec succès.
+2024-11-05 12:17:19,590 - INFO - Le fichier JSON 'fnac_digitalData_20241105_121719.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:17:19,592 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:17:19,592 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:24:50,503 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:24:50,603 - INFO - Le fichier JSON 'fnac_digitalData_20241105_122450.json' a été créé avec succès.
+2024-11-05 12:24:50,614 - INFO - Le fichier JSON 'fnac_digitalData_20241105_122450.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:24:50,616 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:24:50,616 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:32:22,210 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:32:22,465 - INFO - Le fichier JSON 'fnac_digitalData_20241105_123222.json' a été créé avec succès.
+2024-11-05 12:32:22,482 - INFO - Le fichier JSON 'fnac_digitalData_20241105_123222.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:32:22,484 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:32:22,485 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:39:53,403 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:39:53,501 - INFO - Le fichier JSON 'fnac_digitalData_20241105_123953.json' a été créé avec succès.
+2024-11-05 12:39:53,513 - INFO - Le fichier JSON 'fnac_digitalData_20241105_123953.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:39:53,515 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:39:53,515 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:47:23,516 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 12:47:24,573 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:47:24,674 - INFO - Le fichier JSON 'fnac_digitalData_20241105_124724.json' a été créé avec succès.
+2024-11-05 12:47:24,687 - INFO - Le fichier JSON 'fnac_digitalData_20241105_124724.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:47:24,689 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:47:24,689 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 12:54:55,675 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 12:54:55,764 - INFO - Le fichier JSON 'fnac_digitalData_20241105_125455.json' a été créé avec succès.
+2024-11-05 12:54:55,775 - INFO - Le fichier JSON 'fnac_digitalData_20241105_125455.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 12:54:55,777 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 12:54:55,777 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:02:27,052 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:02:27,162 - INFO - Le fichier JSON 'fnac_digitalData_20241105_130227.json' a été créé avec succès.
+2024-11-05 13:02:27,175 - INFO - Le fichier JSON 'fnac_digitalData_20241105_130227.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:02:27,178 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:02:27,179 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:09:58,511 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:09:58,738 - INFO - Le fichier JSON 'fnac_digitalData_20241105_130958.json' a été créé avec succès.
+2024-11-05 13:09:58,751 - INFO - Le fichier JSON 'fnac_digitalData_20241105_130958.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:09:58,753 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:09:58,753 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:17:29,687 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:17:29,840 - INFO - Le fichier JSON 'fnac_digitalData_20241105_131729.json' a été créé avec succès.
+2024-11-05 13:17:29,853 - INFO - Le fichier JSON 'fnac_digitalData_20241105_131729.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:17:29,856 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:17:29,856 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:25:01,064 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:25:01,170 - INFO - Le fichier JSON 'fnac_digitalData_20241105_132501.json' a été créé avec succès.
+2024-11-05 13:25:01,184 - INFO - Le fichier JSON 'fnac_digitalData_20241105_132501.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:25:01,186 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:25:01,186 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:32:32,704 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:32:32,787 - INFO - Le fichier JSON 'fnac_digitalData_20241105_133232.json' a été créé avec succès.
+2024-11-05 13:32:32,800 - INFO - Le fichier JSON 'fnac_digitalData_20241105_133232.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:32:32,802 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:32:32,802 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:40:03,830 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:40:03,954 - INFO - Le fichier JSON 'fnac_digitalData_20241105_134003.json' a été créé avec succès.
+2024-11-05 13:40:03,970 - INFO - Le fichier JSON 'fnac_digitalData_20241105_134003.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:40:03,973 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:40:03,973 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:47:34,790 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:47:35,013 - INFO - Le fichier JSON 'fnac_digitalData_20241105_134735.json' a été créé avec succès.
+2024-11-05 13:47:35,026 - INFO - Le fichier JSON 'fnac_digitalData_20241105_134735.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:47:35,028 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:47:35,028 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 13:55:05,895 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 13:55:06,036 - INFO - Le fichier JSON 'fnac_digitalData_20241105_135506.json' a été créé avec succès.
+2024-11-05 13:55:06,051 - INFO - Le fichier JSON 'fnac_digitalData_20241105_135506.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 13:55:06,054 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 13:55:06,054 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:02:37,468 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:02:37,607 - INFO - Le fichier JSON 'fnac_digitalData_20241105_140237.json' a été créé avec succès.
+2024-11-05 14:02:37,626 - INFO - Le fichier JSON 'fnac_digitalData_20241105_140237.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:02:37,629 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:02:37,629 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:10:08,535 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:10:08,642 - INFO - Le fichier JSON 'fnac_digitalData_20241105_141008.json' a été créé avec succès.
+2024-11-05 14:10:08,658 - INFO - Le fichier JSON 'fnac_digitalData_20241105_141008.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:10:08,661 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:10:08,661 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:17:39,936 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:17:40,082 - INFO - Le fichier JSON 'fnac_digitalData_20241105_141740.json' a été créé avec succès.
+2024-11-05 14:17:40,096 - INFO - Le fichier JSON 'fnac_digitalData_20241105_141740.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:17:40,100 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:17:40,100 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:25:11,147 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:25:11,418 - INFO - Le fichier JSON 'fnac_digitalData_20241105_142511.json' a été créé avec succès.
+2024-11-05 14:25:11,435 - INFO - Le fichier JSON 'fnac_digitalData_20241105_142511.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:25:11,438 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:25:11,438 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:32:42,793 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:32:42,873 - INFO - Le fichier JSON 'fnac_digitalData_20241105_143242.json' a été créé avec succès.
+2024-11-05 14:32:42,883 - INFO - Le fichier JSON 'fnac_digitalData_20241105_143242.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:32:42,885 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:32:42,886 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:40:14,245 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:40:14,338 - INFO - Le fichier JSON 'fnac_digitalData_20241105_144014.json' a été créé avec succès.
+2024-11-05 14:40:14,353 - INFO - Le fichier JSON 'fnac_digitalData_20241105_144014.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:40:14,355 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:40:14,355 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:47:44,356 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 14:47:45,412 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:47:45,527 - INFO - Le fichier JSON 'fnac_digitalData_20241105_144745.json' a été créé avec succès.
+2024-11-05 14:47:45,542 - INFO - Le fichier JSON 'fnac_digitalData_20241105_144745.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:47:45,545 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:47:45,545 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 14:55:17,084 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 14:55:17,190 - INFO - Le fichier JSON 'fnac_digitalData_20241105_145517.json' a été créé avec succès.
+2024-11-05 14:55:17,331 - INFO - Le fichier JSON 'fnac_digitalData_20241105_145517.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 14:55:17,333 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 14:55:17,333 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:02:48,296 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:02:48,445 - INFO - Le fichier JSON 'fnac_digitalData_20241105_150248.json' a été créé avec succès.
+2024-11-05 15:02:48,462 - INFO - Le fichier JSON 'fnac_digitalData_20241105_150248.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:02:48,466 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:02:48,466 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:10:19,574 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:10:19,790 - INFO - Le fichier JSON 'fnac_digitalData_20241105_151019.json' a été créé avec succès.
+2024-11-05 15:10:19,825 - INFO - Le fichier JSON 'fnac_digitalData_20241105_151019.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:10:19,832 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:10:19,833 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:17:50,954 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:17:51,087 - INFO - Le fichier JSON 'fnac_digitalData_20241105_151751.json' a été créé avec succès.
+2024-11-05 15:17:51,108 - INFO - Le fichier JSON 'fnac_digitalData_20241105_151751.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:17:51,112 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:17:51,112 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:25:21,959 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:25:22,115 - INFO - Le fichier JSON 'fnac_digitalData_20241105_152522.json' a été créé avec succès.
+2024-11-05 15:25:22,128 - INFO - Le fichier JSON 'fnac_digitalData_20241105_152522.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:25:22,130 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:25:22,131 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:32:52,814 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:32:52,914 - INFO - Le fichier JSON 'fnac_digitalData_20241105_153252.json' a été créé avec succès.
+2024-11-05 15:32:53,091 - INFO - Le fichier JSON 'fnac_digitalData_20241105_153252.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:32:53,095 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:32:53,096 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:40:24,260 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:40:24,404 - INFO - Le fichier JSON 'fnac_digitalData_20241105_154024.json' a été créé avec succès.
+2024-11-05 15:40:24,448 - INFO - Le fichier JSON 'fnac_digitalData_20241105_154024.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:40:24,455 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:40:24,456 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:47:55,326 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:47:55,436 - INFO - Le fichier JSON 'fnac_digitalData_20241105_154755.json' a été créé avec succès.
+2024-11-05 15:47:55,452 - INFO - Le fichier JSON 'fnac_digitalData_20241105_154755.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:47:55,455 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:47:55,455 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 15:55:27,879 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 15:55:27,996 - INFO - Le fichier JSON 'fnac_digitalData_20241105_155527.json' a été créé avec succès.
+2024-11-05 15:55:28,014 - INFO - Le fichier JSON 'fnac_digitalData_20241105_155527.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 15:55:28,017 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 15:55:28,017 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:02:59,206 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:02:59,316 - INFO - Le fichier JSON 'fnac_digitalData_20241105_160259.json' a été créé avec succès.
+2024-11-05 16:02:59,332 - INFO - Le fichier JSON 'fnac_digitalData_20241105_160259.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:02:59,335 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:02:59,336 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:10:30,452 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:10:30,563 - INFO - Le fichier JSON 'fnac_digitalData_20241105_161030.json' a été créé avec succès.
+2024-11-05 16:10:30,722 - INFO - Le fichier JSON 'fnac_digitalData_20241105_161030.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:10:30,725 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:10:30,725 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:18:03,180 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:18:03,293 - INFO - Le fichier JSON 'fnac_digitalData_20241105_161803.json' a été créé avec succès.
+2024-11-05 16:18:03,306 - INFO - Le fichier JSON 'fnac_digitalData_20241105_161803.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:18:03,308 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:18:03,308 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:25:34,532 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:25:34,640 - INFO - Le fichier JSON 'fnac_digitalData_20241105_162534.json' a été créé avec succès.
+2024-11-05 16:25:34,667 - INFO - Le fichier JSON 'fnac_digitalData_20241105_162534.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:25:34,672 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:25:34,673 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:33:05,712 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:33:05,786 - INFO - Le fichier JSON 'fnac_digitalData_20241105_163305.json' a été créé avec succès.
+2024-11-05 16:33:05,797 - INFO - Le fichier JSON 'fnac_digitalData_20241105_163305.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:33:05,799 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:33:05,799 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:40:37,175 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:40:37,314 - INFO - Le fichier JSON 'fnac_digitalData_20241105_164037.json' a été créé avec succès.
+2024-11-05 16:40:37,328 - INFO - Le fichier JSON 'fnac_digitalData_20241105_164037.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:40:37,330 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:40:37,331 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:48:07,331 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 16:48:10,148 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:48:10,384 - INFO - Le fichier JSON 'fnac_digitalData_20241105_164810.json' a été créé avec succès.
+2024-11-05 16:48:10,399 - INFO - Le fichier JSON 'fnac_digitalData_20241105_164810.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:48:10,400 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:48:10,401 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 16:55:41,424 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 16:55:41,535 - INFO - Le fichier JSON 'fnac_digitalData_20241105_165541.json' a été créé avec succès.
+2024-11-05 16:55:41,552 - INFO - Le fichier JSON 'fnac_digitalData_20241105_165541.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 16:55:41,555 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 16:55:41,555 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:03:12,813 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:03:12,971 - INFO - Le fichier JSON 'fnac_digitalData_20241105_170312.json' a été créé avec succès.
+2024-11-05 17:03:12,991 - INFO - Le fichier JSON 'fnac_digitalData_20241105_170312.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:03:12,994 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:03:12,994 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:10:45,482 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:10:45,577 - INFO - Le fichier JSON 'fnac_digitalData_20241105_171045.json' a été créé avec succès.
+2024-11-05 17:10:45,589 - INFO - Le fichier JSON 'fnac_digitalData_20241105_171045.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:10:45,592 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:10:45,592 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:18:16,387 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:18:16,467 - INFO - Le fichier JSON 'fnac_digitalData_20241105_171816.json' a été créé avec succès.
+2024-11-05 17:18:16,479 - INFO - Le fichier JSON 'fnac_digitalData_20241105_171816.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:18:16,481 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:18:16,481 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:25:47,541 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:25:47,753 - INFO - Le fichier JSON 'fnac_digitalData_20241105_172547.json' a été créé avec succès.
+2024-11-05 17:25:47,766 - INFO - Le fichier JSON 'fnac_digitalData_20241105_172547.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:25:47,768 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:25:47,769 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:33:19,320 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:33:19,390 - INFO - Le fichier JSON 'fnac_digitalData_20241105_173319.json' a été créé avec succès.
+2024-11-05 17:33:19,400 - INFO - Le fichier JSON 'fnac_digitalData_20241105_173319.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:33:19,402 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:33:19,402 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:40:50,010 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:40:50,126 - INFO - Le fichier JSON 'fnac_digitalData_20241105_174050.json' a été créé avec succès.
+2024-11-05 17:40:50,144 - INFO - Le fichier JSON 'fnac_digitalData_20241105_174050.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:40:50,147 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:40:50,147 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:48:21,150 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:48:21,269 - INFO - Le fichier JSON 'fnac_digitalData_20241105_174821.json' a été créé avec succès.
+2024-11-05 17:48:21,286 - INFO - Le fichier JSON 'fnac_digitalData_20241105_174821.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:48:21,289 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:48:21,289 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 17:55:52,512 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 17:55:52,615 - INFO - Le fichier JSON 'fnac_digitalData_20241105_175552.json' a été créé avec succès.
+2024-11-05 17:55:52,633 - INFO - Le fichier JSON 'fnac_digitalData_20241105_175552.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 17:55:52,636 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 17:55:52,636 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:03:23,660 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:03:23,974 - INFO - Le fichier JSON 'fnac_digitalData_20241105_180323.json' a été créé avec succès.
+2024-11-05 18:03:23,991 - INFO - Le fichier JSON 'fnac_digitalData_20241105_180323.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:03:23,995 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:03:23,995 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:10:55,279 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:10:55,369 - INFO - Le fichier JSON 'fnac_digitalData_20241105_181055.json' a été créé avec succès.
+2024-11-05 18:10:55,379 - INFO - Le fichier JSON 'fnac_digitalData_20241105_181055.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:10:55,381 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:10:55,381 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:18:26,609 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:18:26,725 - INFO - Le fichier JSON 'fnac_digitalData_20241105_181826.json' a été créé avec succès.
+2024-11-05 18:18:26,742 - INFO - Le fichier JSON 'fnac_digitalData_20241105_181826.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:18:26,745 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:18:26,746 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:25:57,877 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:25:58,002 - INFO - Le fichier JSON 'fnac_digitalData_20241105_182558.json' a été créé avec succès.
+2024-11-05 18:25:58,018 - INFO - Le fichier JSON 'fnac_digitalData_20241105_182558.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:25:58,022 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:25:58,022 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:33:29,201 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:33:29,283 - INFO - Le fichier JSON 'fnac_digitalData_20241105_183329.json' a été créé avec succès.
+2024-11-05 18:33:29,369 - INFO - Le fichier JSON 'fnac_digitalData_20241105_183329.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:33:29,371 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:33:29,371 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:41:00,892 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:41:01,035 - INFO - Le fichier JSON 'fnac_digitalData_20241105_184101.json' a été créé avec succès.
+2024-11-05 18:41:01,052 - INFO - Le fichier JSON 'fnac_digitalData_20241105_184101.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:41:01,055 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:41:01,056 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:48:31,056 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 18:48:32,494 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:48:32,607 - INFO - Le fichier JSON 'fnac_digitalData_20241105_184832.json' a été créé avec succès.
+2024-11-05 18:48:32,619 - INFO - Le fichier JSON 'fnac_digitalData_20241105_184832.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:48:32,621 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:48:32,622 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 18:56:04,449 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 18:56:04,560 - INFO - Le fichier JSON 'fnac_digitalData_20241105_185604.json' a été créé avec succès.
+2024-11-05 18:56:04,574 - INFO - Le fichier JSON 'fnac_digitalData_20241105_185604.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 18:56:04,577 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 18:56:04,577 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:03:35,846 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:03:35,970 - INFO - Le fichier JSON 'fnac_digitalData_20241105_190335.json' a été créé avec succès.
+2024-11-05 19:03:35,987 - INFO - Le fichier JSON 'fnac_digitalData_20241105_190335.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:03:35,990 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:03:35,991 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:11:08,784 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:11:08,954 - INFO - Le fichier JSON 'fnac_digitalData_20241105_191108.json' a été créé avec succès.
+2024-11-05 19:11:08,964 - INFO - Le fichier JSON 'fnac_digitalData_20241105_191108.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:11:08,965 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:11:08,965 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:18:40,247 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:18:40,372 - INFO - Le fichier JSON 'fnac_digitalData_20241105_191840.json' a été créé avec succès.
+2024-11-05 19:18:40,388 - INFO - Le fichier JSON 'fnac_digitalData_20241105_191840.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:18:40,391 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:18:40,391 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:26:11,668 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:26:11,769 - INFO - Le fichier JSON 'fnac_digitalData_20241105_192611.json' a été créé avec succès.
+2024-11-05 19:26:11,780 - INFO - Le fichier JSON 'fnac_digitalData_20241105_192611.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:26:11,782 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:26:11,783 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:33:42,829 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:33:42,937 - INFO - Le fichier JSON 'fnac_digitalData_20241105_193342.json' a été créé avec succès.
+2024-11-05 19:33:42,954 - INFO - Le fichier JSON 'fnac_digitalData_20241105_193342.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:33:42,957 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:33:42,957 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:41:14,013 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:41:14,110 - INFO - Le fichier JSON 'fnac_digitalData_20241105_194114.json' a été créé avec succès.
+2024-11-05 19:41:14,122 - INFO - Le fichier JSON 'fnac_digitalData_20241105_194114.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:41:14,124 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:41:14,124 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:48:45,271 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:48:45,506 - INFO - Le fichier JSON 'fnac_digitalData_20241105_194845.json' a été créé avec succès.
+2024-11-05 19:48:45,526 - INFO - Le fichier JSON 'fnac_digitalData_20241105_194845.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:48:45,529 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:48:45,530 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 19:56:16,663 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 19:56:16,758 - INFO - Le fichier JSON 'fnac_digitalData_20241105_195616.json' a été créé avec succès.
+2024-11-05 19:56:16,770 - INFO - Le fichier JSON 'fnac_digitalData_20241105_195616.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 19:56:16,772 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 19:56:16,772 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:03:49,055 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:03:49,190 - INFO - Le fichier JSON 'fnac_digitalData_20241105_200349.json' a été créé avec succès.
+2024-11-05 20:03:49,205 - INFO - Le fichier JSON 'fnac_digitalData_20241105_200349.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:03:49,207 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:03:49,208 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:11:25,372 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:11:25,465 - INFO - Le fichier JSON 'fnac_digitalData_20241105_201125.json' a été créé avec succès.
+2024-11-05 20:11:25,475 - INFO - Le fichier JSON 'fnac_digitalData_20241105_201125.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:11:25,476 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:11:25,477 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:18:56,508 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:18:56,594 - INFO - Le fichier JSON 'fnac_digitalData_20241105_201856.json' a été créé avec succès.
+2024-11-05 20:18:56,605 - INFO - Le fichier JSON 'fnac_digitalData_20241105_201856.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:18:56,607 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:18:56,607 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:26:27,624 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:26:27,820 - INFO - Le fichier JSON 'fnac_digitalData_20241105_202627.json' a été créé avec succès.
+2024-11-05 20:26:27,831 - INFO - Le fichier JSON 'fnac_digitalData_20241105_202627.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:26:27,833 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:26:27,833 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:33:59,032 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:33:59,136 - INFO - Le fichier JSON 'fnac_digitalData_20241105_203359.json' a été créé avec succès.
+2024-11-05 20:33:59,156 - INFO - Le fichier JSON 'fnac_digitalData_20241105_203359.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:33:59,159 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:33:59,159 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:41:29,959 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:41:30,049 - INFO - Le fichier JSON 'fnac_digitalData_20241105_204130.json' a été créé avec succès.
+2024-11-05 20:41:30,062 - INFO - Le fichier JSON 'fnac_digitalData_20241105_204130.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:41:30,064 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:41:30,064 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:49:00,065 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 20:49:00,915 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:49:01,033 - INFO - Le fichier JSON 'fnac_digitalData_20241105_204901.json' a été créé avec succès.
+2024-11-05 20:49:01,046 - INFO - Le fichier JSON 'fnac_digitalData_20241105_204901.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:49:01,049 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:49:01,049 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 20:56:32,065 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 20:56:32,150 - INFO - Le fichier JSON 'fnac_digitalData_20241105_205632.json' a été créé avec succès.
+2024-11-05 20:56:32,161 - INFO - Le fichier JSON 'fnac_digitalData_20241105_205632.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 20:56:32,163 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 20:56:32,163 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:04:02,931 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:04:03,197 - INFO - Le fichier JSON 'fnac_digitalData_20241105_210403.json' a été créé avec succès.
+2024-11-05 21:04:03,212 - INFO - Le fichier JSON 'fnac_digitalData_20241105_210403.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:04:03,215 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:04:03,215 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:11:34,057 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:11:34,146 - INFO - Le fichier JSON 'fnac_digitalData_20241105_211134.json' a été créé avec succès.
+2024-11-05 21:11:34,166 - INFO - Le fichier JSON 'fnac_digitalData_20241105_211134.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:11:34,169 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:11:34,169 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:19:05,030 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:19:05,129 - INFO - Le fichier JSON 'fnac_digitalData_20241105_211905.json' a été créé avec succès.
+2024-11-05 21:19:05,139 - INFO - Le fichier JSON 'fnac_digitalData_20241105_211905.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:19:05,140 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:19:05,141 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:26:36,034 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:26:36,123 - INFO - Le fichier JSON 'fnac_digitalData_20241105_212636.json' a été créé avec succès.
+2024-11-05 21:26:36,133 - INFO - Le fichier JSON 'fnac_digitalData_20241105_212636.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:26:36,136 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:26:36,136 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:34:06,955 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:34:07,071 - INFO - Le fichier JSON 'fnac_digitalData_20241105_213407.json' a été créé avec succès.
+2024-11-05 21:34:07,221 - INFO - Le fichier JSON 'fnac_digitalData_20241105_213407.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:34:07,224 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:34:07,225 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:41:38,098 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:41:38,197 - INFO - Le fichier JSON 'fnac_digitalData_20241105_214138.json' a été créé avec succès.
+2024-11-05 21:41:38,210 - INFO - Le fichier JSON 'fnac_digitalData_20241105_214138.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:41:38,213 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:41:38,213 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:49:09,122 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:49:09,236 - INFO - Le fichier JSON 'fnac_digitalData_20241105_214909.json' a été créé avec succès.
+2024-11-05 21:49:09,248 - INFO - Le fichier JSON 'fnac_digitalData_20241105_214909.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:49:09,250 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:49:09,250 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 21:56:40,387 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 21:56:40,508 - INFO - Le fichier JSON 'fnac_digitalData_20241105_215640.json' a été créé avec succès.
+2024-11-05 21:56:40,521 - INFO - Le fichier JSON 'fnac_digitalData_20241105_215640.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 21:56:40,524 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 21:56:40,524 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:04:11,674 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:04:11,827 - INFO - Le fichier JSON 'fnac_digitalData_20241105_220411.json' a été créé avec succès.
+2024-11-05 22:04:11,845 - INFO - Le fichier JSON 'fnac_digitalData_20241105_220411.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:04:11,849 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:04:11,849 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:11:43,073 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:11:43,256 - INFO - Le fichier JSON 'fnac_digitalData_20241105_221143.json' a été créé avec succès.
+2024-11-05 22:11:43,270 - INFO - Le fichier JSON 'fnac_digitalData_20241105_221143.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:11:43,272 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:11:43,272 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:19:14,315 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:19:14,404 - INFO - Le fichier JSON 'fnac_digitalData_20241105_221914.json' a été créé avec succès.
+2024-11-05 22:19:14,414 - INFO - Le fichier JSON 'fnac_digitalData_20241105_221914.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:19:14,416 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:19:14,416 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:26:45,595 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:26:45,676 - INFO - Le fichier JSON 'fnac_digitalData_20241105_222645.json' a été créé avec succès.
+2024-11-05 22:26:45,685 - INFO - Le fichier JSON 'fnac_digitalData_20241105_222645.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:26:45,686 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:26:45,687 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:34:16,793 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:34:16,894 - INFO - Le fichier JSON 'fnac_digitalData_20241105_223416.json' a été créé avec succès.
+2024-11-05 22:34:16,910 - INFO - Le fichier JSON 'fnac_digitalData_20241105_223416.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:34:16,913 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:34:16,913 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:41:47,948 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:41:48,043 - INFO - Le fichier JSON 'fnac_digitalData_20241105_224148.json' a été créé avec succès.
+2024-11-05 22:41:48,057 - INFO - Le fichier JSON 'fnac_digitalData_20241105_224148.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:41:48,059 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:41:48,059 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:49:18,060 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-05 22:49:19,328 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:49:19,554 - INFO - Le fichier JSON 'fnac_digitalData_20241105_224919.json' a été créé avec succès.
+2024-11-05 22:49:19,574 - INFO - Le fichier JSON 'fnac_digitalData_20241105_224919.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:49:19,577 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:49:19,578 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 22:56:50,528 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 22:56:50,619 - INFO - Le fichier JSON 'fnac_digitalData_20241105_225650.json' a été créé avec succès.
+2024-11-05 22:56:50,631 - INFO - Le fichier JSON 'fnac_digitalData_20241105_225650.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 22:56:50,633 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 22:56:50,634 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:04:21,449 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:04:21,574 - INFO - Le fichier JSON 'fnac_digitalData_20241105_230421.json' a été créé avec succès.
+2024-11-05 23:04:21,593 - INFO - Le fichier JSON 'fnac_digitalData_20241105_230421.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:04:21,596 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:04:21,597 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:11:52,510 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:11:52,619 - INFO - Le fichier JSON 'fnac_digitalData_20241105_231152.json' a été créé avec succès.
+2024-11-05 23:11:52,638 - INFO - Le fichier JSON 'fnac_digitalData_20241105_231152.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:11:52,641 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:11:52,641 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:19:23,749 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:19:23,845 - INFO - Le fichier JSON 'fnac_digitalData_20241105_231923.json' a été créé avec succès.
+2024-11-05 23:19:23,856 - INFO - Le fichier JSON 'fnac_digitalData_20241105_231923.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:19:23,859 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:19:23,859 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:26:54,931 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:26:55,110 - INFO - Le fichier JSON 'fnac_digitalData_20241105_232655.json' a été créé avec succès.
+2024-11-05 23:26:55,121 - INFO - Le fichier JSON 'fnac_digitalData_20241105_232655.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:26:55,123 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:26:55,123 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:34:26,140 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:34:26,218 - INFO - Le fichier JSON 'fnac_digitalData_20241105_233426.json' a été créé avec succès.
+2024-11-05 23:34:26,229 - INFO - Le fichier JSON 'fnac_digitalData_20241105_233426.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:34:26,231 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:34:26,231 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:41:57,766 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:41:57,864 - INFO - Le fichier JSON 'fnac_digitalData_20241105_234157.json' a été créé avec succès.
+2024-11-05 23:41:57,879 - INFO - Le fichier JSON 'fnac_digitalData_20241105_234157.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:41:57,882 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:41:57,882 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:49:29,173 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:49:29,278 - INFO - Le fichier JSON 'fnac_digitalData_20241105_234929.json' a été créé avec succès.
+2024-11-05 23:49:29,291 - INFO - Le fichier JSON 'fnac_digitalData_20241105_234929.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:49:29,293 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:49:29,293 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-05 23:57:00,433 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-05 23:57:00,535 - INFO - Le fichier JSON 'fnac_digitalData_20241105_235700.json' a été créé avec succès.
+2024-11-05 23:57:00,545 - INFO - Le fichier JSON 'fnac_digitalData_20241105_235700.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-05 23:57:00,547 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-05 23:57:00,548 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:04:31,365 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:04:31,628 - INFO - Le fichier JSON 'fnac_digitalData_20241106_000431.json' a été créé avec succès.
+2024-11-06 00:04:31,647 - INFO - Le fichier JSON 'fnac_digitalData_20241106_000431.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:04:31,651 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:04:31,651 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:12:03,074 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:12:03,168 - INFO - Le fichier JSON 'fnac_digitalData_20241106_001203.json' a été créé avec succès.
+2024-11-06 00:12:03,185 - INFO - Le fichier JSON 'fnac_digitalData_20241106_001203.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:12:03,187 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:12:03,188 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:19:34,754 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:19:34,847 - INFO - Le fichier JSON 'fnac_digitalData_20241106_001934.json' a été créé avec succès.
+2024-11-06 00:19:34,860 - INFO - Le fichier JSON 'fnac_digitalData_20241106_001934.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:19:34,862 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:19:34,863 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:27:05,867 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:27:05,957 - INFO - Le fichier JSON 'fnac_digitalData_20241106_002705.json' a été créé avec succès.
+2024-11-06 00:27:05,968 - INFO - Le fichier JSON 'fnac_digitalData_20241106_002705.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:27:05,970 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:27:05,970 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:34:37,442 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:34:37,535 - INFO - Le fichier JSON 'fnac_digitalData_20241106_003437.json' a été créé avec succès.
+2024-11-06 00:34:37,550 - INFO - Le fichier JSON 'fnac_digitalData_20241106_003437.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:34:37,552 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:34:37,553 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:42:08,829 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:42:08,915 - INFO - Le fichier JSON 'fnac_digitalData_20241106_004208.json' a été créé avec succès.
+2024-11-06 00:42:08,927 - INFO - Le fichier JSON 'fnac_digitalData_20241106_004208.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:42:08,930 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:42:08,930 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:49:38,930 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-06 00:49:39,890 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:49:40,005 - INFO - Le fichier JSON 'fnac_digitalData_20241106_004940.json' a été créé avec succès.
+2024-11-06 00:49:40,022 - INFO - Le fichier JSON 'fnac_digitalData_20241106_004940.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:49:40,026 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:49:40,026 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 00:57:10,978 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 00:57:11,098 - INFO - Le fichier JSON 'fnac_digitalData_20241106_005711.json' a été créé avec succès.
+2024-11-06 00:57:11,114 - INFO - Le fichier JSON 'fnac_digitalData_20241106_005711.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 00:57:11,117 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 00:57:11,117 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:04:42,905 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:04:43,005 - INFO - Le fichier JSON 'fnac_digitalData_20241106_010443.json' a été créé avec succès.
+2024-11-06 01:04:43,019 - INFO - Le fichier JSON 'fnac_digitalData_20241106_010443.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:04:43,022 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:04:43,022 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:12:13,979 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:12:14,063 - INFO - Le fichier JSON 'fnac_digitalData_20241106_011214.json' a été créé avec succès.
+2024-11-06 01:12:14,181 - INFO - Le fichier JSON 'fnac_digitalData_20241106_011214.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:12:14,183 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:12:14,183 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:19:46,032 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:19:46,184 - INFO - Le fichier JSON 'fnac_digitalData_20241106_011946.json' a été créé avec succès.
+2024-11-06 01:19:46,215 - INFO - Le fichier JSON 'fnac_digitalData_20241106_011946.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:19:46,218 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:19:46,219 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:27:17,526 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:27:17,613 - INFO - Le fichier JSON 'fnac_digitalData_20241106_012717.json' a été créé avec succès.
+2024-11-06 01:27:17,626 - INFO - Le fichier JSON 'fnac_digitalData_20241106_012717.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:27:17,628 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:27:17,629 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:34:49,152 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:34:49,276 - INFO - Le fichier JSON 'fnac_digitalData_20241106_013449.json' a été créé avec succès.
+2024-11-06 01:34:49,296 - INFO - Le fichier JSON 'fnac_digitalData_20241106_013449.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:34:49,299 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:34:49,299 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:42:20,236 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:42:20,346 - INFO - Le fichier JSON 'fnac_digitalData_20241106_014220.json' a été créé avec succès.
+2024-11-06 01:42:20,365 - INFO - Le fichier JSON 'fnac_digitalData_20241106_014220.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:42:20,368 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:42:20,368 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:49:51,400 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:49:51,672 - INFO - Le fichier JSON 'fnac_digitalData_20241106_014951.json' a été créé avec succès.
+2024-11-06 01:49:51,687 - INFO - Le fichier JSON 'fnac_digitalData_20241106_014951.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:49:51,689 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:49:51,690 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 01:57:23,422 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 01:57:23,551 - INFO - Le fichier JSON 'fnac_digitalData_20241106_015723.json' a été créé avec succès.
+2024-11-06 01:57:23,568 - INFO - Le fichier JSON 'fnac_digitalData_20241106_015723.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 01:57:23,571 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 01:57:23,571 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:04:54,867 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:04:55,039 - INFO - Le fichier JSON 'fnac_digitalData_20241106_020455.json' a été créé avec succès.
+2024-11-06 02:04:55,057 - INFO - Le fichier JSON 'fnac_digitalData_20241106_020455.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:04:55,060 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:04:55,060 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:12:26,714 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:12:26,806 - INFO - Le fichier JSON 'fnac_digitalData_20241106_021226.json' a été créé avec succès.
+2024-11-06 02:12:26,816 - INFO - Le fichier JSON 'fnac_digitalData_20241106_021226.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:12:26,817 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:12:26,818 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:19:58,464 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:19:58,563 - INFO - Le fichier JSON 'fnac_digitalData_20241106_021958.json' a été créé avec succès.
+2024-11-06 02:19:58,576 - INFO - Le fichier JSON 'fnac_digitalData_20241106_021958.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:19:58,578 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:19:58,578 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:27:29,771 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:27:29,973 - INFO - Le fichier JSON 'fnac_digitalData_20241106_022729.json' a été créé avec succès.
+2024-11-06 02:27:29,983 - INFO - Le fichier JSON 'fnac_digitalData_20241106_022729.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:27:29,986 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:27:29,986 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:35:01,100 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:35:01,213 - INFO - Le fichier JSON 'fnac_digitalData_20241106_023501.json' a été créé avec succès.
+2024-11-06 02:35:01,229 - INFO - Le fichier JSON 'fnac_digitalData_20241106_023501.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:35:01,231 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:35:01,232 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:42:32,664 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:42:32,799 - INFO - Le fichier JSON 'fnac_digitalData_20241106_024232.json' a été créé avec succès.
+2024-11-06 02:42:32,814 - INFO - Le fichier JSON 'fnac_digitalData_20241106_024232.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:42:32,817 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:42:32,817 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:50:02,817 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-06 02:50:03,968 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:50:04,122 - INFO - Le fichier JSON 'fnac_digitalData_20241106_025004.json' a été créé avec succès.
+2024-11-06 02:50:04,140 - INFO - Le fichier JSON 'fnac_digitalData_20241106_025004.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:50:04,143 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:50:04,143 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 02:57:36,409 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 02:57:36,661 - INFO - Le fichier JSON 'fnac_digitalData_20241106_025736.json' a été créé avec succès.
+2024-11-06 02:57:36,682 - INFO - Le fichier JSON 'fnac_digitalData_20241106_025736.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 02:57:36,685 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 02:57:36,686 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:05:08,523 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:05:08,654 - INFO - Le fichier JSON 'fnac_digitalData_20241106_030508.json' a été créé avec succès.
+2024-11-06 03:05:08,675 - INFO - Le fichier JSON 'fnac_digitalData_20241106_030508.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:05:08,678 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:05:08,679 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:12:39,710 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:12:39,847 - INFO - Le fichier JSON 'fnac_digitalData_20241106_031239.json' a été créé avec succès.
+2024-11-06 03:12:39,863 - INFO - Le fichier JSON 'fnac_digitalData_20241106_031239.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:12:39,866 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:12:39,867 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:20:10,746 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:20:10,841 - INFO - Le fichier JSON 'fnac_digitalData_20241106_032010.json' a été créé avec succès.
+2024-11-06 03:20:10,854 - INFO - Le fichier JSON 'fnac_digitalData_20241106_032010.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:20:10,857 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:20:10,857 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:27:42,238 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:27:42,332 - INFO - Le fichier JSON 'fnac_digitalData_20241106_032742.json' a été créé avec succès.
+2024-11-06 03:27:42,342 - INFO - Le fichier JSON 'fnac_digitalData_20241106_032742.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:27:42,344 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:27:42,344 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:35:13,635 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:35:13,855 - INFO - Le fichier JSON 'fnac_digitalData_20241106_033513.json' a été créé avec succès.
+2024-11-06 03:35:13,870 - INFO - Le fichier JSON 'fnac_digitalData_20241106_033513.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:35:13,872 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:35:13,872 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:42:44,804 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:42:44,920 - INFO - Le fichier JSON 'fnac_digitalData_20241106_034244.json' a été créé avec succès.
+2024-11-06 03:42:44,936 - INFO - Le fichier JSON 'fnac_digitalData_20241106_034244.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:42:44,939 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:42:44,939 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:50:16,142 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:50:16,266 - INFO - Le fichier JSON 'fnac_digitalData_20241106_035016.json' a été créé avec succès.
+2024-11-06 03:50:16,285 - INFO - Le fichier JSON 'fnac_digitalData_20241106_035016.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:50:16,288 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:50:16,288 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 03:57:47,786 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 03:57:47,932 - INFO - Le fichier JSON 'fnac_digitalData_20241106_035747.json' a été créé avec succès.
+2024-11-06 03:57:47,953 - INFO - Le fichier JSON 'fnac_digitalData_20241106_035747.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 03:57:47,956 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 03:57:47,957 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:05:19,530 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:05:19,655 - INFO - Le fichier JSON 'fnac_digitalData_20241106_040519.json' a été créé avec succès.
+2024-11-06 04:05:19,670 - INFO - Le fichier JSON 'fnac_digitalData_20241106_040519.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:05:19,673 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:05:19,673 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:12:51,023 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:12:51,247 - INFO - Le fichier JSON 'fnac_digitalData_20241106_041251.json' a été créé avec succès.
+2024-11-06 04:12:51,261 - INFO - Le fichier JSON 'fnac_digitalData_20241106_041251.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:12:51,264 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:12:51,264 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:20:22,630 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:20:22,722 - INFO - Le fichier JSON 'fnac_digitalData_20241106_042022.json' a été créé avec succès.
+2024-11-06 04:20:22,732 - INFO - Le fichier JSON 'fnac_digitalData_20241106_042022.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:20:22,735 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:20:22,735 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:27:53,884 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:27:53,965 - INFO - Le fichier JSON 'fnac_digitalData_20241106_042753.json' a été créé avec succès.
+2024-11-06 04:27:53,974 - INFO - Le fichier JSON 'fnac_digitalData_20241106_042753.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:27:53,976 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:27:53,976 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:35:26,369 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:35:26,442 - INFO - Le fichier JSON 'fnac_digitalData_20241106_043526.json' a été créé avec succès.
+2024-11-06 04:35:26,452 - INFO - Le fichier JSON 'fnac_digitalData_20241106_043526.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:35:26,454 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:35:26,454 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:42:57,687 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:42:57,827 - INFO - Le fichier JSON 'fnac_digitalData_20241106_044257.json' a été créé avec succès.
+2024-11-06 04:42:57,845 - INFO - Le fichier JSON 'fnac_digitalData_20241106_044257.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:42:57,848 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:42:57,848 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:50:27,849 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-06 04:50:29,039 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:50:29,252 - INFO - Le fichier JSON 'fnac_digitalData_20241106_045029.json' a été créé avec succès.
+2024-11-06 04:50:29,265 - INFO - Le fichier JSON 'fnac_digitalData_20241106_045029.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:50:29,268 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:50:29,268 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 04:58:00,686 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 04:58:00,792 - INFO - Le fichier JSON 'fnac_digitalData_20241106_045800.json' a été créé avec succès.
+2024-11-06 04:58:00,806 - INFO - Le fichier JSON 'fnac_digitalData_20241106_045800.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 04:58:00,809 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 04:58:00,809 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:05:31,956 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:05:32,087 - INFO - Le fichier JSON 'fnac_digitalData_20241106_050532.json' a été créé avec succès.
+2024-11-06 05:05:32,106 - INFO - Le fichier JSON 'fnac_digitalData_20241106_050532.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:05:32,109 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:05:32,110 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:13:03,321 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:13:03,429 - INFO - Le fichier JSON 'fnac_digitalData_20241106_051303.json' a été créé avec succès.
+2024-11-06 05:13:03,443 - INFO - Le fichier JSON 'fnac_digitalData_20241106_051303.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:13:03,445 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:13:03,445 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:20:34,679 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:20:34,772 - INFO - Le fichier JSON 'fnac_digitalData_20241106_052034.json' a été créé avec succès.
+2024-11-06 05:20:34,911 - INFO - Le fichier JSON 'fnac_digitalData_20241106_052034.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:20:34,914 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:20:34,914 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:28:05,655 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:28:05,803 - INFO - Le fichier JSON 'fnac_digitalData_20241106_052805.json' a été créé avec succès.
+2024-11-06 05:28:05,818 - INFO - Le fichier JSON 'fnac_digitalData_20241106_052805.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:28:05,821 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:28:05,821 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:35:37,422 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:35:37,535 - INFO - Le fichier JSON 'fnac_digitalData_20241106_053537.json' a été créé avec succès.
+2024-11-06 05:35:37,549 - INFO - Le fichier JSON 'fnac_digitalData_20241106_053537.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:35:37,551 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:35:37,552 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:43:08,696 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:43:08,807 - INFO - Le fichier JSON 'fnac_digitalData_20241106_054308.json' a été créé avec succès.
+2024-11-06 05:43:08,826 - INFO - Le fichier JSON 'fnac_digitalData_20241106_054308.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:43:08,829 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:43:08,829 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:50:39,688 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:50:39,792 - INFO - Le fichier JSON 'fnac_digitalData_20241106_055039.json' a été créé avec succès.
+2024-11-06 05:50:39,804 - INFO - Le fichier JSON 'fnac_digitalData_20241106_055039.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:50:39,806 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:50:39,806 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 05:58:11,336 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 05:58:11,635 - INFO - Le fichier JSON 'fnac_digitalData_20241106_055811.json' a été créé avec succès.
+2024-11-06 05:58:11,650 - INFO - Le fichier JSON 'fnac_digitalData_20241106_055811.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 05:58:11,653 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 05:58:11,653 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:05:44,368 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:05:44,492 - INFO - Le fichier JSON 'fnac_digitalData_20241106_060544.json' a été créé avec succès.
+2024-11-06 06:05:44,507 - INFO - Le fichier JSON 'fnac_digitalData_20241106_060544.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:05:44,510 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:05:44,510 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:13:15,573 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:13:15,663 - INFO - Le fichier JSON 'fnac_digitalData_20241106_061315.json' a été créé avec succès.
+2024-11-06 06:13:15,673 - INFO - Le fichier JSON 'fnac_digitalData_20241106_061315.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:13:15,674 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:13:15,675 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:20:46,752 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:20:46,873 - INFO - Le fichier JSON 'fnac_digitalData_20241106_062046.json' a été créé avec succès.
+2024-11-06 06:20:46,892 - INFO - Le fichier JSON 'fnac_digitalData_20241106_062046.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:20:46,895 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:20:46,895 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:28:18,613 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:28:18,720 - INFO - Le fichier JSON 'fnac_digitalData_20241106_062818.json' a été créé avec succès.
+2024-11-06 06:28:18,735 - INFO - Le fichier JSON 'fnac_digitalData_20241106_062818.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:28:18,738 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:28:18,738 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:35:49,823 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:35:50,066 - INFO - Le fichier JSON 'fnac_digitalData_20241106_063550.json' a été créé avec succès.
+2024-11-06 06:35:50,082 - INFO - Le fichier JSON 'fnac_digitalData_20241106_063550.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:35:50,085 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:35:50,086 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:43:21,008 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:43:21,144 - INFO - Le fichier JSON 'fnac_digitalData_20241106_064321.json' a été créé avec succès.
+2024-11-06 06:43:21,169 - INFO - Le fichier JSON 'fnac_digitalData_20241106_064321.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:43:21,173 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:43:21,173 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:50:51,174 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-06 06:50:52,764 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:50:52,880 - INFO - Le fichier JSON 'fnac_digitalData_20241106_065052.json' a été créé avec succès.
+2024-11-06 06:50:52,905 - INFO - Le fichier JSON 'fnac_digitalData_20241106_065052.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:50:52,908 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:50:52,908 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 06:58:24,196 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 06:58:24,315 - INFO - Le fichier JSON 'fnac_digitalData_20241106_065824.json' a été créé avec succès.
+2024-11-06 06:58:24,331 - INFO - Le fichier JSON 'fnac_digitalData_20241106_065824.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 06:58:24,334 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 06:58:24,335 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:05:55,200 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:05:55,311 - INFO - Le fichier JSON 'fnac_digitalData_20241106_070555.json' a été créé avec succès.
+2024-11-06 07:05:55,331 - INFO - Le fichier JSON 'fnac_digitalData_20241106_070555.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:05:55,334 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:05:55,334 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:13:26,351 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:13:26,474 - INFO - Le fichier JSON 'fnac_digitalData_20241106_071326.json' a été créé avec succès.
+2024-11-06 07:13:26,489 - INFO - Le fichier JSON 'fnac_digitalData_20241106_071326.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:13:26,491 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:13:26,492 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:20:57,479 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:20:57,593 - INFO - Le fichier JSON 'fnac_digitalData_20241106_072057.json' a été créé avec succès.
+2024-11-06 07:20:57,608 - INFO - Le fichier JSON 'fnac_digitalData_20241106_072057.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:20:57,611 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:20:57,611 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:28:28,952 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:28:29,039 - INFO - Le fichier JSON 'fnac_digitalData_20241106_072829.json' a été créé avec succès.
+2024-11-06 07:28:29,052 - INFO - Le fichier JSON 'fnac_digitalData_20241106_072829.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:28:29,054 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:28:29,054 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:36:00,147 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:36:00,258 - INFO - Le fichier JSON 'fnac_digitalData_20241106_073600.json' a été créé avec succès.
+2024-11-06 07:36:00,277 - INFO - Le fichier JSON 'fnac_digitalData_20241106_073600.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:36:00,281 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:36:00,281 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:43:31,726 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:43:31,830 - INFO - Le fichier JSON 'fnac_digitalData_20241106_074331.json' a été créé avec succès.
+2024-11-06 07:43:31,849 - INFO - Le fichier JSON 'fnac_digitalData_20241106_074331.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:43:31,852 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:43:31,853 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:51:03,118 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:51:03,246 - INFO - Le fichier JSON 'fnac_digitalData_20241106_075103.json' a été créé avec succès.
+2024-11-06 07:51:03,261 - INFO - Le fichier JSON 'fnac_digitalData_20241106_075103.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:51:03,264 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:51:03,264 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 07:58:34,254 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 07:58:34,366 - INFO - Le fichier JSON 'fnac_digitalData_20241106_075834.json' a été créé avec succès.
+2024-11-06 07:58:34,383 - INFO - Le fichier JSON 'fnac_digitalData_20241106_075834.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 07:58:34,385 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 07:58:34,386 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:06:05,267 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:06:05,403 - INFO - Le fichier JSON 'fnac_digitalData_20241106_080605.json' a été créé avec succès.
+2024-11-06 08:06:05,418 - INFO - Le fichier JSON 'fnac_digitalData_20241106_080605.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:06:05,420 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:06:05,421 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:13:36,291 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:13:36,416 - INFO - Le fichier JSON 'fnac_digitalData_20241106_081336.json' a été créé avec succès.
+2024-11-06 08:13:36,441 - INFO - Le fichier JSON 'fnac_digitalData_20241106_081336.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:13:36,446 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:13:36,447 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:21:07,267 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:21:07,582 - INFO - Le fichier JSON 'fnac_digitalData_20241106_082107.json' a été créé avec succès.
+2024-11-06 08:21:07,601 - INFO - Le fichier JSON 'fnac_digitalData_20241106_082107.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:21:07,604 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:21:07,605 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:28:38,523 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:28:38,627 - INFO - Le fichier JSON 'fnac_digitalData_20241106_082838.json' a été créé avec succès.
+2024-11-06 08:28:38,638 - INFO - Le fichier JSON 'fnac_digitalData_20241106_082838.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:28:38,640 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:28:38,640 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:36:11,576 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:36:11,689 - INFO - Le fichier JSON 'fnac_digitalData_20241106_083611.json' a été créé avec succès.
+2024-11-06 08:36:11,703 - INFO - Le fichier JSON 'fnac_digitalData_20241106_083611.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:36:11,706 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:36:11,706 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:44:02,904 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:44:03,033 - INFO - Le fichier JSON 'fnac_digitalData_20241106_084403.json' a été créé avec succès.
+2024-11-06 08:44:03,052 - INFO - Le fichier JSON 'fnac_digitalData_20241106_084403.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:44:03,054 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:44:03,055 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:51:33,055 - INFO - Cycle complet terminé, reprise dans 7200 secondes...
+2024-11-06 08:51:34,065 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:51:34,174 - INFO - Le fichier JSON 'fnac_digitalData_20241106_085134.json' a été créé avec succès.
+2024-11-06 08:51:34,192 - INFO - Le fichier JSON 'fnac_digitalData_20241106_085134.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:51:34,195 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:51:34,195 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 08:59:05,226 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 08:59:05,485 - INFO - Le fichier JSON 'fnac_digitalData_20241106_085905.json' a été créé avec succès.
+2024-11-06 08:59:05,499 - INFO - Le fichier JSON 'fnac_digitalData_20241106_085905.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 08:59:05,501 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 08:59:05,501 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:06:36,297 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:06:36,413 - INFO - Le fichier JSON 'fnac_digitalData_20241106_090636.json' a été créé avec succès.
+2024-11-06 09:06:36,427 - INFO - Le fichier JSON 'fnac_digitalData_20241106_090636.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:06:36,430 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:06:36,430 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:14:12,444 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:14:12,584 - INFO - Le fichier JSON 'fnac_digitalData_20241106_091412.json' a été créé avec succès.
+2024-11-06 09:14:12,601 - INFO - Le fichier JSON 'fnac_digitalData_20241106_091412.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:14:12,604 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:14:12,604 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:21:43,895 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:21:43,986 - INFO - Le fichier JSON 'fnac_digitalData_20241106_092143.json' a été créé avec succès.
+2024-11-06 09:21:44,001 - INFO - Le fichier JSON 'fnac_digitalData_20241106_092143.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:21:44,004 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:21:44,005 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:29:15,176 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:29:15,246 - INFO - Le fichier JSON 'fnac_digitalData_20241106_092915.json' a été créé avec succès.
+2024-11-06 09:29:15,255 - INFO - Le fichier JSON 'fnac_digitalData_20241106_092915.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:29:15,257 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:29:15,258 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:36:45,977 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:36:46,217 - INFO - Le fichier JSON 'fnac_digitalData_20241106_093646.json' a été créé avec succès.
+2024-11-06 09:36:46,235 - INFO - Le fichier JSON 'fnac_digitalData_20241106_093646.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:36:46,237 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:36:46,238 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:44:20,540 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:44:20,638 - INFO - Le fichier JSON 'fnac_digitalData_20241106_094420.json' a été créé avec succès.
+2024-11-06 09:44:20,653 - INFO - Le fichier JSON 'fnac_digitalData_20241106_094420.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:44:20,655 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:44:20,655 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:51:51,609 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:51:51,724 - INFO - Le fichier JSON 'fnac_digitalData_20241106_095151.json' a été créé avec succès.
+2024-11-06 09:51:51,740 - INFO - Le fichier JSON 'fnac_digitalData_20241106_095151.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:51:51,743 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:51:51,743 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 09:59:22,727 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 09:59:22,823 - INFO - Le fichier JSON 'fnac_digitalData_20241106_095922.json' a été créé avec succès.
+2024-11-06 09:59:22,835 - INFO - Le fichier JSON 'fnac_digitalData_20241106_095922.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 09:59:22,838 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 09:59:22,838 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 10:06:53,915 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 10:06:54,211 - INFO - Le fichier JSON 'fnac_digitalData_20241106_100654.json' a été créé avec succès.
+2024-11-06 10:06:54,226 - INFO - Le fichier JSON 'fnac_digitalData_20241106_100654.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 10:06:54,229 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 10:06:54,229 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 10:14:25,390 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 10:14:25,518 - INFO - Le fichier JSON 'fnac_digitalData_20241106_101425.json' a été créé avec succès.
+2024-11-06 10:14:25,533 - INFO - Le fichier JSON 'fnac_digitalData_20241106_101425.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 10:14:25,536 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 10:14:25,537 - INFO - Attente de 450.00 secondes avant la prochaine requête...
+2024-11-06 10:21:56,269 - INFO - Page chargée avec succès avec User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-11-06 10:21:56,407 - INFO - Le fichier JSON 'fnac_digitalData_20241106_102156.json' a été créé avec succès.
+2024-11-06 10:21:56,427 - INFO - Le fichier JSON 'fnac_digitalData_20241106_102156.json' a été ajouté au fichier ZIP 'JSON_FNAC.zip' avec succès.
+2024-11-06 10:21:56,430 - INFO - Les données ont été ajoutées au fichier CSV 'fnac_offers.csv' avec succès.
+2024-11-06 10:21:56,430 - INFO - Attente de 450.00 secondes avant la prochaine requête...
