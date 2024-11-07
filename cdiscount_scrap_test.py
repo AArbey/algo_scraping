@@ -233,9 +233,9 @@ def main():
     service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    products_to_search = ['ip16512black', 'ip16256black', 'ip16p512black',
-                          'ip16p256black', 'ip16p128black', 'ip16pro1tbblack',
-                          'ip16prom1tbbla', 'ip15512black', 'ip15128black']
+    products_to_search = ['ip16512black', 'ip16256black', 'ip16128black',
+                          'ip16p512black', 'ip16p128black', 'ip16pro1tbblack',
+                          'ip16prom1tbbla', 'ip15512black', 'ip15128black', 'ip15protbblack', 'ip15promtbblack']
 
     try:
         accept_condition(driver)
