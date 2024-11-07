@@ -208,7 +208,10 @@ def main():
     service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    product_codes = ['0195949822865', '0195949724169', '0195949723216', '0195949773488', '0195949036064', '0195949042539']
+    product_codes = ['0195949823763', '0195949822865', '0195949821967', '0195949724169', '0195949723216',
+                     '0195949722264', '0195949773488', '0195949807336', '0195949037863', '0195949036965',
+                     '0195949036064', '0195949042539', '0195949041631', '0195949040733', '0195949020735',
+                     '0195949049699']
 
     try:
         accept_condition(driver)
