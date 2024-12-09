@@ -182,7 +182,7 @@ def fetch_data_from_pages(driver, url, data_type):
     return fetched_data
 
 
-def write_combined_data_to_csv(data, sellers_data, prices, csv_file="D:\\scraping_data.csv"):
+def write_combined_data_to_csv(data, sellers_data, prices, csv_file="D:\\scraping_leclerc.csv"):
     if not data:
         print("Aucune donnée de produit à écrire.")
         return

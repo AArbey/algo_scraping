@@ -132,7 +132,7 @@ def fetch_data_from_side_panel(driver):
         print(f"Erreur lors de la récupération des données du panneau latéral : {e}")
         return []
 
-def write_combined_data_to_csv(data, sellers_data, csv_file="carrefour.csv"):
+def write_combined_data_to_csv(data, sellers_data, csv_file="D:\\carrefour.csv"):
     if not data:
         print("Aucune donnée de produit à écrire.")
         return
