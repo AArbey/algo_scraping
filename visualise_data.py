@@ -8,7 +8,7 @@ import threading
 import time
 
 # Path to the CSV file
-csv_file = '/home/ambroise/cassiop/algo_scraping/scraping_carrefour.csv'
+csv_file = '/home/scraping/algo_scraping/scraping_carrefour.csv'
 
 # Define column names for the CSV
 columns = [
@@ -91,4 +91,4 @@ def start_file_watcher():
 # Run the app and file watcher
 if __name__ == '__main__':
     threading.Thread(target=start_file_watcher, daemon=True).start()
-    app.run_server(debug=True, host='0.0.0.0', port=8050)
+    app.run_server(debug=True, host='157.159.195.72', port=8050)
