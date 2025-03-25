@@ -26,7 +26,7 @@ def load_and_clean_data():
     data['Seller Rating'] = data['Seller Rating'].astype(float, errors='ignore')  # Convert Seller Rating to float
     data['Timestamp'] = pd.to_datetime(data['Timestamp'], errors='coerce', dayfirst=True)
     data = data[data['Timestamp'].notnull()]
-    data['Rounded_Timestamp'] = data['Timestamp'].dt.round('30min')
+    data['Rounded_Timestamp'] = data['Timestamp'].dt.round('3min')
     return data
 
 # Initialize the Dash app

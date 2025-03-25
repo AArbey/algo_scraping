@@ -91,4 +91,4 @@ def start_file_watcher():
 # Run the app and file watcher
 if __name__ == '__main__':
     threading.Thread(target=start_file_watcher, daemon=True).start()
-    app.run(debug=True, host='157.159.195.72', port=8050)
+    app.run(debug=True, host='157.159.195.72', port=8051)

@@ -38,7 +38,7 @@ def load_and_clean_data():
     data = data[data['timestamp'].notnull()]
     
     # Round timestamps to the nearest 30 minutes
-    data['Rounded_Timestamp'] = data['timestamp'].dt.round('30min')
+    data['Rounded_Timestamp'] = data['timestamp'].dt.round('3min')
     
     # Fill missing seller names with "Unknown"
     data['seller'] = data['seller'].fillna("Unknown")
@@ -111,4 +111,4 @@ def start_file_watcher():
 # Run the app and file watcher
 if __name__ == '__main__':
     threading.Thread(target=start_file_watcher, daemon=True).start()
-    app.run(debug=True, host='157.159.195.72', port=8050)
+    app.run(debug=True, host='157.159.195.72', port=8052)
