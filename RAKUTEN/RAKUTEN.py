@@ -138,7 +138,7 @@ def load_excel_data():
         logging.error(f"Erreur lors de la lecture du fichier Excel : {e}")
         return pd.DataFrame()
 
-def save_to_parquet(data, filename=PARQUET_FILE):
+def save_to_parquet_old(data, filename=PARQUET_FILE):
     """Enregistre les données dans un fichier Parquet avec gestion des types."""
     try:
         if not data:
@@ -209,6 +209,36 @@ def save_to_parquet(data, filename=PARQUET_FILE):
             logging.info(f"Sauvegarde de secours effectuée dans {backup_file}")
         except Exception as backup_err:
             logging.error(f"Échec de la sauvegarde de secours : {backup_err}")
+
+def save_to_csv(data, filename="Rakuten_data.csv"):
+    """Enregistre les données dans un fichier CSV."""
+    try:
+        if not data:
+            logging.info("Aucune donnée à enregistrer pour ce cycle.")
+            return
+
+        df_new = pd.DataFrame(data)
+        logging.debug(f"{len(df_new)} nouvelles offres à enregistrer dans le CSV.")
+
+        # Charger les données existantes si le fichier existe
+        if os.path.exists(filename):
+            logging.debug(f"Fichier CSV existant trouvé : {filename}")
+            try:
+                df_existing = pd.read_csv(filename)
+                logging.debug(f"{len(df_existing)} offres existantes chargées.")
+                df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+            except Exception as e:
+                logging.error(f"Erreur lors du chargement du fichier CSV existant : {e}")
+                df_combined = df_new
+        else:
+            df_combined = df_new
+            logging.debug(f"Création d'un nouveau fichier CSV avec {len(df_combined)} offres.")
+
+        # Sauvegarder les données combinées
+        df_combined.to_csv(filename, index=False, encoding='utf-8')
+        logging.info(f"Données sauvegardées avec succès dans {filename}")
+    except Exception as e:
+        logging.error(f"Erreur lors de l'enregistrement en CSV : {e}")
 
 # -----------------------------------------------------------------------------
 # Fonctions de scraping et gestion des vendeurs
@@ -520,7 +550,7 @@ def main():
                                     logging.debug(f"Aucun vendeur valide pour l'offre: {offer}")
 
                             if main_offers:
-                                save_to_parquet(main_offers)
+                                save_to_csv(main_offers)
                                 logging.info(f"Données sauvegardées pour {idsmartphone} avec {len(main_offers)} offres")
 
                     else:
