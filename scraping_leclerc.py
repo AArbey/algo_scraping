@@ -190,7 +190,7 @@ def fetch_data_from_pages(driver, url, data_type):
     return fetched_data
 
 
-def write_combined_data_to_csv(data, sellers_data, prices, csv_file = "/home/scraping/Algo-Scraping/scraping_leclerc.csv"):
+def write_combined_data_to_csv(data, sellers_data, prices, csv_file = "/home/scraping/algo-scraping/scraping_leclerc.csv"):
     if not data:
         print("Aucune donnée de produit à écrire.")
         return
