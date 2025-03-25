@@ -68,8 +68,9 @@ def scrape_main_offer(asin, idsmartphone, phone_name):
     logging.info(f"Scraping main offer for ASIN {asin}")
 
     session = requests.Session()
+    session.headers.update(HEADERS)
     try:
-        response = session.get(main_offer_url, headers=HEADERS, timeout=10)
+        response = session.get(main_offer_url, timeout=10)
     except Exception as e:
         logging.error(f"Erreur lors de la requête principale pour ASIN {asin} : {e}")
         return offers
