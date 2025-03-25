@@ -11,12 +11,12 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # CONSTANTS
 
-CHROME_DATA_DIR = "/home/ambroise/.config/google-chrome/Default"
-SCRAPE_INTERVAL = 300 # En secondes
+CHROME_DATA_DIR = "/home/laura/.config/google-chrome/Default"
+SCRAPE_INTERVAL = 60 # En secondes
 
 URL = "https://www.darty.com/nav/extra/offres?codic=7663854"
 
-CSV_FILE = "/home/ambroise/scraping_darty.csv"
+CSV_FILE = "darty_offers.csv"
 
 HTML_SELECTORS = {
     "seller": ".mkp_choicebox_seller__text",
@@ -125,13 +125,13 @@ def simulate_human_behavior(driver):
             scroll_end = scroll_start + random.randint(500, 1000)
             driver.execute_script(f"window.scrollTo({scroll_start}, {scroll_end});")
             
-            time.sleep(random.randint(3, 7))  # Increased sleep time
+            time.sleep(random.randint(1, 5))
             
             scroll_start = random.randint(0, 500)
             scroll_end = scroll_start - random.randint(500, 1000)
             driver.execute_script(f"window.scrollTo({scroll_start}, {scroll_end});")
             
-            time.sleep(random.randint(3, 7))  # Increased sleep time
+            time.sleep(random.randint(1, 5))
         
         logging.info("Comportement humain simulé.")
     except Exception as e:
@@ -218,8 +218,6 @@ def scrape_darty_product_info(url):
             }
             logging.info(f"Infos récupérées pour l'offre {index + 1} : Nom du Vendeur - {nom_vendeur}, État du Produit - {etat_produit}, Date de Livraison - {date_livraison}")
             product_list.append(product_info)
-            
-            time.sleep(random.randint(2, 5))  # Random delay between scraping each product
         
         return product_list
     except Exception as e:

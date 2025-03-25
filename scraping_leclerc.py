@@ -12,6 +12,11 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
+# Démarrer Xvfb sur l'écran virtuel :99 (ou un autre numéro)
+os.system("Xvfb :99 -screen 0 1920x1080x24 &")
+os.environ["DISPLAY"] = ":99"
+
 URL = "https://www.e.leclerc/"
 
 HTML_SELECTORS = {
@@ -36,6 +41,9 @@ def accept_condition(driver):
         WebDriverWait(driver, 15).until(
             EC.element_to_be_clickable((By.ID, HTML_SELECTORS["accept_condition"]))
         ).click()
+        print("Conditions acceptées.")
+    except TimeoutException:
+        print("Aucun bouton d'acceptation des conditions détecté.")
     except Exception as e:
         print(f"Erreur lors de l'acceptation des conditions : {e}")
 
@@ -182,7 +190,7 @@ def fetch_data_from_pages(driver, url, data_type):
     return fetched_data
 
 
-def write_combined_data_to_csv(data, sellers_data, prices, csv_file="/home/ambroise/scraping_leclerc.csv"):
+def write_combined_data_to_csv(data, sellers_data, prices, csv_file = "/home/scraping/Algo-Scraping/scraping_leclerc.csv"):
     if not data:
         print("Aucune donnée de produit à écrire.")
         return
@@ -204,14 +212,19 @@ def write_combined_data_to_csv(data, sellers_data, prices, csv_file="/home/ambro
 
 def main():
     chrome_options = Options()
-    chrome_options.binary_location = "/usr/bin/google-chrome"
-    service = Service("/usr/bin/chromedriver")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")  # Empêcher les erreurs liées au GPU
+    chrome_options.add_argument("--window-size=1920,1080")  # Simuler un affichage normal
+    chrome_options.add_argument("--user-data-dir=/tmp/chrome_user_data_vm")
+    chrome_options.binary_location = '/usr/bin/google-chrome'
+    service = Service('/usr/local/bin/chromedriver-linux64/chromedriver')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    product_codes = ['0195949823763', '0195949822865', '0195949821967', '0195949724169', '0195949723216',
-                     '0195949722264', '0195949773488', '0195949807336', '0195949037863', '0195949036965',
+    product_codes = ['0195949823763', '0195949806384', '0195949771774', '0195949773860','0195949722264',
                      '0195949036064', '0195949042539', '0195949041631', '0195949040733', '0195949020735',
-                     '0195949049699']
+                     '0195949049699']    
+    
 
     try:
         accept_condition(driver)
