@@ -182,7 +182,7 @@ def fetch_data_from_pages(driver, url, data_type):
     return fetched_data
 
 
-def write_combined_data_to_csv(data, sellers_data, prices, csv_file="D:\\scraping_leclerc.csv"):
+def write_combined_data_to_csv(data, sellers_data, prices, csv_file="/home/ambroise/scraping_leclerc.csv"):
     if not data:
         print("Aucune donnée de produit à écrire.")
         return
@@ -204,8 +204,8 @@ def write_combined_data_to_csv(data, sellers_data, prices, csv_file="D:\\scrapin
 
 def main():
     chrome_options = Options()
-    chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
-    service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    service = Service("/usr/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     product_codes = ['0195949823763', '0195949822865', '0195949821967', '0195949724169', '0195949723216',

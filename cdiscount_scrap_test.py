@@ -91,6 +91,7 @@ def search_product(driver, search_query):
 
 def get_first_product_url(driver):
     print("------------------get_first_product_url--------------------")
+    solve_captcha_if_present(driver)
     try:
         product_link = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, HTML_SELECTORS["first_product"])))
         driver.execute_script("arguments[0].scrollIntoView(true);", product_link)
@@ -102,6 +103,8 @@ def get_first_product_url(driver):
 
 def scrape_product_details(driver, product_url):
     print("------------------scrape_product_details--------------------")
+    driver.get(product_url)
+    solve_captcha_if_present(driver)
     try:
         driver.get(product_url)
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
@@ -229,14 +232,14 @@ def write_combined_data_to_csv(sellers, prices, product_data, csv_file="D:\\scra
 
 def main():
     chrome_options = Options()
-    chrome_options.binary_location = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
-    service = Service('C:\\Users\\nsoulie\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\chromedriver.exe')
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    service = Service("/usr/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     products_to_search = ['ip16512black', 'ip16256black', 'ip16128black',
                           'ip16p512black', 'ip16p128black', 'ip16pro1tbblack',
                           'ip16prom1tbbla', 'ip15512black', 'ip15128black', 'ip15protbblack', 'ip15promtbblack']
-
+    
     try:
         accept_condition(driver)
 
