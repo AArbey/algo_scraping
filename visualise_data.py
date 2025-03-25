@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.express as px
+from dash import Dash, dcc, html
 
 # Load the CSV file
 csv_file = '/home/scraping/algo_scraping/scraping_carrefour.csv'
@@ -47,12 +48,15 @@ fig = px.line(
     height=800
 )
 
-# Update layout for better readability
-fig.update_layout(
-    xaxis=dict(tickangle=45),
-    legend_title="Vendeur",
-    margin=dict(t=50, l=50, r=50, b=50)
-)
+# Initialize the Dash app
+app = Dash(__name__)
 
-# Show the plot
-fig.show()
+# Define the layout of the app
+app.layout = html.Div([
+    html.H1("Price Trends for Smartphones Over Time", style={'textAlign': 'center'}),
+    dcc.Graph(figure=fig)  # Embed the Plotly figure
+])
+
+# Run the app
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=8050)
