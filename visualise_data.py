@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the CSV file
-csv_file = '/home/ambroise/cassiop/algo_scraping/scraping_carrefour.csv'
+csv_file = '/home/scraping/algo_scraping/scraping_carrefour.csv'
 
 # Define column names for the CSV
 columns = [
