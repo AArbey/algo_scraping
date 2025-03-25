@@ -34054,4 +34054,123 @@
 2024-12-16 00:41:18,106 - INFO - Other offers retrieved
 2024-12-16 00:41:18,106 - INFO - Moins de 10 offres trouvées sur la page 1 pour ASIN B0CHWZ6YYV. Fin du scraping.
 2024-12-16 00:41:18,107 - INFO - Total des offres collectées pour ASIN B0CHWZ6YYV: 2
-2024-12-16 00:41:18,119 - INFO - Les données ont été ajoutées au fichier Parquet 'amazon_offers.parquet' 
+2024-12-16 00:41:18,119 - INFO - Les données ont été ajoutées au fichier Parquet 'amazon_offers.parquet' 2025-03-25 22:43:30,389 - ERROR - Erreur lors de la lecture du fichier Excel: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-03-25 22:43:30,389 - INFO - Aucun ASIN à traiter. Attente de 10 minutes avant de vérifier à nouveau.
+2025-03-25 22:48:10,785 - INFO - 14 ASINs chargés depuis le fichier Excel.
+2025-03-25 22:48:10,785 - INFO - Temps d'attente entre chaque ASIN: 258 secondes.
+2025-03-25 22:48:10,785 - INFO - Traitement de l'ASIN B0DGHRL7DB (1/14) avec l'ID A1a et le téléphone Iphone 16 512Go Noir Titane
+2025-03-25 22:48:10,785 - INFO - Scraping main offer for ASIN B0DGHRL7DB
+2025-03-25 22:48:11,127 - INFO - Main offer response status code: 503
+2025-03-25 22:48:11,128 - ERROR - Error retrieving main offer for ASIN B0DGHRL7DB: 503
+2025-03-25 22:48:12,131 - INFO - Scraping page 1 for ASIN B0DGHRL7DB
+2025-03-25 22:48:12,335 - INFO - Page 1 response status code: 503
+2025-03-25 22:48:12,335 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHRL7DB: 503
+2025-03-25 22:48:12,335 - INFO - Total des offres collectées pour ASIN B0DGHRL7DB: 0
+2025-03-25 22:48:12,336 - INFO - Aucune offre à enregistrer.
+2025-03-25 22:48:12,336 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 22:52:30,338 - INFO - Traitement de l'ASIN B0DGHSG5CD (2/14) avec l'ID A1b et le téléphone Iphone 16 256Go Noir Titane
+2025-03-25 22:52:30,338 - INFO - Scraping main offer for ASIN B0DGHSG5CD
+2025-03-25 22:52:30,624 - INFO - Main offer response status code: 503
+2025-03-25 22:52:30,624 - ERROR - Error retrieving main offer for ASIN B0DGHSG5CD: 503
+2025-03-25 22:52:31,628 - INFO - Scraping page 1 for ASIN B0DGHSG5CD
+2025-03-25 22:52:31,851 - INFO - Page 1 response status code: 503
+2025-03-25 22:52:31,851 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHSG5CD: 503
+2025-03-25 22:52:31,852 - INFO - Total des offres collectées pour ASIN B0DGHSG5CD: 0
+2025-03-25 22:52:31,852 - INFO - Aucune offre à enregistrer.
+2025-03-25 22:52:31,852 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 22:56:49,952 - INFO - Traitement de l'ASIN B0DGHY5KG8 (3/14) avec l'ID A1c et le téléphone Iphone 16 128Go Noir Titane
+2025-03-25 22:56:49,953 - INFO - Scraping main offer for ASIN B0DGHY5KG8
+2025-03-25 22:56:50,928 - INFO - Main offer response status code: 503
+2025-03-25 22:56:50,929 - ERROR - Error retrieving main offer for ASIN B0DGHY5KG8: 503
+2025-03-25 22:56:51,932 - INFO - Scraping page 1 for ASIN B0DGHY5KG8
+2025-03-25 22:56:52,161 - INFO - Page 1 response status code: 503
+2025-03-25 22:56:52,162 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHY5KG8: 503
+2025-03-25 22:56:52,162 - INFO - Total des offres collectées pour ASIN B0DGHY5KG8: 0
+2025-03-25 22:56:52,162 - INFO - Aucune offre à enregistrer.
+2025-03-25 22:56:52,162 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:01:10,206 - INFO - Traitement de l'ASIN B0DGJ4RRSD (4/14) avec l'ID A1d et le téléphone Iphone 16 plus 512Go Noir
+2025-03-25 23:01:10,206 - INFO - Scraping main offer for ASIN B0DGJ4RRSD
+2025-03-25 23:01:10,460 - INFO - Main offer response status code: 503
+2025-03-25 23:01:10,460 - ERROR - Error retrieving main offer for ASIN B0DGJ4RRSD: 503
+2025-03-25 23:01:11,463 - INFO - Scraping page 1 for ASIN B0DGJ4RRSD
+2025-03-25 23:01:11,559 - INFO - Page 1 response status code: 503
+2025-03-25 23:01:11,559 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGJ4RRSD: 503
+2025-03-25 23:01:11,559 - INFO - Total des offres collectées pour ASIN B0DGJ4RRSD: 0
+2025-03-25 23:01:11,559 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:01:11,559 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:05:29,660 - INFO - Traitement de l'ASIN B0DGHMSMST (5/14) avec l'ID A1e et le téléphone Iphone 16 plus 256Go Noir
+2025-03-25 23:05:29,667 - INFO - Scraping main offer for ASIN B0DGHMSMST
+2025-03-25 23:05:30,048 - INFO - Main offer response status code: 503
+2025-03-25 23:05:30,048 - ERROR - Error retrieving main offer for ASIN B0DGHMSMST: 503
+2025-03-25 23:05:31,052 - INFO - Scraping page 1 for ASIN B0DGHMSMST
+2025-03-25 23:05:31,268 - INFO - Page 1 response status code: 503
+2025-03-25 23:05:31,269 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHMSMST: 503
+2025-03-25 23:05:31,269 - INFO - Total des offres collectées pour ASIN B0DGHMSMST: 0
+2025-03-25 23:05:31,269 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:05:31,269 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:09:49,270 - INFO - Traitement de l'ASIN B0DGHRPFTH (6/14) avec l'ID A1f et le téléphone Iphone 16 plus 128Go Noir
+2025-03-25 23:09:49,270 - INFO - Scraping main offer for ASIN B0DGHRPFTH
+2025-03-25 23:09:49,466 - INFO - Main offer response status code: 503
+2025-03-25 23:09:49,466 - ERROR - Error retrieving main offer for ASIN B0DGHRPFTH: 503
+2025-03-25 23:09:50,469 - INFO - Scraping page 1 for ASIN B0DGHRPFTH
+2025-03-25 23:09:50,661 - INFO - Page 1 response status code: 503
+2025-03-25 23:09:50,662 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHRPFTH: 503
+2025-03-25 23:09:50,662 - INFO - Total des offres collectées pour ASIN B0DGHRPFTH: 0
+2025-03-25 23:09:50,662 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:09:50,662 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:14:08,682 - INFO - Traitement de l'ASIN B0DGHZDQ82 (7/14) avec l'ID A1g et le téléphone Iphone 16 pro 1T Noir Titanium
+2025-03-25 23:14:08,682 - INFO - Scraping main offer for ASIN B0DGHZDQ82
+2025-03-25 23:14:08,810 - INFO - Main offer response status code: 503
+2025-03-25 23:14:08,811 - ERROR - Error retrieving main offer for ASIN B0DGHZDQ82: 503
+2025-03-25 23:14:09,813 - INFO - Scraping page 1 for ASIN B0DGHZDQ82
+2025-03-25 23:14:10,022 - INFO - Page 1 response status code: 503
+2025-03-25 23:14:10,023 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHZDQ82: 503
+2025-03-25 23:14:10,023 - INFO - Total des offres collectées pour ASIN B0DGHZDQ82: 0
+2025-03-25 23:14:10,023 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:14:10,023 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:15:15,525 - INFO - 14 ASINs chargés depuis le fichier Excel.
+2025-03-25 23:15:15,526 - INFO - Temps d'attente entre chaque ASIN: 258 secondes.
+2025-03-25 23:15:15,526 - INFO - Traitement de l'ASIN B0DGHRL7DB (1/14) avec l'ID A1a et le téléphone Iphone 16 512Go Noir Titane
+2025-03-25 23:15:15,526 - INFO - Scraping main offer for ASIN B0DGHRL7DB
+2025-03-25 23:15:15,942 - INFO - Main offer response status code: 503
+2025-03-25 23:15:15,942 - ERROR - Error retrieving main offer for ASIN B0DGHRL7DB: 503
+2025-03-25 23:15:16,946 - INFO - Scraping page 1 for ASIN B0DGHRL7DB
+2025-03-25 23:15:17,119 - INFO - Page 1 response status code: 503
+2025-03-25 23:15:17,120 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHRL7DB: 503
+2025-03-25 23:15:17,120 - INFO - Total des offres collectées pour ASIN B0DGHRL7DB: 0
+2025-03-25 23:15:17,120 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:15:17,120 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:19:35,220 - INFO - Traitement de l'ASIN B0DGHSG5CD (2/14) avec l'ID A1b et le téléphone Iphone 16 256Go Noir Titane
+2025-03-25 23:19:35,223 - INFO - Scraping main offer for ASIN B0DGHSG5CD
+2025-03-25 23:19:35,486 - INFO - Main offer response status code: 503
+2025-03-25 23:19:35,487 - ERROR - Error retrieving main offer for ASIN B0DGHSG5CD: 503
+2025-03-25 23:19:36,491 - INFO - Scraping page 1 for ASIN B0DGHSG5CD
+2025-03-25 23:19:36,616 - INFO - Page 1 response status code: 503
+2025-03-25 23:19:36,617 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHSG5CD: 503
+2025-03-25 23:19:36,617 - INFO - Total des offres collectées pour ASIN B0DGHSG5CD: 0
+2025-03-25 23:19:36,617 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:19:36,617 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-25 23:23:06,638 - INFO - 14 ASINs chargés depuis le fichier Excel.
+2025-03-25 23:23:06,638 - INFO - Temps d'attente entre chaque ASIN: 258 secondes.
+2025-03-25 23:23:06,638 - INFO - Traitement de l'ASIN B0DGHRL7DB (1/14) avec l'ID A1a et le téléphone Iphone 16 512Go Noir Titane
+2025-03-25 23:23:06,638 - INFO - Scraping main offer for ASIN B0DGHRL7DB
+2025-03-25 23:23:07,011 - INFO - Main offer response status code: 503
+2025-03-25 23:23:07,011 - ERROR - Error retrieving main offer for ASIN B0DGHRL7DB: 503
+2025-03-25 23:23:08,015 - INFO - Scraping page 1 for ASIN B0DGHRL7DB
+2025-03-25 23:23:08,298 - INFO - Page 1 response status code: 503
+2025-03-25 23:23:08,299 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHRL7DB: 503
+2025-03-25 23:23:08,299 - INFO - Total des offres collectées pour ASIN B0DGHRL7DB: 0
+2025-03-25 23:23:08,299 - INFO - Aucune offre à enregistrer.
+2025-03-25 23:23:08,299 - INFO - Attente de 258 secondes avant le prochain ASIN.
+2025-03-26 00:18:10,922 - INFO - 14 ASINs chargés depuis le fichier Excel.
+2025-03-26 00:18:10,922 - INFO - Temps d'attente entre chaque ASIN: 258 secondes.
+2025-03-26 00:18:10,922 - INFO - Traitement de l'ASIN B0DGHRL7DB (1/14) avec l'ID A1a et le téléphone Iphone 16 512Go Noir Titane
+2025-03-26 00:18:10,922 - INFO - Scraping main offer for ASIN B0DGHRL7DB
+2025-03-26 00:18:11,011 - INFO - Main offer response status code: 503
+2025-03-26 00:18:11,012 - ERROR - Error retrieving main offer for ASIN B0DGHRL7DB: 503
+2025-03-26 00:18:12,015 - INFO - Scraping page 1 for ASIN B0DGHRL7DB
+2025-03-26 00:18:12,081 - INFO - Page 1 response status code: 503
+2025-03-26 00:18:12,081 - ERROR - Erreur lors de la récupération de la page 1 pour ASIN B0DGHRL7DB: 503
+2025-03-26 00:18:12,082 - INFO - Total des offres collectées pour ASIN B0DGHRL7DB: 0
+2025-03-26 00:18:12,082 - INFO - Aucune offre à enregistrer.
+2025-03-26 00:18:12,082 - INFO - Attente de 258 secondes avant le prochain ASIN.

@@ -154,7 +154,7 @@ def main():
         products = extract_info(soup)
         write_to_csv(products)
 
-def run_indefinitely(cycle_interval=1800):
+def run_indefinitely(cycle_interval=600):
     while True:
         try:
             print(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}] Début d'un nouveau cycle.")
