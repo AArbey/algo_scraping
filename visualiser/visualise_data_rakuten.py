@@ -8,7 +8,7 @@ import threading
 import time
 
 # Path to the CSV file
-csv_file = '/home/scraping/algo_scraping/LECLERC/product_details.csv'
+csv_file = '/home/scraping/algo_scraping/RAKUTEN/Rakuten_data.csv'
 
 # Define column names for the new CSV structure
 columns = [
