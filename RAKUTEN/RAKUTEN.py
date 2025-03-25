@@ -89,12 +89,12 @@ def extract_pid_cid(url):
 # Fonctions de création / chargement / sauvegarde du cache vendeur
 # -----------------------------------------------------------------------------
 def load_seller_cache():
-    """Charge le cache des vendeurs depuis un fichier Parquet."""
-    if os.path.exists(SELLER_CACHE_FILE):
+    """Charge le cache des vendeurs depuis un fichier CSV."""
+    if os.path.exists(SELLER_CACHE_FILE.replace('.parquet', '.csv')):
         try:
-            df_cache = pd.read_parquet(SELLER_CACHE_FILE)
+            df_cache = pd.read_csv(SELLER_CACHE_FILE.replace('.parquet', '.csv'))
             logging.debug(f"Cache des vendeurs chargé avec {len(df_cache)} entrées.")
-            if df_cache['last_scraped'].dtype == object:
+            if 'last_scraped' in df_cache.columns and df_cache['last_scraped'].dtype == object:
                 df_cache['last_scraped'] = pd.to_datetime(df_cache['last_scraped'])
             return df_cache
         except Exception as e:
@@ -103,11 +103,11 @@ def load_seller_cache():
     else:
         logging.debug("Aucun cache des vendeurs trouvé. Création d'un nouveau cache vide.")
         return pd.DataFrame(columns=["seller_name", "rating", "ratingnb", "shipcountry", "sellercountry", "last_scraped"])
-
+    
 def save_seller_cache(df_cache):
-    """Sauvegarde le cache des vendeurs dans un fichier Parquet."""
+    """Sauvegarde le cache des vendeurs dans un fichier CSV."""
     try:
-        df_cache.to_parquet(SELLER_CACHE_FILE, engine='pyarrow', index=False, compression='snappy')
+        df_cache.to_csv(SELLER_CACHE_FILE.replace('.parquet', '.csv'), index=False, encoding='utf-8')
         logging.debug(f"Cache des vendeurs sauvegardé avec {len(df_cache)} entrées.")
     except Exception as e:
         logging.error(f"Erreur lors de la sauvegarde du cache des vendeurs : {e}")
@@ -369,7 +369,10 @@ def get_seller_info(seller_name, session, df_cache):
         }
         if seller_name not in df_cache['seller_name'].values:
             df_new_entry = pd.DataFrame([new_entry], columns=df_cache.columns)
-            df_cache = pd.concat([df_cache, df_new_entry], ignore_index=True)
+            if not df_new_entry.empty and not df_new_entry.isna().all(axis=None):
+                df_cache = pd.concat([df_cache, df_new_entry], ignore_index=True)
+            else:
+                logging.debug("Nouvelle entrée vide ou contenant uniquement des valeurs NA. Aucun ajout au cache.")
         else:
             df_cache.loc[df_cache['seller_name'] == seller_name, ['rating', 'ratingnb', 'shipcountry', 'sellercountry', 'last_scraped']] = [
                 pd.NA, pd.NA, pd.NA, pd.NA, new_entry["last_scraped"]
@@ -418,7 +421,10 @@ def get_seller_info(seller_name, session, df_cache):
             ]
         else:
             df_new_entry = pd.DataFrame([new_entry], columns=df_cache.columns)
-            df_cache = pd.concat([df_cache, df_new_entry], ignore_index=True)
+            if not df_new_entry.empty and not df_new_entry.isna().all(axis=None):
+                df_cache = pd.concat([df_cache, df_new_entry], ignore_index=True)
+            else:
+                logging.debug("Nouvelle entrée vide ou contenant uniquement des valeurs NA. Aucun ajout au cache.")
 
         logging.debug(f"Cache mis à jour pour le vendeur '{seller_name}'.")
     else:
