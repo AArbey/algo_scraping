@@ -8685,4 +8685,858 @@
 2024-12-11 04:51:59,475 - DEBUG - Offre traitée pour A1d : {'pfid': 'RAK', 'idsmartphone': 'A1d', 'url': 'https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153', 'timestamp': '2024/12/11 04:51', 'price': '1633.8', 'shipcost': '0.0', 'rating': '', 'ratingnb': '', 'offertype': 'NewCondition', 'offerdetails': '', 'shipcountry': '', 'sellercountry': '', 'seller': 'SUPER10-fr'}
 2024-12-11 04:51:59,476 - DEBUG - Offre traitée pour A1d : {'pfid': 'RAK', 'idsmartphone': 'A1d', 'url': 'https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153', 'timestamp': '2024/12/11 04:51', 'price': '1653.87', 'shipcost': '0.0', 'rating': '', 'ratingnb': '', 'offertype': 'NewCondition', 'offerdetails': '', 'shipcountry': '', 'sellercountry': '', 'seller': 'C_store'}
 2024-12-11 04:51:59,476 - DEBUG - Offre traitée pour A1d : {'pfid': 'RAK', 'idsmartphone': 'A1d', 'url': 'https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=13159484153', 'timestamp': '2024/12/11 04:51', 'price': '1671.06', 'shipcost': '0.0', 'rating': '', 'ratingnb': '', 'offertype': 'NewCondition', 'offerdetails': '', 'shipcountry': '', 'sellercountry': '', 'seller': 'LBDNet'}
-2024-12-11 04:51:59,476 - DEBUG - Offre traitée pour A1d : {'pfid': 'RAK', 'idsmartphone': 'A1d', 'url': 'https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=1
+2024-12-11 04:51:59,476 - DEBUG - Offre traitée pour A1d : {'pfid': 'RAK', 'idsmartphone': 'A1d', 'url': 'https://fr.shopping.rakuten.com/mfp/12362132/apple-iphone-16-plus?pid=12025-03-26 00:22:36,182 - ERROR - Erreur lors du chargement du cache des vendeurs : Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2025-03-26 00:22:36,469 - DEBUG - Excel chargé avec 62 lignes.
+2025-03-26 00:22:36,472 - DEBUG - 15 enregistrements valides après suppression des NA.
+2025-03-26 00:22:36,472 - DEBUG - 15 téléphones à scrapper.
+2025-03-26 00:22:36,472 - DEBUG - Intervalle entre chaque requête principale : 120.00 secondes.
+2025-03-26 00:22:36,473 - DEBUG - PID: 13159484183, CID: 12362131 extraits de l'URL: https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2025-03-26 00:22:36,473 - DEBUG - Début du scraping pour ID A1b à l'URL https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183.
+2025-03-26 00:22:36,477 - DEBUG - Starting new HTTPS connection (1): fr.shopping.rakuten.com:443
+2025-03-26 00:22:36,717 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /mfp/12362131/apple-iphone-16?pid=13159484183 HTTP/1.1" 200 69917
+2025-03-26 00:22:36,739 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183 avec le statut 200.
+2025-03-26 00:22:37,087 - DEBUG - Données JSON parsées pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183.
+2025-03-26 00:22:37,087 - DEBUG - 35 offres trouvées sur la page principale pour le produit A1b.
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '909.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Asgoodasnew'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '928.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'WANLITRADE'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '929.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'KNDigital'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '939.0', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pixmania'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '963.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Castelloshop'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1003.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bongadgets'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1035.0', 'shipcost': '5.9', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Eleclerc'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1049.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Boulanger'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1053.23', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pccomponentes'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1053.0', 'shipcost': '10.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_sfr'}
+2025-03-26 00:22:37,088 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1079.23', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'REVOLUTIONPHONE'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1123.25', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Avanturis'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1183.72', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LBDNet'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1186.9', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TiendaSig21'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1224.36', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SUPER10-fr'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1310.45', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'C_store'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1339.69', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1383.31', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1400.61', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1412.26', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'M_plus_L'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1478.69', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:22:37,089 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1480.31', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OMAXI'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1505.05', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'PHOENIXLOG'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1514.17', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Dragon-Arts'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1505.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'HYSHOP'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1559.83', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SRshop'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1608.24', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'UnicatBV'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1672.29', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Effik_store'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1689.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1774.32', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1772.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1796.93', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'AntonellaMarket'}
+2025-03-26 00:22:37,090 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1787.27', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:22:37,091 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1919.0', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ACRECIA'}
+2025-03-26 00:22:37,091 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:22', 'price': '1999.9', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SBO-Digital'}
+2025-03-26 00:22:37,091 - DEBUG - 35 offres traitées sur la page principale pour A1b.
+2025-03-26 00:22:37,091 - DEBUG - Nombre total d'offres trouvées : 35
+2025-03-26 00:22:37,091 - DEBUG - Vendeur 'ClubR_Asgoodasnew' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:22:37,095 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Asgoodasnew': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:22:37,096 - DEBUG - Vendeur 'WANLITRADE' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:22:37,096 - DEBUG - Pause de 8.27 secondes avant de scraper la page du vendeur 'WANLITRADE'.
+2025-03-26 00:22:45,979 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/WANLITRADE HTTP/1.1" 200 None
+2025-03-26 00:22:46,076 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/WANLITRADE avec le statut 200.
+2025-03-26 00:22:46,442 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour WANLITRADE.
+2025-03-26 00:22:46,442 - DEBUG - Scraping échoué pour le vendeur 'WANLITRADE'. Aucune mise à jour du cache.
+2025-03-26 00:22:46,442 - DEBUG - Informations mises à jour pour le vendeur 'WANLITRADE': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:22:46,444 - DEBUG - Vendeur 'KNDigital' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:22:46,444 - DEBUG - Pause de 5.01 secondes avant de scraper la page du vendeur 'KNDigital'.
+2025-03-26 00:22:52,322 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/KNDigital HTTP/1.1" 200 None
+2025-03-26 00:22:52,434 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/KNDigital avec le statut 200.
+2025-03-26 00:22:52,805 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour KNDigital.
+2025-03-26 00:22:52,805 - DEBUG - Scraping échoué pour le vendeur 'KNDigital'. Aucune mise à jour du cache.
+2025-03-26 00:22:52,806 - DEBUG - Informations mises à jour pour le vendeur 'KNDigital': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:22:52,806 - DEBUG - Vendeur 'ClubR_Pixmania' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:22:52,808 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pixmania': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:22:52,809 - DEBUG - Vendeur 'Castelloshop' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:22:52,810 - DEBUG - Pause de 7.11 secondes avant de scraper la page du vendeur 'Castelloshop'.
+2025-03-26 00:23:00,591 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Castelloshop HTTP/1.1" 200 None
+2025-03-26 00:23:00,724 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Castelloshop avec le statut 200.
+2025-03-26 00:23:01,098 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Castelloshop.
+2025-03-26 00:23:01,099 - DEBUG - Scraping échoué pour le vendeur 'Castelloshop'. Aucune mise à jour du cache.
+2025-03-26 00:23:01,099 - DEBUG - Informations mises à jour pour le vendeur 'Castelloshop': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:01,100 - DEBUG - Vendeur 'Bongadgets' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:01,100 - DEBUG - Pause de 6.75 secondes avant de scraper la page du vendeur 'Bongadgets'.
+2025-03-26 00:23:08,424 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Bongadgets HTTP/1.1" 200 None
+2025-03-26 00:23:08,541 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Bongadgets avec le statut 200.
+2025-03-26 00:23:09,103 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Bongadgets.
+2025-03-26 00:23:09,104 - DEBUG - Scraping échoué pour le vendeur 'Bongadgets'. Aucune mise à jour du cache.
+2025-03-26 00:23:09,104 - DEBUG - Informations mises à jour pour le vendeur 'Bongadgets': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:09,104 - DEBUG - Vendeur 'ClubR_Eleclerc' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:23:09,107 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Eleclerc': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:09,108 - DEBUG - Vendeur 'Boulanger' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:09,108 - DEBUG - Pause de 9.87 secondes avant de scraper la page du vendeur 'Boulanger'.
+2025-03-26 00:23:19,132 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Boulanger HTTP/1.1" 301 273
+2025-03-26 00:23:19,433 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /event/boulanger?landing=boulanger HTTP/1.1" 200 None
+2025-03-26 00:23:19,453 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Boulanger avec le statut 200.
+2025-03-26 00:23:19,525 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Boulanger.
+2025-03-26 00:23:19,525 - DEBUG - Scraping échoué pour le vendeur 'Boulanger'. Aucune mise à jour du cache.
+2025-03-26 00:23:19,526 - DEBUG - Informations mises à jour pour le vendeur 'Boulanger': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:19,526 - DEBUG - Vendeur 'ClubR_Pccomponentes' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:23:19,528 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pccomponentes': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:19,528 - DEBUG - Vendeur 'ClubR_sfr' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:23:19,530 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_sfr': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:19,531 - DEBUG - Vendeur 'REVOLUTIONPHONE' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:19,532 - DEBUG - Pause de 8.33 secondes avant de scraper la page du vendeur 'REVOLUTIONPHONE'.
+2025-03-26 00:23:28,486 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/REVOLUTIONPHONE HTTP/1.1" 200 None
+2025-03-26 00:23:28,583 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/REVOLUTIONPHONE avec le statut 200.
+2025-03-26 00:23:28,962 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour REVOLUTIONPHONE.
+2025-03-26 00:23:28,963 - DEBUG - Scraping échoué pour le vendeur 'REVOLUTIONPHONE'. Aucune mise à jour du cache.
+2025-03-26 00:23:28,963 - DEBUG - Informations mises à jour pour le vendeur 'REVOLUTIONPHONE': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:28,964 - DEBUG - Vendeur 'Avanturis' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:28,964 - DEBUG - Pause de 6.94 secondes avant de scraper la page du vendeur 'Avanturis'.
+2025-03-26 00:23:36,612 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Avanturis HTTP/1.1" 200 None
+2025-03-26 00:23:36,732 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Avanturis avec le statut 200.
+2025-03-26 00:23:37,097 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Avanturis.
+2025-03-26 00:23:37,097 - DEBUG - Scraping échoué pour le vendeur 'Avanturis'. Aucune mise à jour du cache.
+2025-03-26 00:23:37,097 - DEBUG - Informations mises à jour pour le vendeur 'Avanturis': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:37,099 - DEBUG - Vendeur 'LBDNet' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:37,099 - DEBUG - Pause de 5.63 secondes avant de scraper la page du vendeur 'LBDNet'.
+2025-03-26 00:23:43,703 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/LBDNet HTTP/1.1" 200 None
+2025-03-26 00:23:43,851 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/LBDNet avec le statut 200.
+2025-03-26 00:23:44,427 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour LBDNet.
+2025-03-26 00:23:44,427 - DEBUG - Scraping échoué pour le vendeur 'LBDNet'. Aucune mise à jour du cache.
+2025-03-26 00:23:44,427 - DEBUG - Informations mises à jour pour le vendeur 'LBDNet': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:44,429 - DEBUG - Vendeur 'TiendaSig21' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:44,429 - DEBUG - Pause de 5.62 secondes avant de scraper la page du vendeur 'TiendaSig21'.
+2025-03-26 00:23:50,994 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/TiendaSig21 HTTP/1.1" 200 None
+2025-03-26 00:23:51,013 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/TiendaSig21 avec le statut 200.
+2025-03-26 00:23:51,384 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour TiendaSig21.
+2025-03-26 00:23:51,539 - DEBUG - Scraping échoué pour le vendeur 'TiendaSig21'. Aucune mise à jour du cache.
+2025-03-26 00:23:51,539 - DEBUG - Informations mises à jour pour le vendeur 'TiendaSig21': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:23:51,540 - DEBUG - Vendeur 'SUPER10-fr' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:23:51,541 - DEBUG - Pause de 9.76 secondes avant de scraper la page du vendeur 'SUPER10-fr'.
+2025-03-26 00:24:02,207 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SUPER10-fr HTTP/1.1" 200 None
+2025-03-26 00:24:02,311 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SUPER10-fr avec le statut 200.
+2025-03-26 00:24:02,680 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SUPER10-fr.
+2025-03-26 00:24:02,680 - DEBUG - Scraping échoué pour le vendeur 'SUPER10-fr'. Aucune mise à jour du cache.
+2025-03-26 00:24:02,680 - DEBUG - Informations mises à jour pour le vendeur 'SUPER10-fr': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:02,682 - DEBUG - Vendeur 'C_store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:02,682 - DEBUG - Pause de 5.45 secondes avant de scraper la page du vendeur 'C_store'.
+2025-03-26 00:24:09,104 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/C_store HTTP/1.1" 200 None
+2025-03-26 00:24:09,226 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/C_store avec le statut 200.
+2025-03-26 00:24:09,598 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour C_store.
+2025-03-26 00:24:09,599 - DEBUG - Scraping échoué pour le vendeur 'C_store'. Aucune mise à jour du cache.
+2025-03-26 00:24:09,599 - DEBUG - Informations mises à jour pour le vendeur 'C_store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:09,600 - DEBUG - Vendeur 'rarewaves-uk' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:09,601 - DEBUG - Pause de 8.19 secondes avant de scraper la page du vendeur 'rarewaves-uk'.
+2025-03-26 00:24:18,980 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/rarewaves-uk HTTP/1.1" 200 None
+2025-03-26 00:24:19,098 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/rarewaves-uk avec le statut 200.
+2025-03-26 00:24:19,741 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour rarewaves-uk.
+2025-03-26 00:24:19,741 - DEBUG - Scraping échoué pour le vendeur 'rarewaves-uk'. Aucune mise à jour du cache.
+2025-03-26 00:24:19,741 - DEBUG - Informations mises à jour pour le vendeur 'rarewaves-uk': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:19,743 - DEBUG - Vendeur 'ESSEBI_SHOP' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:19,743 - DEBUG - Pause de 5.14 secondes avant de scraper la page du vendeur 'ESSEBI_SHOP'.
+2025-03-26 00:24:25,518 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/ESSEBI_SHOP HTTP/1.1" 200 None
+2025-03-26 00:24:25,637 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/ESSEBI_SHOP avec le statut 200.
+2025-03-26 00:24:26,008 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour ESSEBI_SHOP.
+2025-03-26 00:24:26,009 - DEBUG - Scraping échoué pour le vendeur 'ESSEBI_SHOP'. Aucune mise à jour du cache.
+2025-03-26 00:24:26,009 - DEBUG - Informations mises à jour pour le vendeur 'ESSEBI_SHOP': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:26,010 - DEBUG - Vendeur 'M_plus_L' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:26,011 - DEBUG - Pause de 6.58 secondes avant de scraper la page du vendeur 'M_plus_L'.
+2025-03-26 00:24:33,157 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/M_plus_L HTTP/1.1" 200 None
+2025-03-26 00:24:33,285 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/M_plus_L avec le statut 200.
+2025-03-26 00:24:33,663 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour M_plus_L.
+2025-03-26 00:24:33,663 - DEBUG - Scraping échoué pour le vendeur 'M_plus_L'. Aucune mise à jour du cache.
+2025-03-26 00:24:33,663 - DEBUG - Informations mises à jour pour le vendeur 'M_plus_L': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:33,665 - DEBUG - Vendeur 'OMAXI' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:33,665 - DEBUG - Pause de 7.23 secondes avant de scraper la page du vendeur 'OMAXI'.
+2025-03-26 00:24:41,827 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/OMAXI HTTP/1.1" 200 None
+2025-03-26 00:24:41,932 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/OMAXI avec le statut 200.
+2025-03-26 00:24:42,539 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour OMAXI.
+2025-03-26 00:24:42,540 - DEBUG - Scraping échoué pour le vendeur 'OMAXI'. Aucune mise à jour du cache.
+2025-03-26 00:24:42,540 - DEBUG - Informations mises à jour pour le vendeur 'OMAXI': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:42,542 - DEBUG - Vendeur 'PHOENIXLOG' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:42,542 - DEBUG - Pause de 8.59 secondes avant de scraper la page du vendeur 'PHOENIXLOG'.
+2025-03-26 00:24:51,866 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/PHOENIXLOG HTTP/1.1" 200 None
+2025-03-26 00:24:51,981 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/PHOENIXLOG avec le statut 200.
+2025-03-26 00:24:52,360 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour PHOENIXLOG.
+2025-03-26 00:24:52,361 - DEBUG - Scraping échoué pour le vendeur 'PHOENIXLOG'. Aucune mise à jour du cache.
+2025-03-26 00:24:52,361 - DEBUG - Informations mises à jour pour le vendeur 'PHOENIXLOG': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:24:52,363 - DEBUG - Vendeur 'Dragon-Arts' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:24:52,363 - DEBUG - Pause de 6.60 secondes avant de scraper la page du vendeur 'Dragon-Arts'.
+2025-03-26 00:24:59,481 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Dragon-Arts HTTP/1.1" 200 None
+2025-03-26 00:24:59,659 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Dragon-Arts avec le statut 200.
+2025-03-26 00:25:00,024 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Dragon-Arts.
+2025-03-26 00:25:00,024 - DEBUG - Scraping échoué pour le vendeur 'Dragon-Arts'. Aucune mise à jour du cache.
+2025-03-26 00:25:00,024 - DEBUG - Informations mises à jour pour le vendeur 'Dragon-Arts': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:00,026 - DEBUG - Vendeur 'HYSHOP' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:00,026 - DEBUG - Pause de 9.96 secondes avant de scraper la page du vendeur 'HYSHOP'.
+2025-03-26 00:25:10,554 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/HYSHOP HTTP/1.1" 200 None
+2025-03-26 00:25:10,704 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/HYSHOP avec le statut 200.
+2025-03-26 00:25:11,073 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour HYSHOP.
+2025-03-26 00:25:11,073 - DEBUG - Scraping échoué pour le vendeur 'HYSHOP'. Aucune mise à jour du cache.
+2025-03-26 00:25:11,073 - DEBUG - Informations mises à jour pour le vendeur 'HYSHOP': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:11,075 - DEBUG - Vendeur 'SRshop' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:11,075 - DEBUG - Pause de 9.84 secondes avant de scraper la page du vendeur 'SRshop'.
+2025-03-26 00:25:21,857 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SRshop HTTP/1.1" 200 None
+2025-03-26 00:25:22,022 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SRshop avec le statut 200.
+2025-03-26 00:25:22,658 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SRshop.
+2025-03-26 00:25:22,658 - DEBUG - Scraping échoué pour le vendeur 'SRshop'. Aucune mise à jour du cache.
+2025-03-26 00:25:22,659 - DEBUG - Informations mises à jour pour le vendeur 'SRshop': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:22,660 - DEBUG - Vendeur 'UnicatBV' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:22,660 - DEBUG - Pause de 8.32 secondes avant de scraper la page du vendeur 'UnicatBV'.
+2025-03-26 00:25:31,551 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/UnicatBV HTTP/1.1" 200 None
+2025-03-26 00:25:31,627 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/UnicatBV avec le statut 200.
+2025-03-26 00:25:31,989 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour UnicatBV.
+2025-03-26 00:25:31,990 - DEBUG - Scraping échoué pour le vendeur 'UnicatBV'. Aucune mise à jour du cache.
+2025-03-26 00:25:31,990 - DEBUG - Informations mises à jour pour le vendeur 'UnicatBV': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:31,992 - DEBUG - Vendeur 'Effik_store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:31,992 - DEBUG - Pause de 6.17 secondes avant de scraper la page du vendeur 'Effik_store'.
+2025-03-26 00:25:38,670 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Effik_store HTTP/1.1" 200 None
+2025-03-26 00:25:38,916 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Effik_store avec le statut 200.
+2025-03-26 00:25:39,286 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Effik_store.
+2025-03-26 00:25:39,287 - DEBUG - Scraping échoué pour le vendeur 'Effik_store'. Aucune mise à jour du cache.
+2025-03-26 00:25:39,287 - DEBUG - Informations mises à jour pour le vendeur 'Effik_store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:39,289 - DEBUG - Vendeur 'Madel-Shop-Store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:39,289 - DEBUG - Pause de 8.28 secondes avant de scraper la page du vendeur 'Madel-Shop-Store'.
+2025-03-26 00:25:48,641 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Madel-Shop-Store HTTP/1.1" 200 None
+2025-03-26 00:25:48,790 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Madel-Shop-Store avec le statut 200.
+2025-03-26 00:25:49,165 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Madel-Shop-Store.
+2025-03-26 00:25:49,166 - DEBUG - Scraping échoué pour le vendeur 'Madel-Shop-Store'. Aucune mise à jour du cache.
+2025-03-26 00:25:49,166 - DEBUG - Informations mises à jour pour le vendeur 'Madel-Shop-Store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:49,168 - DEBUG - Vendeur 'store_univers' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:49,168 - DEBUG - Pause de 6.65 secondes avant de scraper la page du vendeur 'store_univers'.
+2025-03-26 00:25:56,599 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/store_univers HTTP/1.1" 200 None
+2025-03-26 00:25:56,870 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/store_univers avec le statut 200.
+2025-03-26 00:25:57,476 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour store_univers.
+2025-03-26 00:25:57,476 - DEBUG - Scraping échoué pour le vendeur 'store_univers'. Aucune mise à jour du cache.
+2025-03-26 00:25:57,476 - DEBUG - Informations mises à jour pour le vendeur 'store_univers': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:25:57,478 - DEBUG - Vendeur 'AntonellaMarket' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:25:57,478 - DEBUG - Pause de 7.28 secondes avant de scraper la page du vendeur 'AntonellaMarket'.
+2025-03-26 00:26:05,640 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/AntonellaMarket HTTP/1.1" 200 None
+2025-03-26 00:26:05,814 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/AntonellaMarket avec le statut 200.
+2025-03-26 00:26:06,178 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour AntonellaMarket.
+2025-03-26 00:26:06,179 - DEBUG - Scraping échoué pour le vendeur 'AntonellaMarket'. Aucune mise à jour du cache.
+2025-03-26 00:26:06,179 - DEBUG - Informations mises à jour pour le vendeur 'AntonellaMarket': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:26:06,181 - DEBUG - Vendeur 'ACRECIA' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:26:06,181 - DEBUG - Pause de 8.71 secondes avant de scraper la page du vendeur 'ACRECIA'.
+2025-03-26 00:26:15,724 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/ACRECIA HTTP/1.1" 200 None
+2025-03-26 00:26:15,841 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/ACRECIA avec le statut 200.
+2025-03-26 00:26:16,213 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour ACRECIA.
+2025-03-26 00:26:16,214 - DEBUG - Scraping échoué pour le vendeur 'ACRECIA'. Aucune mise à jour du cache.
+2025-03-26 00:26:16,214 - DEBUG - Informations mises à jour pour le vendeur 'ACRECIA': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:26:16,216 - DEBUG - Vendeur 'SBO-Digital' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:26:16,216 - DEBUG - Pause de 6.20 secondes avant de scraper la page du vendeur 'SBO-Digital'.
+2025-03-26 00:26:23,046 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SBO-Digital HTTP/1.1" 200 None
+2025-03-26 00:26:23,147 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SBO-Digital avec le statut 200.
+2025-03-26 00:26:23,759 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SBO-Digital.
+2025-03-26 00:26:23,760 - DEBUG - Scraping échoué pour le vendeur 'SBO-Digital'. Aucune mise à jour du cache.
+2025-03-26 00:26:23,760 - DEBUG - Informations mises à jour pour le vendeur 'SBO-Digital': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:26:23,762 - DEBUG - 35 nouvelles offres à enregistrer dans le CSV.
+2025-03-26 00:26:23,762 - DEBUG - Création d'un nouveau fichier CSV avec 35 offres.
+2025-03-26 00:26:23,811 - INFO - Données sauvegardées avec succès dans Rakuten_data.csv
+2025-03-26 00:26:23,812 - INFO - Données sauvegardées pour A1b avec 35 offres
+2025-03-26 00:26:23,812 - DEBUG - Temps de scraping: 227.34s. Pause de 17.82s avant la suite.
+2025-03-26 00:26:41,648 - DEBUG - PID: 13159484187, CID: 12362131 extraits de l'URL: https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2025-03-26 00:26:41,649 - DEBUG - Début du scraping pour ID A1c à l'URL https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187.
+2025-03-26 00:26:41,740 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /mfp/12362131/apple-iphone-16?pid=13159484187 HTTP/1.1" 200 71078
+2025-03-26 00:26:41,753 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187 avec le statut 200.
+2025-03-26 00:26:42,028 - DEBUG - Données JSON parsées pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187.
+2025-03-26 00:26:42,029 - DEBUG - 58 offres trouvées sur la page principale pour le produit A1c.
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '729.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'POMMEGEAR'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '750.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'younesse96'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '759.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Asgoodasnew'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '810.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ULTRASERVICES'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '815.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TBEInt'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '829.0', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pixmania'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '829.88', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bestorye'}
+2025-03-26 00:26:42,029 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '829.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'POMMEGEAR'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '829.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'MyGlobal'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '834.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Castelloshop'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '839.0', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_groupon'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '874.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bongadgets'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '879.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Alloccaz'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '879.88', 'shipcost': '14.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Echo_Tech'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '884.64', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pccomponentes'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '879.0', 'shipcost': '16.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_alternate'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '899.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Alloccaz'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '900.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LANGEVASTORE'}
+2025-03-26 00:26:42,030 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '899.0', 'shipcost': '5.9', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Eleclerc'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '919.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Boulanger'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '921.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_BHV'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '923.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'DARTY'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '923.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Carrefour'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '923.0', 'shipcost': '10.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_sfr'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '941.65', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'REVOLUTIONPHONE'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '949.68', 'shipcost': '14.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Echo_Tech'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '988.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Tuxinheshop'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '991.18', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Avanturis'}
+2025-03-26 00:26:42,031 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '982.82', 'shipcost': '16.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'NovoNest'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1037.82', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LBDNet'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1038.22', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OmniDistri'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1050.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'IPHONE-SHOP-BY-SHOP'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1040.67', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TiendaSig21'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1066.94', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'elplace'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1066.94', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'elplace'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1097.76', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Electropolis'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1130.2', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SUPER10-fr'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1133.94', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'mmzci'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1149.01', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'C_store'}
+2025-03-26 00:26:42,032 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1175.79', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1201.73', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1221.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Topromo'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1223.92', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'M_plus_L'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1285.44', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1296.64', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OMAXI'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1317.15', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'PHOENIXLOG'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1326.27', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Dragon-Arts'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1317.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'HYSHOP'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1324.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:26:42,033 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1352.61', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'UnicatBV'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1366.26', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SRshop'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1464.59', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Effik_store'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1461.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1549.95', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1573.65', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'AntonellaMarket'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1558.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1679.4', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ACRECIA'}
+2025-03-26 00:26:42,034 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:26', 'price': '1999.9', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SBO-Digital'}
+2025-03-26 00:26:42,034 - DEBUG - 58 offres traitées sur la page principale pour A1c.
+2025-03-26 00:26:42,034 - DEBUG - Nombre total d'offres trouvées : 58
+2025-03-26 00:26:42,036 - DEBUG - Vendeur 'POMMEGEAR' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:26:42,036 - DEBUG - Pause de 6.61 secondes avant de scraper la page du vendeur 'POMMEGEAR'.
+2025-03-26 00:26:48,954 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/POMMEGEAR HTTP/1.1" 200 None
+2025-03-26 00:26:49,063 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/POMMEGEAR avec le statut 200.
+2025-03-26 00:26:49,233 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour POMMEGEAR.
+2025-03-26 00:26:49,233 - DEBUG - Scraping échoué pour le vendeur 'POMMEGEAR'. Aucune mise à jour du cache.
+2025-03-26 00:26:49,233 - DEBUG - Informations mises à jour pour le vendeur 'POMMEGEAR': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:26:49,235 - DEBUG - Vendeur 'younesse96' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:26:49,235 - DEBUG - Pause de 5.86 secondes avant de scraper la page du vendeur 'younesse96'.
+2025-03-26 00:26:55,392 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/younesse96 HTTP/1.1" 200 None
+2025-03-26 00:26:55,443 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/younesse96 avec le statut 200.
+2025-03-26 00:26:55,519 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour younesse96.
+2025-03-26 00:26:55,519 - DEBUG - Scraping échoué pour le vendeur 'younesse96'. Aucune mise à jour du cache.
+2025-03-26 00:26:55,519 - DEBUG - Informations mises à jour pour le vendeur 'younesse96': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:26:55,519 - DEBUG - Vendeur 'ClubR_Asgoodasnew' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:26:55,558 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Asgoodasnew': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:26:55,559 - DEBUG - Vendeur 'ULTRASERVICES' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:26:55,559 - DEBUG - Pause de 5.76 secondes avant de scraper la page du vendeur 'ULTRASERVICES'.
+2025-03-26 00:27:01,840 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/ULTRASERVICES HTTP/1.1" 200 None
+2025-03-26 00:27:02,015 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/ULTRASERVICES avec le statut 200.
+2025-03-26 00:27:02,346 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour ULTRASERVICES.
+2025-03-26 00:27:02,346 - DEBUG - Scraping échoué pour le vendeur 'ULTRASERVICES'. Aucune mise à jour du cache.
+2025-03-26 00:27:02,346 - DEBUG - Informations mises à jour pour le vendeur 'ULTRASERVICES': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:02,348 - DEBUG - Vendeur 'TBEInt' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:27:02,348 - DEBUG - Pause de 9.96 secondes avant de scraper la page du vendeur 'TBEInt'.
+2025-03-26 00:27:12,717 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/TBEInt HTTP/1.1" 200 None
+2025-03-26 00:27:12,814 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/TBEInt avec le statut 200.
+2025-03-26 00:27:12,989 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour TBEInt.
+2025-03-26 00:27:12,990 - DEBUG - Scraping échoué pour le vendeur 'TBEInt'. Aucune mise à jour du cache.
+2025-03-26 00:27:13,015 - DEBUG - Informations mises à jour pour le vendeur 'TBEInt': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:13,015 - DEBUG - Vendeur 'ClubR_Pixmania' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:27:13,020 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pixmania': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:13,022 - DEBUG - Vendeur 'Bestorye' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:27:13,022 - DEBUG - Pause de 6.24 secondes avant de scraper la page du vendeur 'Bestorye'.
+2025-03-26 00:27:19,826 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Bestorye HTTP/1.1" 200 None
+2025-03-26 00:27:19,952 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Bestorye avec le statut 200.
+2025-03-26 00:27:20,573 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Bestorye.
+2025-03-26 00:27:20,573 - DEBUG - Scraping échoué pour le vendeur 'Bestorye'. Aucune mise à jour du cache.
+2025-03-26 00:27:20,573 - DEBUG - Informations mises à jour pour le vendeur 'Bestorye': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:20,575 - DEBUG - Vendeur 'MyGlobal' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:27:20,575 - DEBUG - Pause de 5.65 secondes avant de scraper la page du vendeur 'MyGlobal'.
+2025-03-26 00:27:38,762 - DEBUG - Aucun cache des vendeurs trouvé. Création d'un nouveau cache vide.
+2025-03-26 00:27:39,053 - DEBUG - Excel chargé avec 62 lignes.
+2025-03-26 00:27:39,056 - DEBUG - 15 enregistrements valides après suppression des NA.
+2025-03-26 00:27:39,056 - DEBUG - 15 téléphones à scrapper.
+2025-03-26 00:27:39,056 - DEBUG - Intervalle entre chaque requête principale : 120.00 secondes.
+2025-03-26 00:27:39,057 - DEBUG - PID: 13159484183, CID: 12362131 extraits de l'URL: https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2025-03-26 00:27:39,057 - DEBUG - Début du scraping pour ID A1b à l'URL https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183.
+2025-03-26 00:27:39,061 - DEBUG - Starting new HTTPS connection (1): fr.shopping.rakuten.com:443
+2025-03-26 00:27:39,260 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /mfp/12362131/apple-iphone-16?pid=13159484183 HTTP/1.1" 200 69917
+2025-03-26 00:27:39,275 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183 avec le statut 200.
+2025-03-26 00:27:39,621 - DEBUG - Données JSON parsées pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183.
+2025-03-26 00:27:39,621 - DEBUG - 35 offres trouvées sur la page principale pour le produit A1b.
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '909.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Asgoodasnew'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '928.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'WANLITRADE'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '929.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'KNDigital'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '939.0', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pixmania'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '963.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Castelloshop'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1003.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bongadgets'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1035.0', 'shipcost': '5.9', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Eleclerc'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1049.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Boulanger'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1053.23', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pccomponentes'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1053.0', 'shipcost': '10.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_sfr'}
+2025-03-26 00:27:39,622 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1079.23', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'REVOLUTIONPHONE'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1123.25', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Avanturis'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1183.72', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LBDNet'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1186.9', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TiendaSig21'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1224.36', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SUPER10-fr'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1310.45', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'C_store'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1339.69', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1383.31', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1400.61', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1412.26', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'M_plus_L'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1478.69', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1480.31', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OMAXI'}
+2025-03-26 00:27:39,623 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1505.05', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'PHOENIXLOG'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1514.17', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Dragon-Arts'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1505.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'HYSHOP'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1559.83', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SRshop'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1608.24', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'UnicatBV'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1672.29', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Effik_store'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1689.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1774.32', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1772.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1796.93', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'AntonellaMarket'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1787.27', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1919.0', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ACRECIA'}
+2025-03-26 00:27:39,624 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:27', 'price': '1999.9', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SBO-Digital'}
+2025-03-26 00:27:39,625 - DEBUG - 35 offres traitées sur la page principale pour A1b.
+2025-03-26 00:27:39,625 - DEBUG - Nombre total d'offres trouvées : 35
+2025-03-26 00:27:39,625 - DEBUG - Vendeur 'ClubR_Asgoodasnew' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:27:39,630 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Asgoodasnew': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:39,632 - DEBUG - Vendeur 'WANLITRADE' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:27:39,632 - DEBUG - Pause de 7.31 secondes avant de scraper la page du vendeur 'WANLITRADE'.
+2025-03-26 00:27:47,281 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/WANLITRADE HTTP/1.1" 200 None
+2025-03-26 00:27:47,374 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/WANLITRADE avec le statut 200.
+2025-03-26 00:27:47,744 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour WANLITRADE.
+2025-03-26 00:27:47,745 - DEBUG - Scraping échoué pour le vendeur 'WANLITRADE'. Aucune mise à jour du cache.
+2025-03-26 00:27:47,745 - DEBUG - Informations mises à jour pour le vendeur 'WANLITRADE': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:47,746 - DEBUG - Vendeur 'KNDigital' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:27:47,747 - DEBUG - Pause de 9.44 secondes avant de scraper la page du vendeur 'KNDigital'.
+2025-03-26 00:27:57,754 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/KNDigital HTTP/1.1" 200 None
+2025-03-26 00:27:57,828 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/KNDigital avec le statut 200.
+2025-03-26 00:27:58,206 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour KNDigital.
+2025-03-26 00:27:58,206 - DEBUG - Scraping échoué pour le vendeur 'KNDigital'. Aucune mise à jour du cache.
+2025-03-26 00:27:58,206 - DEBUG - Informations mises à jour pour le vendeur 'KNDigital': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:58,207 - DEBUG - Vendeur 'ClubR_Pixmania' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:27:58,210 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pixmania': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:27:58,211 - DEBUG - Vendeur 'Castelloshop' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:27:58,212 - DEBUG - Pause de 8.95 secondes avant de scraper la page du vendeur 'Castelloshop'.
+2025-03-26 00:28:07,690 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Castelloshop HTTP/1.1" 200 None
+2025-03-26 00:28:07,911 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Castelloshop avec le statut 200.
+2025-03-26 00:28:08,288 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Castelloshop.
+2025-03-26 00:28:08,289 - DEBUG - Scraping échoué pour le vendeur 'Castelloshop'. Aucune mise à jour du cache.
+2025-03-26 00:28:08,289 - DEBUG - Informations mises à jour pour le vendeur 'Castelloshop': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:08,290 - DEBUG - Vendeur 'Bongadgets' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:28:08,291 - DEBUG - Pause de 9.82 secondes avant de scraper la page du vendeur 'Bongadgets'.
+2025-03-26 00:28:18,503 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Bongadgets HTTP/1.1" 200 None
+2025-03-26 00:28:18,610 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Bongadgets avec le statut 200.
+2025-03-26 00:28:19,206 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Bongadgets.
+2025-03-26 00:28:19,207 - DEBUG - Scraping échoué pour le vendeur 'Bongadgets'. Aucune mise à jour du cache.
+2025-03-26 00:28:19,207 - DEBUG - Informations mises à jour pour le vendeur 'Bongadgets': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:19,207 - DEBUG - Vendeur 'ClubR_Eleclerc' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:28:19,211 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Eleclerc': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:19,212 - DEBUG - Vendeur 'Boulanger' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:28:19,212 - DEBUG - Pause de 6.79 secondes avant de scraper la page du vendeur 'Boulanger'.
+2025-03-26 00:28:26,130 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Boulanger HTTP/1.1" 301 273
+2025-03-26 00:28:26,473 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /event/boulanger?landing=boulanger HTTP/1.1" 200 None
+2025-03-26 00:28:26,486 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Boulanger avec le statut 200.
+2025-03-26 00:28:26,567 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Boulanger.
+2025-03-26 00:28:26,568 - DEBUG - Scraping échoué pour le vendeur 'Boulanger'. Aucune mise à jour du cache.
+2025-03-26 00:28:26,568 - DEBUG - Informations mises à jour pour le vendeur 'Boulanger': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:26,568 - DEBUG - Vendeur 'ClubR_Pccomponentes' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:28:26,572 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pccomponentes': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:26,572 - DEBUG - Vendeur 'ClubR_sfr' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:28:26,575 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_sfr': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:26,576 - DEBUG - Vendeur 'REVOLUTIONPHONE' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:28:26,576 - DEBUG - Pause de 9.92 secondes avant de scraper la page du vendeur 'REVOLUTIONPHONE'.
+2025-03-26 00:28:36,828 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/REVOLUTIONPHONE HTTP/1.1" 200 None
+2025-03-26 00:28:36,914 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/REVOLUTIONPHONE avec le statut 200.
+2025-03-26 00:28:37,295 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour REVOLUTIONPHONE.
+2025-03-26 00:28:37,295 - DEBUG - Scraping échoué pour le vendeur 'REVOLUTIONPHONE'. Aucune mise à jour du cache.
+2025-03-26 00:28:37,295 - DEBUG - Informations mises à jour pour le vendeur 'REVOLUTIONPHONE': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:37,296 - DEBUG - Vendeur 'Avanturis' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:28:37,297 - DEBUG - Pause de 8.53 secondes avant de scraper la page du vendeur 'Avanturis'.
+2025-03-26 00:28:46,238 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Avanturis HTTP/1.1" 200 None
+2025-03-26 00:28:46,385 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Avanturis avec le statut 200.
+2025-03-26 00:28:46,748 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Avanturis.
+2025-03-26 00:28:46,749 - DEBUG - Scraping échoué pour le vendeur 'Avanturis'. Aucune mise à jour du cache.
+2025-03-26 00:28:46,749 - DEBUG - Informations mises à jour pour le vendeur 'Avanturis': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:46,751 - DEBUG - Vendeur 'LBDNet' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:28:46,751 - DEBUG - Pause de 8.37 secondes avant de scraper la page du vendeur 'LBDNet'.
+2025-03-26 00:28:55,728 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/LBDNet HTTP/1.1" 200 None
+2025-03-26 00:28:55,839 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/LBDNet avec le statut 200.
+2025-03-26 00:28:56,419 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour LBDNet.
+2025-03-26 00:28:56,419 - DEBUG - Scraping échoué pour le vendeur 'LBDNet'. Aucune mise à jour du cache.
+2025-03-26 00:28:56,419 - DEBUG - Informations mises à jour pour le vendeur 'LBDNet': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:28:56,421 - DEBUG - Vendeur 'TiendaSig21' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:28:56,421 - DEBUG - Pause de 5.66 secondes avant de scraper la page du vendeur 'TiendaSig21'.
+2025-03-26 00:29:02,492 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/TiendaSig21 HTTP/1.1" 200 None
+2025-03-26 00:29:02,585 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/TiendaSig21 avec le statut 200.
+2025-03-26 00:29:02,957 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour TiendaSig21.
+2025-03-26 00:29:02,958 - DEBUG - Scraping échoué pour le vendeur 'TiendaSig21'. Aucune mise à jour du cache.
+2025-03-26 00:29:02,958 - DEBUG - Informations mises à jour pour le vendeur 'TiendaSig21': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:02,960 - DEBUG - Vendeur 'SUPER10-fr' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:02,960 - DEBUG - Pause de 6.05 secondes avant de scraper la page du vendeur 'SUPER10-fr'.
+2025-03-26 00:29:09,482 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SUPER10-fr HTTP/1.1" 200 None
+2025-03-26 00:29:09,688 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SUPER10-fr avec le statut 200.
+2025-03-26 00:29:10,058 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SUPER10-fr.
+2025-03-26 00:29:10,059 - DEBUG - Scraping échoué pour le vendeur 'SUPER10-fr'. Aucune mise à jour du cache.
+2025-03-26 00:29:10,059 - DEBUG - Informations mises à jour pour le vendeur 'SUPER10-fr': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:10,061 - DEBUG - Vendeur 'C_store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:10,061 - DEBUG - Pause de 5.43 secondes avant de scraper la page du vendeur 'C_store'.
+2025-03-26 00:29:16,032 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/C_store HTTP/1.1" 200 None
+2025-03-26 00:29:16,114 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/C_store avec le statut 200.
+2025-03-26 00:29:16,502 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour C_store.
+2025-03-26 00:29:16,502 - DEBUG - Scraping échoué pour le vendeur 'C_store'. Aucune mise à jour du cache.
+2025-03-26 00:29:16,502 - DEBUG - Informations mises à jour pour le vendeur 'C_store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:16,504 - DEBUG - Vendeur 'rarewaves-uk' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:16,504 - DEBUG - Pause de 5.14 secondes avant de scraper la page du vendeur 'rarewaves-uk'.
+2025-03-26 00:29:22,210 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/rarewaves-uk HTTP/1.1" 200 None
+2025-03-26 00:29:22,305 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/rarewaves-uk avec le statut 200.
+2025-03-26 00:29:22,958 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour rarewaves-uk.
+2025-03-26 00:29:22,958 - DEBUG - Scraping échoué pour le vendeur 'rarewaves-uk'. Aucune mise à jour du cache.
+2025-03-26 00:29:22,959 - DEBUG - Informations mises à jour pour le vendeur 'rarewaves-uk': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:22,960 - DEBUG - Vendeur 'ESSEBI_SHOP' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:22,960 - DEBUG - Pause de 7.41 secondes avant de scraper la page du vendeur 'ESSEBI_SHOP'.
+2025-03-26 00:29:31,112 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/ESSEBI_SHOP HTTP/1.1" 200 None
+2025-03-26 00:29:31,182 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/ESSEBI_SHOP avec le statut 200.
+2025-03-26 00:29:31,566 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour ESSEBI_SHOP.
+2025-03-26 00:29:31,567 - DEBUG - Scraping échoué pour le vendeur 'ESSEBI_SHOP'. Aucune mise à jour du cache.
+2025-03-26 00:29:31,567 - DEBUG - Informations mises à jour pour le vendeur 'ESSEBI_SHOP': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:31,568 - DEBUG - Vendeur 'M_plus_L' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:31,569 - DEBUG - Pause de 6.56 secondes avant de scraper la page du vendeur 'M_plus_L'.
+2025-03-26 00:29:38,664 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/M_plus_L HTTP/1.1" 200 None
+2025-03-26 00:29:38,822 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/M_plus_L avec le statut 200.
+2025-03-26 00:29:39,200 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour M_plus_L.
+2025-03-26 00:29:39,200 - DEBUG - Scraping échoué pour le vendeur 'M_plus_L'. Aucune mise à jour du cache.
+2025-03-26 00:29:39,201 - DEBUG - Informations mises à jour pour le vendeur 'M_plus_L': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:39,208 - DEBUG - Vendeur 'OMAXI' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:39,208 - DEBUG - Pause de 9.76 secondes avant de scraper la page du vendeur 'OMAXI'.
+2025-03-26 00:29:49,532 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/OMAXI HTTP/1.1" 200 None
+2025-03-26 00:29:49,723 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/OMAXI avec le statut 200.
+2025-03-26 00:29:50,335 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour OMAXI.
+2025-03-26 00:29:50,336 - DEBUG - Scraping échoué pour le vendeur 'OMAXI'. Aucune mise à jour du cache.
+2025-03-26 00:29:50,336 - DEBUG - Informations mises à jour pour le vendeur 'OMAXI': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:50,338 - DEBUG - Vendeur 'PHOENIXLOG' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:50,338 - DEBUG - Pause de 5.09 secondes avant de scraper la page du vendeur 'PHOENIXLOG'.
+2025-03-26 00:29:55,974 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/PHOENIXLOG HTTP/1.1" 200 None
+2025-03-26 00:29:56,078 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/PHOENIXLOG avec le statut 200.
+2025-03-26 00:29:56,446 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour PHOENIXLOG.
+2025-03-26 00:29:56,447 - DEBUG - Scraping échoué pour le vendeur 'PHOENIXLOG'. Aucune mise à jour du cache.
+2025-03-26 00:29:56,447 - DEBUG - Informations mises à jour pour le vendeur 'PHOENIXLOG': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:29:56,449 - DEBUG - Vendeur 'Dragon-Arts' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:29:56,449 - DEBUG - Pause de 9.40 secondes avant de scraper la page du vendeur 'Dragon-Arts'.
+2025-03-26 00:30:06,407 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Dragon-Arts HTTP/1.1" 200 None
+2025-03-26 00:30:06,496 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Dragon-Arts avec le statut 200.
+2025-03-26 00:30:06,881 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Dragon-Arts.
+2025-03-26 00:30:06,882 - DEBUG - Scraping échoué pour le vendeur 'Dragon-Arts'. Aucune mise à jour du cache.
+2025-03-26 00:30:06,882 - DEBUG - Informations mises à jour pour le vendeur 'Dragon-Arts': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:30:06,884 - DEBUG - Vendeur 'HYSHOP' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:30:06,884 - DEBUG - Pause de 9.20 secondes avant de scraper la page du vendeur 'HYSHOP'.
+2025-03-26 00:30:17,102 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/HYSHOP HTTP/1.1" 200 None
+2025-03-26 00:30:17,196 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/HYSHOP avec le statut 200.
+2025-03-26 00:30:17,576 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour HYSHOP.
+2025-03-26 00:30:17,576 - DEBUG - Scraping échoué pour le vendeur 'HYSHOP'. Aucune mise à jour du cache.
+2025-03-26 00:30:17,576 - DEBUG - Informations mises à jour pour le vendeur 'HYSHOP': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:30:17,579 - DEBUG - Vendeur 'SRshop' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:30:17,579 - DEBUG - Pause de 8.25 secondes avant de scraper la page du vendeur 'SRshop'.
+2025-03-26 00:30:26,389 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SRshop HTTP/1.1" 200 None
+2025-03-26 00:30:26,548 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SRshop avec le statut 200.
+2025-03-26 00:30:27,194 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SRshop.
+2025-03-26 00:30:27,195 - DEBUG - Scraping échoué pour le vendeur 'SRshop'. Aucune mise à jour du cache.
+2025-03-26 00:30:27,195 - DEBUG - Informations mises à jour pour le vendeur 'SRshop': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:30:27,196 - DEBUG - Vendeur 'UnicatBV' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:30:27,197 - DEBUG - Pause de 9.03 secondes avant de scraper la page du vendeur 'UnicatBV'.
+2025-03-26 00:30:36,735 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/UnicatBV HTTP/1.1" 200 None
+2025-03-26 00:30:36,821 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/UnicatBV avec le statut 200.
+2025-03-26 00:30:37,190 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour UnicatBV.
+2025-03-26 00:30:37,190 - DEBUG - Scraping échoué pour le vendeur 'UnicatBV'. Aucune mise à jour du cache.
+2025-03-26 00:30:37,191 - DEBUG - Informations mises à jour pour le vendeur 'UnicatBV': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:30:37,192 - DEBUG - Vendeur 'Effik_store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:30:37,192 - DEBUG - Pause de 7.51 secondes avant de scraper la page du vendeur 'Effik_store'.
+2025-03-26 00:30:45,233 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Effik_store HTTP/1.1" 200 None
+2025-03-26 00:30:45,365 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Effik_store avec le statut 200.
+2025-03-26 00:30:45,738 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Effik_store.
+2025-03-26 00:30:45,739 - DEBUG - Scraping échoué pour le vendeur 'Effik_store'. Aucune mise à jour du cache.
+2025-03-26 00:30:45,739 - DEBUG - Informations mises à jour pour le vendeur 'Effik_store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:30:45,740 - DEBUG - Vendeur 'Madel-Shop-Store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:30:45,741 - DEBUG - Pause de 6.04 secondes avant de scraper la page du vendeur 'Madel-Shop-Store'.
+2025-03-26 00:30:52,794 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Madel-Shop-Store HTTP/1.1" 200 None
+2025-03-26 00:30:52,916 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Madel-Shop-Store avec le statut 200.
+2025-03-26 00:30:53,295 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Madel-Shop-Store.
+2025-03-26 00:30:53,295 - DEBUG - Scraping échoué pour le vendeur 'Madel-Shop-Store'. Aucune mise à jour du cache.
+2025-03-26 00:30:53,296 - DEBUG - Informations mises à jour pour le vendeur 'Madel-Shop-Store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:30:53,297 - DEBUG - Vendeur 'store_univers' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:30:53,297 - DEBUG - Pause de 7.56 secondes avant de scraper la page du vendeur 'store_univers'.
+2025-03-26 00:31:01,474 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/store_univers HTTP/1.1" 200 None
+2025-03-26 00:31:01,582 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/store_univers avec le statut 200.
+2025-03-26 00:31:02,204 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour store_univers.
+2025-03-26 00:31:02,204 - DEBUG - Scraping échoué pour le vendeur 'store_univers'. Aucune mise à jour du cache.
+2025-03-26 00:31:02,205 - DEBUG - Informations mises à jour pour le vendeur 'store_univers': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:31:02,206 - DEBUG - Vendeur 'AntonellaMarket' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:31:02,206 - DEBUG - Pause de 8.90 secondes avant de scraper la page du vendeur 'AntonellaMarket'.
+2025-03-26 00:31:12,018 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/AntonellaMarket HTTP/1.1" 200 None
+2025-03-26 00:31:12,216 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/AntonellaMarket avec le statut 200.
+2025-03-26 00:31:12,590 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour AntonellaMarket.
+2025-03-26 00:31:12,590 - DEBUG - Scraping échoué pour le vendeur 'AntonellaMarket'. Aucune mise à jour du cache.
+2025-03-26 00:31:12,591 - DEBUG - Informations mises à jour pour le vendeur 'AntonellaMarket': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:31:12,592 - DEBUG - Vendeur 'ACRECIA' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:31:12,592 - DEBUG - Pause de 9.97 secondes avant de scraper la page du vendeur 'ACRECIA'.
+2025-03-26 00:31:23,139 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/ACRECIA HTTP/1.1" 200 None
+2025-03-26 00:31:23,232 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/ACRECIA avec le statut 200.
+2025-03-26 00:31:23,600 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour ACRECIA.
+2025-03-26 00:31:23,601 - DEBUG - Scraping échoué pour le vendeur 'ACRECIA'. Aucune mise à jour du cache.
+2025-03-26 00:31:23,601 - DEBUG - Informations mises à jour pour le vendeur 'ACRECIA': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:31:23,602 - DEBUG - Vendeur 'SBO-Digital' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:31:23,603 - DEBUG - Pause de 5.89 secondes avant de scraper la page du vendeur 'SBO-Digital'.
+2025-03-26 00:31:29,775 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SBO-Digital HTTP/1.1" 200 None
+2025-03-26 00:31:29,898 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SBO-Digital avec le statut 200.
+2025-03-26 00:31:30,479 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SBO-Digital.
+2025-03-26 00:31:30,479 - DEBUG - Scraping échoué pour le vendeur 'SBO-Digital'. Aucune mise à jour du cache.
+2025-03-26 00:31:30,480 - DEBUG - Informations mises à jour pour le vendeur 'SBO-Digital': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:31:30,481 - DEBUG - 35 nouvelles offres à enregistrer dans le CSV.
+2025-03-26 00:31:30,482 - DEBUG - Fichier CSV existant trouvé : Rakuten_data.csv
+2025-03-26 00:31:30,499 - DEBUG - 35 offres existantes chargées.
+2025-03-26 00:31:30,504 - INFO - Données sauvegardées avec succès dans Rakuten_data.csv
+2025-03-26 00:31:30,504 - INFO - Données sauvegardées pour A1b avec 35 offres
+2025-03-26 00:31:30,504 - DEBUG - Temps de scraping: 231.45s. Pause de 19.02s avant la suite.
+2025-03-26 00:31:49,528 - DEBUG - PID: 13159484187, CID: 12362131 extraits de l'URL: https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187
+2025-03-26 00:31:49,528 - DEBUG - Début du scraping pour ID A1c à l'URL https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187.
+2025-03-26 00:31:49,580 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /mfp/12362131/apple-iphone-16?pid=13159484187 HTTP/1.1" 200 71078
+2025-03-26 00:31:49,591 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187 avec le statut 200.
+2025-03-26 00:31:49,865 - DEBUG - Données JSON parsées pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187.
+2025-03-26 00:31:49,865 - DEBUG - 58 offres trouvées sur la page principale pour le produit A1c.
+2025-03-26 00:31:49,865 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '729.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'POMMEGEAR'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '750.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'younesse96'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '759.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Asgoodasnew'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '810.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ULTRASERVICES'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '815.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TBEInt'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '829.0', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pixmania'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '829.88', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bestorye'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '829.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'POMMEGEAR'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '829.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'MyGlobal'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '834.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Castelloshop'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '839.0', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_groupon'}
+2025-03-26 00:31:49,866 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '874.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bongadgets'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '879.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Alloccaz'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '879.88', 'shipcost': '14.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Echo_Tech'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '884.64', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pccomponentes'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '879.0', 'shipcost': '16.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_alternate'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '899.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Alloccaz'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '900.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LANGEVASTORE'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '899.0', 'shipcost': '5.9', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Eleclerc'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '919.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Boulanger'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '921.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_BHV'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '923.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'DARTY'}
+2025-03-26 00:31:49,867 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '923.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Carrefour'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '923.0', 'shipcost': '10.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_sfr'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '941.65', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'REVOLUTIONPHONE'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '949.68', 'shipcost': '14.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Echo_Tech'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '988.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Tuxinheshop'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '991.18', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Avanturis'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '982.82', 'shipcost': '16.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'NovoNest'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1037.82', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LBDNet'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1038.22', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OmniDistri'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1050.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'UsedCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'IPHONE-SHOP-BY-SHOP'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1040.67', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TiendaSig21'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1066.94', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'elplace'}
+2025-03-26 00:31:49,868 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1066.94', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'elplace'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1097.76', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Electropolis'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1130.2', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SUPER10-fr'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1133.94', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'mmzci'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1149.01', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'C_store'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1175.79', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1201.73', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1221.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Topromo'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1223.92', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'M_plus_L'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1285.44', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1296.64', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OMAXI'}
+2025-03-26 00:31:49,869 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1317.15', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'PHOENIXLOG'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1326.27', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Dragon-Arts'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1317.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'HYSHOP'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1324.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1352.61', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'UnicatBV'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1366.26', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SRshop'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1464.59', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Effik_store'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1461.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1549.95', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1573.65', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'AntonellaMarket'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1558.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:31:49,870 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1679.4', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ACRECIA'}
+2025-03-26 00:31:49,871 - DEBUG - Offre traitée pour A1c : {'pfid': 'RAK', 'idsmartphone': 'A1c', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484187', 'timestamp': '2025/03/26 00:31', 'price': '1999.9', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SBO-Digital'}
+2025-03-26 00:31:49,871 - DEBUG - 58 offres traitées sur la page principale pour A1c.
+2025-03-26 00:31:49,871 - DEBUG - Nombre total d'offres trouvées : 58
+2025-03-26 00:31:49,872 - DEBUG - Vendeur 'POMMEGEAR' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:31:49,872 - DEBUG - Pause de 6.59 secondes avant de scraper la page du vendeur 'POMMEGEAR'.
+2025-03-26 00:31:56,702 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/POMMEGEAR HTTP/1.1" 200 None
+2025-03-26 00:31:56,801 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/POMMEGEAR avec le statut 200.
+2025-03-26 00:31:56,971 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour POMMEGEAR.
+2025-03-26 00:31:56,971 - DEBUG - Scraping échoué pour le vendeur 'POMMEGEAR'. Aucune mise à jour du cache.
+2025-03-26 00:31:56,971 - DEBUG - Informations mises à jour pour le vendeur 'POMMEGEAR': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:31:56,973 - DEBUG - Vendeur 'younesse96' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:31:56,973 - DEBUG - Pause de 8.10 secondes avant de scraper la page du vendeur 'younesse96'.
+2025-03-26 00:32:09,769 - DEBUG - Aucun cache des vendeurs trouvé. Création d'un nouveau cache vide.
+2025-03-26 00:32:10,062 - DEBUG - Excel chargé avec 62 lignes.
+2025-03-26 00:32:10,065 - DEBUG - 15 enregistrements valides après suppression des NA.
+2025-03-26 00:32:10,066 - DEBUG - 15 téléphones à scrapper.
+2025-03-26 00:32:10,066 - DEBUG - Intervalle entre chaque requête principale : 120.00 secondes.
+2025-03-26 00:32:10,066 - DEBUG - PID: 13159484183, CID: 12362131 extraits de l'URL: https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183
+2025-03-26 00:32:10,066 - DEBUG - Début du scraping pour ID A1b à l'URL https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183.
+2025-03-26 00:32:10,070 - DEBUG - Starting new HTTPS connection (1): fr.shopping.rakuten.com:443
+2025-03-26 00:32:10,289 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /mfp/12362131/apple-iphone-16?pid=13159484183 HTTP/1.1" 200 69917
+2025-03-26 00:32:10,305 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183 avec le statut 200.
+2025-03-26 00:32:10,646 - DEBUG - Données JSON parsées pour https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183.
+2025-03-26 00:32:10,646 - DEBUG - 35 offres trouvées sur la page principale pour le produit A1b.
+2025-03-26 00:32:10,646 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '909.0', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Asgoodasnew'}
+2025-03-26 00:32:10,646 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '928.99', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'WANLITRADE'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '929.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'KNDigital'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '939.0', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pixmania'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '963.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Castelloshop'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1003.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Bongadgets'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1035.0', 'shipcost': '5.9', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Eleclerc'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1049.0', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Boulanger'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1053.23', 'shipcost': '0.01', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_Pccomponentes'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1053.0', 'shipcost': '10.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ClubR_sfr'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1079.23', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'REVOLUTIONPHONE'}
+2025-03-26 00:32:10,647 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1123.25', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Avanturis'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1183.72', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'LBDNet'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1186.9', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'TiendaSig21'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1224.36', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SUPER10-fr'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1310.45', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'C_store'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1339.69', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1383.31', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1400.61', 'shipcost': '9.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ESSEBI_SHOP'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1412.26', 'shipcost': '3.99', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'M_plus_L'}
+2025-03-26 00:32:10,648 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1478.69', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'rarewaves-uk'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1480.31', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'OMAXI'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1505.05', 'shipcost': '6.49', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'PHOENIXLOG'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1514.17', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Dragon-Arts'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1505.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'HYSHOP'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1559.83', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SRshop'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1608.24', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'UnicatBV'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1672.29', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Effik_store'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1689.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1774.32', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:32:10,649 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1772.99', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'Madel-Shop-Store'}
+2025-03-26 00:32:10,650 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1796.93', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'AntonellaMarket'}
+2025-03-26 00:32:10,650 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1787.27', 'shipcost': '10.59', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'store_univers'}
+2025-03-26 00:32:10,650 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1919.0', 'shipcost': '18.89', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'ACRECIA'}
+2025-03-26 00:32:10,650 - DEBUG - Offre traitée pour A1b : {'pfid': 'RAK', 'idsmartphone': 'A1b', 'url': 'https://fr.shopping.rakuten.com/mfp/12362131/apple-iphone-16?pid=13159484183', 'timestamp': '2025/03/26 00:32', 'price': '1999.9', 'shipcost': '0.0', 'rating': <NA>, 'ratingnb': <NA>, 'offertype': 'NewCondition', 'offerdetails': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>, 'seller': 'SBO-Digital'}
+2025-03-26 00:32:10,650 - DEBUG - 35 offres traitées sur la page principale pour A1b.
+2025-03-26 00:32:10,650 - DEBUG - Nombre total d'offres trouvées : 35
+2025-03-26 00:32:10,650 - DEBUG - Vendeur 'ClubR_Asgoodasnew' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:32:10,655 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Asgoodasnew': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:10,657 - DEBUG - Vendeur 'WANLITRADE' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:10,657 - DEBUG - Pause de 6.84 secondes avant de scraper la page du vendeur 'WANLITRADE'.
+2025-03-26 00:32:17,987 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/WANLITRADE HTTP/1.1" 200 None
+2025-03-26 00:32:18,070 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/WANLITRADE avec le statut 200.
+2025-03-26 00:32:18,446 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour WANLITRADE.
+2025-03-26 00:32:18,446 - DEBUG - Scraping échoué pour le vendeur 'WANLITRADE'. Aucune mise à jour du cache.
+2025-03-26 00:32:18,446 - DEBUG - Informations mises à jour pour le vendeur 'WANLITRADE': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:18,448 - DEBUG - Vendeur 'KNDigital' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:18,448 - DEBUG - Pause de 8.07 secondes avant de scraper la page du vendeur 'KNDigital'.
+2025-03-26 00:32:26,922 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/KNDigital HTTP/1.1" 200 None
+2025-03-26 00:32:27,008 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/KNDigital avec le statut 200.
+2025-03-26 00:32:27,385 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour KNDigital.
+2025-03-26 00:32:27,386 - DEBUG - Scraping échoué pour le vendeur 'KNDigital'. Aucune mise à jour du cache.
+2025-03-26 00:32:27,386 - DEBUG - Informations mises à jour pour le vendeur 'KNDigital': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:27,386 - DEBUG - Vendeur 'ClubR_Pixmania' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:32:27,393 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pixmania': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:27,394 - DEBUG - Vendeur 'Castelloshop' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:27,395 - DEBUG - Pause de 7.74 secondes avant de scraper la page du vendeur 'Castelloshop'.
+2025-03-26 00:32:35,447 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Castelloshop HTTP/1.1" 200 None
+2025-03-26 00:32:35,527 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Castelloshop avec le statut 200.
+2025-03-26 00:32:35,899 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Castelloshop.
+2025-03-26 00:32:35,900 - DEBUG - Scraping échoué pour le vendeur 'Castelloshop'. Aucune mise à jour du cache.
+2025-03-26 00:32:35,900 - DEBUG - Informations mises à jour pour le vendeur 'Castelloshop': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:35,904 - DEBUG - Vendeur 'Bongadgets' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:35,904 - DEBUG - Pause de 5.87 secondes avant de scraper la page du vendeur 'Bongadgets'.
+2025-03-26 00:32:42,143 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Bongadgets HTTP/1.1" 200 None
+2025-03-26 00:32:42,252 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Bongadgets avec le statut 200.
+2025-03-26 00:32:42,819 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Bongadgets.
+2025-03-26 00:32:42,820 - DEBUG - Scraping échoué pour le vendeur 'Bongadgets'. Aucune mise à jour du cache.
+2025-03-26 00:32:42,820 - DEBUG - Informations mises à jour pour le vendeur 'Bongadgets': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:42,820 - DEBUG - Vendeur 'ClubR_Eleclerc' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:32:42,824 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Eleclerc': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:42,825 - DEBUG - Vendeur 'Boulanger' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:42,825 - DEBUG - Pause de 6.89 secondes avant de scraper la page du vendeur 'Boulanger'.
+2025-03-26 00:32:49,776 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Boulanger HTTP/1.1" 301 273
+2025-03-26 00:32:50,076 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /event/boulanger?landing=boulanger HTTP/1.1" 200 None
+2025-03-26 00:32:50,083 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Boulanger avec le statut 200.
+2025-03-26 00:32:50,158 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Boulanger.
+2025-03-26 00:32:50,159 - DEBUG - Scraping échoué pour le vendeur 'Boulanger'. Aucune mise à jour du cache.
+2025-03-26 00:32:50,159 - DEBUG - Informations mises à jour pour le vendeur 'Boulanger': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:50,159 - DEBUG - Vendeur 'ClubR_Pccomponentes' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:32:50,163 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_Pccomponentes': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:50,164 - DEBUG - Vendeur 'ClubR_sfr' commence par l'un des préfixes exclus ['Club_R_', 'ClubR_']. Enregistrement avec des NA.
+2025-03-26 00:32:50,167 - DEBUG - Informations mises à jour pour le vendeur 'ClubR_sfr': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:50,168 - DEBUG - Vendeur 'REVOLUTIONPHONE' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:50,168 - DEBUG - Pause de 8.63 secondes avant de scraper la page du vendeur 'REVOLUTIONPHONE'.
+2025-03-26 00:32:59,083 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/REVOLUTIONPHONE HTTP/1.1" 200 None
+2025-03-26 00:32:59,160 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/REVOLUTIONPHONE avec le statut 200.
+2025-03-26 00:32:59,537 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour REVOLUTIONPHONE.
+2025-03-26 00:32:59,537 - DEBUG - Scraping échoué pour le vendeur 'REVOLUTIONPHONE'. Aucune mise à jour du cache.
+2025-03-26 00:32:59,537 - DEBUG - Informations mises à jour pour le vendeur 'REVOLUTIONPHONE': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:32:59,541 - DEBUG - Vendeur 'Avanturis' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:32:59,541 - DEBUG - Pause de 6.94 secondes avant de scraper la page du vendeur 'Avanturis'.
+2025-03-26 00:33:07,212 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/Avanturis HTTP/1.1" 200 None
+2025-03-26 00:33:07,310 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/Avanturis avec le statut 200.
+2025-03-26 00:33:07,671 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour Avanturis.
+2025-03-26 00:33:07,672 - DEBUG - Scraping échoué pour le vendeur 'Avanturis'. Aucune mise à jour du cache.
+2025-03-26 00:33:07,672 - DEBUG - Informations mises à jour pour le vendeur 'Avanturis': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:07,673 - DEBUG - Vendeur 'LBDNet' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:07,673 - DEBUG - Pause de 5.11 secondes avant de scraper la page du vendeur 'LBDNet'.
+2025-03-26 00:33:13,526 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/LBDNet HTTP/1.1" 200 None
+2025-03-26 00:33:13,582 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/LBDNet avec le statut 200.
+2025-03-26 00:33:14,156 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour LBDNet.
+2025-03-26 00:33:14,156 - DEBUG - Scraping échoué pour le vendeur 'LBDNet'. Aucune mise à jour du cache.
+2025-03-26 00:33:14,156 - DEBUG - Informations mises à jour pour le vendeur 'LBDNet': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:14,158 - DEBUG - Vendeur 'TiendaSig21' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:14,158 - DEBUG - Pause de 8.87 secondes avant de scraper la page du vendeur 'TiendaSig21'.
+2025-03-26 00:33:23,703 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/TiendaSig21 HTTP/1.1" 200 None
+2025-03-26 00:33:23,885 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/TiendaSig21 avec le statut 200.
+2025-03-26 00:33:24,254 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour TiendaSig21.
+2025-03-26 00:33:24,255 - DEBUG - Scraping échoué pour le vendeur 'TiendaSig21'. Aucune mise à jour du cache.
+2025-03-26 00:33:24,255 - DEBUG - Informations mises à jour pour le vendeur 'TiendaSig21': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:24,257 - DEBUG - Vendeur 'SUPER10-fr' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:24,257 - DEBUG - Pause de 5.19 secondes avant de scraper la page du vendeur 'SUPER10-fr'.
+2025-03-26 00:33:30,200 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/SUPER10-fr HTTP/1.1" 200 None
+2025-03-26 00:33:30,314 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/SUPER10-fr avec le statut 200.
+2025-03-26 00:33:30,681 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour SUPER10-fr.
+2025-03-26 00:33:30,682 - DEBUG - Scraping échoué pour le vendeur 'SUPER10-fr'. Aucune mise à jour du cache.
+2025-03-26 00:33:30,682 - DEBUG - Informations mises à jour pour le vendeur 'SUPER10-fr': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:30,684 - DEBUG - Vendeur 'C_store' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:30,684 - DEBUG - Pause de 6.93 secondes avant de scraper la page du vendeur 'C_store'.
+2025-03-26 00:33:38,276 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/C_store HTTP/1.1" 200 None
+2025-03-26 00:33:38,355 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/C_store avec le statut 200.
+2025-03-26 00:33:38,723 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour C_store.
+2025-03-26 00:33:38,723 - DEBUG - Scraping échoué pour le vendeur 'C_store'. Aucune mise à jour du cache.
+2025-03-26 00:33:38,723 - DEBUG - Informations mises à jour pour le vendeur 'C_store': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:38,725 - DEBUG - Vendeur 'rarewaves-uk' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:38,725 - DEBUG - Pause de 7.12 secondes avant de scraper la page du vendeur 'rarewaves-uk'.
+2025-03-26 00:33:46,495 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/rarewaves-uk HTTP/1.1" 200 None
+2025-03-26 00:33:46,647 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/rarewaves-uk avec le statut 200.
+2025-03-26 00:33:47,258 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour rarewaves-uk.
+2025-03-26 00:33:47,258 - DEBUG - Scraping échoué pour le vendeur 'rarewaves-uk'. Aucune mise à jour du cache.
+2025-03-26 00:33:47,258 - DEBUG - Informations mises à jour pour le vendeur 'rarewaves-uk': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:47,260 - DEBUG - Vendeur 'ESSEBI_SHOP' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:47,260 - DEBUG - Pause de 8.17 secondes avant de scraper la page du vendeur 'ESSEBI_SHOP'.
+2025-03-26 00:33:55,880 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/ESSEBI_SHOP HTTP/1.1" 200 None
+2025-03-26 00:33:55,972 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/ESSEBI_SHOP avec le statut 200.
+2025-03-26 00:33:56,338 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour ESSEBI_SHOP.
+2025-03-26 00:33:56,339 - DEBUG - Scraping échoué pour le vendeur 'ESSEBI_SHOP'. Aucune mise à jour du cache.
+2025-03-26 00:33:56,339 - DEBUG - Informations mises à jour pour le vendeur 'ESSEBI_SHOP': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:33:56,341 - DEBUG - Vendeur 'M_plus_L' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:33:56,341 - DEBUG - Pause de 5.96 secondes avant de scraper la page du vendeur 'M_plus_L'.
+2025-03-26 00:34:02,872 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/M_plus_L HTTP/1.1" 200 None
+2025-03-26 00:34:02,948 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/M_plus_L avec le statut 200.
+2025-03-26 00:34:03,319 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour M_plus_L.
+2025-03-26 00:34:03,320 - DEBUG - Scraping échoué pour le vendeur 'M_plus_L'. Aucune mise à jour du cache.
+2025-03-26 00:34:03,320 - DEBUG - Informations mises à jour pour le vendeur 'M_plus_L': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:34:03,321 - DEBUG - Vendeur 'OMAXI' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:34:03,322 - DEBUG - Pause de 5.97 secondes avant de scraper la page du vendeur 'OMAXI'.
+2025-03-26 00:34:09,759 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/OMAXI HTTP/1.1" 200 None
+2025-03-26 00:34:09,851 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/OMAXI avec le statut 200.
+2025-03-26 00:34:10,450 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour OMAXI.
+2025-03-26 00:34:10,450 - DEBUG - Scraping échoué pour le vendeur 'OMAXI'. Aucune mise à jour du cache.
+2025-03-26 00:34:10,450 - DEBUG - Informations mises à jour pour le vendeur 'OMAXI': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:34:10,452 - DEBUG - Vendeur 'PHOENIXLOG' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:34:10,452 - DEBUG - Pause de 8.19 secondes avant de scraper la page du vendeur 'PHOENIXLOG'.
+2025-03-26 00:34:19,427 - DEBUG - https://fr.shopping.rakuten.com:443 "GET /boutique/PHOENIXLOG HTTP/1.1" 200 None
+2025-03-26 00:34:19,524 - DEBUG - Requête envoyée à https://fr.shopping.rakuten.com/boutique/PHOENIXLOG avec le statut 200.
+2025-03-26 00:34:19,879 - WARNING - Aucune balise script JSON contenant window.INITIAL_STORE.navandsearch trouvée pour PHOENIXLOG.
+2025-03-26 00:34:19,879 - DEBUG - Scraping échoué pour le vendeur 'PHOENIXLOG'. Aucune mise à jour du cache.
+2025-03-26 00:34:19,880 - DEBUG - Informations mises à jour pour le vendeur 'PHOENIXLOG': {'rating': <NA>, 'ratingnb': <NA>, 'shipcountry': <NA>, 'sellercountry': <NA>}
+2025-03-26 00:34:19,881 - DEBUG - Vendeur 'Dragon-Arts' non trouvé dans le cache. Scraping nécessaire.
+2025-03-26 00:34:19,881 - DEBUG - Pause de 5.92 secondes avant de scraper la page du vendeur 'Dragon-Arts'.
