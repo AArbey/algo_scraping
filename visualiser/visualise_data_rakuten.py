@@ -10,6 +10,9 @@ import time
 # Path to the CSV file
 csv_file = '/home/scraping/algo_scraping/RAKUTEN/Rakuten_data.csv'
 
+# Chemin vers le fichier lien.csv
+smartphone_csv_file = '/home/scraping/algo_scraping/lien.csv'
+
 # Define column names for the new CSV structure
 columns = [
     "pfid", "idsmartphone", "url", "timestamp", "price", "shipcost", 
@@ -56,10 +59,53 @@ def load_and_clean_data():
         # Fill missing seller names with "Unknown"
         data['seller'] = data['seller'].fillna("Unknown")
         
+        # Merge with smartphone models to replace idsmartphone with Phone
+        smartphone_models = load_smartphone_models(smartphone_csv_file)
+        data = data.merge(smartphone_models, on='idsmartphone', how='left')
+        
+        # Replace idsmartphone with Phone for visualization
+        data['idsmartphone'] = data['Phone']
+        data.drop(columns=['Phone'], inplace=True)  # Remove the Phone column after replacement
+        
         return data
     except Exception as e:
         print(f"Error loading and cleaning data: {e}")
         return pd.DataFrame(columns=columns)
+
+def load_smartphone_models(csv_file_path):
+    """
+    Charge les modèles de smartphones depuis le fichier lien.csv.
+    
+    Args:
+        csv_file_path (str): Chemin vers le fichier lien.csv.
+    
+    Returns:
+        pd.DataFrame: DataFrame contenant les colonnes 'Phone' et 'idsmartphone'.
+    """
+    try:
+        # Charger le fichier CSV
+        data = pd.read_csv(csv_file_path)
+        
+        # Vérifier si les colonnes nécessaires sont présentes
+        required_columns = ['Phone', 'idsmartphone']
+        if not all(col in data.columns for col in required_columns):
+            print(f"Les colonnes nécessaires {required_columns} sont absentes du fichier.")
+            return pd.DataFrame(columns=required_columns)
+        
+        # Extraire les colonnes nécessaires
+        smartphone_models = data[['Phone', 'idsmartphone']].dropna()
+        print(f"{len(smartphone_models)} modèles de smartphones chargés depuis {csv_file_path}.")
+        return smartphone_models
+    
+    except Exception as e:
+        print(f"Erreur lors du chargement des modèles de smartphones : {e}")
+        return pd.DataFrame(columns=['Phone', 'idsmartphone'])
+
+# Charger les modèles de smartphones
+smartphone_models = load_smartphone_models(smartphone_csv_file)
+
+# Afficher les modèles chargés (pour vérification)
+print(smartphone_models.head())
 
 # Initialize the Dash app
 app = Dash(__name__)
