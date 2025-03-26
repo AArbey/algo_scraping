@@ -19,31 +19,47 @@ columns = [
 
 # Function to load and clean the data
 def load_and_clean_data():
-    data = pd.read_csv(csv_file, sep=",", names=columns, skiprows=1, engine='python', on_bad_lines='skip')
-    
-    # Clean the data
-    data['price'] = data['price'].astype(str).str.replace('€', '').str.replace(',', '.').str.strip()
-    data = data[data['price'].notnull()]
-    data = data[data['price'].apply(lambda x: x.replace('.', '', 1).isdigit())]
-    data['price'] = data['price'].astype(float)
-    
-    # Handle missing values in 'shipcost'
-    data['shipcost'] = data['shipcost'].fillna(0).astype(float)
-    
-    # Convert 'rating' to numeric, fill missing with NaN
-    data['rating'] = pd.to_numeric(data['rating'], errors='coerce')
-    
-    # Convert 'timestamp' to datetime, drop rows with invalid timestamps
-    data['timestamp'] = pd.to_datetime(data['timestamp'], errors='coerce', dayfirst=True)
-    data = data[data['timestamp'].notnull()]
-    
-    # Round timestamps to the nearest 30 minutes
-    data['Rounded_Timestamp'] = data['timestamp'].dt.round('3min')
-    
-    # Fill missing seller names with "Unknown"
-    data['seller'] = data['seller'].fillna("Unknown")
-    
-    return data
+    try:
+        # Load the CSV file and let pandas infer column names
+        data = pd.read_csv(csv_file, sep=",", engine='python', on_bad_lines='skip')
+        
+        # Check if the file is empty
+        if data.empty:
+            print("The CSV file is empty.")
+            return pd.DataFrame(columns=columns)
+        
+        # Ensure the DataFrame has the expected columns
+        missing_columns = [col for col in columns if col not in data.columns]
+        if missing_columns:
+            print(f"Missing columns in the CSV file: {missing_columns}")
+            return pd.DataFrame(columns=columns)
+        
+        # Clean the data
+        data['price'] = data['price'].astype(str).str.replace('€', '').str.replace(',', '.').str.strip()
+        data = data[data['price'].notnull()]
+        data = data[data['price'].apply(lambda x: x.replace('.', '', 1).isdigit())]
+        data['price'] = data['price'].astype(float)
+        
+        # Handle missing values in 'shipcost'
+        data['shipcost'] = data['shipcost'].fillna(0).astype(float)
+        
+        # Convert 'rating' to numeric, fill missing with NaN
+        data['rating'] = pd.to_numeric(data['rating'], errors='coerce')
+        
+        # Convert 'timestamp' to datetime using the specified format
+        data['timestamp'] = pd.to_datetime(data['timestamp'], format='%Y/%m/%d %H:%M', errors='coerce')
+        data = data[data['timestamp'].notnull()]
+        
+        # Round timestamps to the nearest 30 minutes
+        data['Rounded_Timestamp'] = data['timestamp'].dt.round('30min')
+        
+        # Fill missing seller names with "Unknown"
+        data['seller'] = data['seller'].fillna("Unknown")
+        
+        return data
+    except Exception as e:
+        print(f"Error loading and cleaning data: {e}")
+        return pd.DataFrame(columns=columns)
 
 # Initialize the Dash app
 app = Dash(__name__)
