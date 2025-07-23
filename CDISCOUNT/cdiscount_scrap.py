@@ -25,7 +25,7 @@ SITE_KEY = "f6af350b-e1f0-4be9-847a-de731e69489a"
 
 HTML_SELECTORS = {
     "accept_condition": "footer_tc_privacy_button_2",
-    "search_bar": "c-form-input.type--search.js-search__input",
+    "search_bar": "sc-1drly4b-0 aXCZZ sc-1hfr0re-0 cjoXKP sc-1qy5nu7-9 bxlOqQ searchBar",
     "first_product": "alt-h4.u-line-clamp--2",
     "first_product_name": "h2 u-truncate",
     "first_product_price": "c-price c-price--promo c-price--xs",
@@ -155,17 +155,64 @@ def accept_condition(driver):
 def search_product(driver, search_query):
     print("------------------search_product--------------------")
     try:
-        search_bar = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, HTML_SELECTORS["search_bar"])))
-        driver.execute_script("arguments[0].scrollIntoView(true);", search_bar)
-        search_bar.click()
-        search_bar.clear()
-        search_bar.send_keys(Keys.CONTROL, 'a')  # tout sélectionner
-        search_bar.send_keys(Keys.BACKSPACE)     # supprimer
+        print("Searching for product:", search_query)
+        # Wait for search bar to be clickable
+        search_bar = WebDriverWait(driver, 15).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "input[placeholder='Qu’est-ce qui vous ferait plaisir ?']"))
+        )
+        print("Search bar found")
+        
+        # Scroll into view and focus
+        driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", search_bar)
         time.sleep(0.5)
+        
+        # Clear existing text efficiently
+        driver.execute_script("arguments[0].value = '';", search_bar)
+        time.sleep(0.3)
+        
+        # Type search query
+        print("Entering search query:", search_query)
         search_bar.send_keys(search_query)
-        search_bar.send_keys(Keys.RETURN)
+        time.sleep(0.5)
+        print("Search query entered")
+        
+        # Submit search
+        # Click on the search icon instead of pressing Enter
+        search_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable(
+                (By.XPATH, "//*[@id='stickyHeader']/div/div[2]/div/button")  # Adjusted XPath to match the search button
+            )
+        )
+        driver.execute_script("arguments[0].click();", search_button)
+        print("Search submitted via button")
+
+        # Sometimes the search doesn't load properly, so we just manually go to the search results page
+        driver.get(f"https://www.cdiscount.com/search/10/{search_query}.html")
+
+        time.sleep(10)  # Wait for the search results to load
+        # Save the html source for debugging
+        with open("cdiscount_search_result.html", "w", encoding="utf-8") as f:
+            f.write(driver.page_source)
+
+        # print the current URL with the search query
+        
     except Exception as e:
         print(f"Error in searching product: {e}")
+        # Fallback: Use JavaScript to submit search
+        try:
+            driver.execute_script(f"""
+                document.querySelector("input[placeholder='Qu’est-ce qui vous ferait plaisir ?']").value = '{search_query}';
+            """)
+            search_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable(
+                (By.XPATH, "//*[@id='stickyHeader']/div/div[2]/div/button")  # Adjusted XPath to match the search button
+            )
+            )
+            driver.execute_script("arguments[0].click();", search_button)
+
+            print("Used JavaScript fallback for search")
+        except Exception as js_error:
+            print(f"JavaScript fallback failed: {js_error}")
 
 def filter_products(driver, dont_stop=False):
     print("------------------filter_products--------------------")

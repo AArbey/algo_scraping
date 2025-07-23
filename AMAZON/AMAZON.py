@@ -114,7 +114,7 @@ def scrape_main_offer(driver, asin, idsmartphone, phone_name):
     try:
         
         driver.get(url)
-        time.sleep(2)
+        time.sleep(4)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
 
         # 🟡 Extraction robuste du prix
@@ -123,45 +123,42 @@ def scrape_main_offer(driver, asin, idsmartphone, phone_name):
         if found_price:
             price_text = found_price.get_text(strip=True)
             price_text = price_text.replace("€", "").replace(",", ".").strip()
+            # Correction pour les prix à deux points, ex: "1.124.00" → "1 124.00"
+            
             try:
                 price_value = float(re.sub(r"[^\d.]", "", price_text))
             except ValueError:
-                logging.warning(f"[{asin}] Impossible de convertir le prix '{price_text}' en float.")
-                price_value = pd.NA
+                if price_text.count('.') > 1:
+                    price_value = price_text.replace('.', ' ', 1)
+                else :
+                    logging.warning(f"[{asin}] Impossible de convertir le prix '{price_text}' en float.")
+                    price_value = pd.NA
         else:
             logging.warning(f"[{asin}] Aucun élément a-offscreen trouvé pour le prix.")
 
 
-        # Frais de livraison
-
-        # Code html correspondant :
-
-        # <span data-csa-c-type="element" data-csa-c-content-id="DEXUnifiedCXPDM" data-csa-c-delivery-price="GRATUITE" 
-        # data-csa-c-value-proposition="" data-csa-c-delivery-type="Livraison" data-csa-c-delivery-time="samedi 12 juillet" 
-        # data-csa-c-delivery-destination="" data-csa-c-delivery-condition="" data-csa-c-pickup-location="" data-csa-c-distance="" 
-        # data-csa-c-delivery-cutoff="Commandez dans les 13 h 14 min" data-csa-c-mir-view="CONSOLIDATED_CX" data-csa-c-mir-type="DELIVERY" 
-        # data-csa-c-mir-sub-type="" data-csa-c-mir-variant="DEFAULT" data-csa-c-delivery-benefit-program-id="cfs" data-csa-c-id="4psuiv-h7n0mn-un0iny-xj0pf4"> 
-        # <a aria-label="en savoir plus sur Livraison GRATUITE" target="_blank" href="/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H" 
-        # data-a-atomic-interop="" data-a-component="text-link">Livraison GRATUITE</a> <span class="a-text-bold">samedi 12 juillet</span>. 
-        # Commandez dans les <span id="ftCountdown" class="ftCountdownClass" style="color: #067D62">13 h 14 min</span>. 
-        # <a aria-label="Informations relatives aux frais de livraison et méthodes d’expédition" target="_blank" 
-        # href="/gp/help/customer/display.html/?nodeId=201911090" data-a-atomic-interop="" data-a-component="text-link">Détails</a> </span>
-
-
-
+        # 🛳️ Frais de livraison: look for data-csa-c-delivery-price
         shipcost = pd.NA
-        shipcost_element = soup.find('a', href="/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H")
-        logging.debug(f"shipcost_element: {shipcost_element}")
-        if shipcost_element:
-            shipcost = clean_text(shipcost_element.get_text())
-            logging.info(f"[{asin}] Frais de livraison trouvés : {shipcost}")
+        delivery_span = soup.find('span', attrs={'data-csa-c-delivery-price': True})
+        if delivery_span:
+            price_attr = delivery_span['data-csa-c-delivery-price']
+            logging.info(f"[{asin}] data-csa-c-delivery-price found: {price_attr}")
+            # Soit c'est "GRATUITE", soit c'est "à {le prix}"
+            if price_attr.upper() == 'GRATUITE' or price_attr.upper() == 'FREE':
+                shipcost = 0.0
+            elif price_attr.startswith('à'):
+                # Ex: "à 3,99 €"
+                price_value = re.sub(r"[^\d.]", "", price_attr)
+                try:
+                    shipcost = float(price_value)
+                except ValueError:
+                    logging.warning(f"[{asin}] Impossible de convertir le prix de livraison '{price_value}' en float.")
+                    shipcost = pd.NA
+            else: 
+                logging.warning(f"[{asin}] Format inattendu pour data-csa-c-delivery-price : {price_attr}")
+                shipcost = pd.NA
         else:
-            logging.warning(f"[{asin}] Aucun élément href=\"/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H\" trouvé pour les frais de livraison.")
-        
-        if shipcost == "Livraison GRATUITE":
-            shipcost = 0.0
-        else:
-            shipcost = pd.NA
+            logging.warning(f"[{asin}] Aucun span avec data-csa-c-delivery-price trouvé pour les frais de livraison.")
 
 
         # 🧾 Vendeur

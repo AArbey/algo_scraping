@@ -9,6 +9,34 @@
 
 ## Installation
 
+### Python3 si besoin (Ici sur Ubuntu 24)
+
+```bash
+sudo apt install python3 python3-pip
+sudo apt install python3.12-venv # Bien modifier la version si nécessaire
+```
+
+### Xvfb
+
+```bash
+sudo apt install xvfb
+```
+
+### Installer google chrome sur ubuntu
+
+```bash
+sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+wget -O- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo tee /etc/apt/trusted.gpg.d/linux_signing_key.pub
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 78BD65473CB3BD13
+sudo apt-get update
+
+# SI sous ubuntu>=22 :
+sudo apt-key export D38B4796 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/chrome.gpg
+
+# Puis, installez Google Chrome :
+sudo apt-get install google-chrome-stable
+```
+
 ### Créer un venv
 
 ```bash
@@ -40,7 +68,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/scraping/algo_scraping/CARREFOUR/scraping_carrefour.py
+Environment="PATH=/home/scraping/venv/bin:/usr/bin"
+ExecStart=/home/scraping/venv/bin/python /home/scraping/algo_scraping/CARREFOUR/scraping_carrefour.py
 WorkingDirectory=/home/scraping/algo_scraping/CARREFOUR
 Environment="DISPLAY=:103"
 Environment="PYTHONUNBUFFERED=1"
@@ -99,7 +128,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/scraping/algo_scraping/LECLERC/LECLERC.py
+Environment="PATH=/home/scraping/venv/bin:/usr/bin"
+ExecStart=/home/scraping/venv/bin/python /home/scraping/algo_scraping/LECLERC/LECLERC.py
 WorkingDirectory=/home/scraping/algo_scraping/LECLERC
 Environment="DISPLAY=:103"
 Environment="PYTHONUNBUFFERED=1"
@@ -158,7 +188,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/scraping/algo_scraping/RAKUTEN/RAKUTEN.py
+Environment="PATH=/home/scraping/venv/bin:/usr/bin"
+ExecStart=/home/scraping/venv/bin/python /home/scraping/algo_scraping/RAKUTEN/RAKUTEN.py
 WorkingDirectory=/home/scraping/algo_scraping/RAKUTEN
 Environment="DISPLAY=:103"
 Environment="PYTHONUNBUFFERED=1"
@@ -216,7 +247,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/scraping/algo_scraping/CDISCOUNT/cdiscount_scrap.py
+Environment="PATH=/home/scraping/venv/bin:/usr/bin"
+ExecStart=/home/scraping/venv/bin/python /home/scraping/algo_scraping/CDISCOUNT/cdiscount_scrap.py
 WorkingDirectory=/home/scraping/algo_scraping/CDISCOUNT
 Environment="DISPLAY=:103"
 Environment="PYTHONUNBUFFERED=1"
@@ -273,7 +305,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/scraping/algo_scraping/AMAZON/AMAZON.py
+Environment="PATH=/home/scraping/venv/bin:/usr/bin"
+ExecStart=/home/scraping/venv/bin/python /home/scraping/algo_scraping/AMAZON/AMAZON.py
 WorkingDirectory=/home/scraping/algo_scraping/AMAZON
 Environment="DISPLAY=:103"
 Environment="PYTHONUNBUFFERED=1"
@@ -329,7 +362,8 @@ Description=Scraping FNAC Service
 After=network.target
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/scraping/algo_scraping/FNAC/FNAC.py
+Environment="PATH=/home/scraping/venv/bin:/usr/bin"
+ExecStart=/home/scraping/venv/bin/python /home/scraping/algo_scraping/FNAC/FNAC.py
 WorkingDirectory=/home/scraping/algo_scraping/FNAC
 Environment="HOME=/home/scraping"
 
@@ -368,6 +402,29 @@ sudo systemctl start fnac_scraping
 sudo journalctl -u fnac_scraping -f
 ```
 
+## Lancer tout les services de scraping
+
+```bash
+# Pour démarrer tous les services de scraping
+sudo systemctl start fnac_scraping
+sudo systemctl start amazon_scraping
+sudo systemctl start cdiscount_scraping 
+sudo systemctl start rakuten_scraping
+sudo systemctl start leclerc_scraping
+sudo systemctl start carrefour_scraping
+```
+
+## Couper les services de scraping
+
+```bash
+# Pour arrêter le service FNAC
+sudo systemctl stop fnac_scraping
+sudo systemctl stop amazon_scraping
+sudo systemctl stop cdiscount_scraping
+sudo systemctl stop rakuten_scraping
+sudo systemctl stop leclerc_scraping
+sudo systemctl stop carrefour_scraping
+```
 
 ## Lancer la visualisation 
 
