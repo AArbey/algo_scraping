@@ -4,30 +4,116 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import re
+from pathlib import Path
+import sys
+
+# Correct import of get_model_code (module is one directory up)
+parent_exploration_dir = Path(__file__).resolve().parent.parent  # /exploration
+if str(parent_exploration_dir) not in sys.path:
+    sys.path.insert(0, str(parent_exploration_dir))
+try:
+    from get_unique_model import get_model_code
+except ModuleNotFoundError as e:
+    raise ImportError(f"Impossible d'importer get_model_code depuis {parent_exploration_dir}: {e}")
 
 # Configuration
-CSV_PATH = "/home/scraping/algo_scraping/scraping_carrefour.csv"
+CSV_PATH = "/home/scraping/algo_scraping/CARREFOUR/scraping_carrefour.csv"
 EXPORT_PATH = "/home/scraping/algo_scraping/exploration/data_cleaned_version2kk.csv" #data_cleaned3 lorsque je change la définition d'un algo_suspect à 3 chgt par jour
 FIG_DIR = "/home/scraping/algo_scraping/exploration/figures_carrefour/boites_moustache_carrefour"
 os.makedirs(FIG_DIR, exist_ok=True)
 
 # 1. Chargement et nettoyage des données
 def load_and_clean_data(path):
-    df = pd.read_csv(path, names=["Platform", "Product", "Seller", "Delivery", "Price", "Rating", "Timestamp"],
-                     skiprows=1, on_bad_lines='skip')
-    # Nettoyage des prix
-    df["Price"] = df["Price"].str.replace("€", "", regex=False).str.replace(",", ".", regex=False).str.strip()
+    # --- Detect header & delimiter ---
+    with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+        first_line = f.readline().strip()
+
+    has_header = bool(re.search(r'platform', first_line, re.IGNORECASE))
+    # Prefer ';' if present (sample provided), else fallback ','
+    sep = ';' if (';' in first_line and first_line.lower().count('platform;')) else ','
+
+    read_kwargs = dict(sep=sep, on_bad_lines='skip', encoding='utf-8', dtype=str)
+
+    if has_header:
+        df = pd.read_csv(path, **read_kwargs)
+    else:
+        df = pd.read_csv(
+            path,
+            **read_kwargs,
+            header=None,
+            names=["Platform", "Product", "Seller", "Delivery", "Price", "Rating", "Timestamp"]
+        )
+
+    # --- Normalize column names ---
+    rename_map = {}
+    for col in df.columns:
+        norm = col.strip().lower()
+        if norm in ("product name", "product", "nom produit"):
+            rename_map[col] = "Product"
+        elif norm in ("delivery info", "delivery", "livraison", "shipping"):
+            rename_map[col] = "Delivery"
+        elif norm in ("seller rating", "rating", "seller_rating", "note vendeur"):
+            rename_map[col] = "Rating"
+        elif norm in ("timestamp", "date", "datetime"):
+            rename_map[col] = "Timestamp"
+        elif norm == "platform":
+            rename_map[col] = "Platform"
+        elif norm in ("seller", "vendeur"):
+            rename_map[col] = "Seller"
+        elif norm in ("price", "prix"):
+            rename_map[col] = "Price"
+        elif norm in ("batch id", "batch_id", "batch"):
+            rename_map[col] = "BatchID"
+
+    df = df.rename(columns=rename_map)
+
+    required = ["Platform", "Product", "Seller", "Delivery", "Price", "Rating", "Timestamp", "BatchID"]
+    missing = [c for c in required if c not in df.columns]
+    if missing:
+        raise ValueError(f"Colonnes manquantes après normalisation: {missing}. Colonnes présentes: {list(df.columns)}")
+
+    # --- Clean Price robustly ---
+    original_len = len(df)
+    df["Price"] = df["Price"].astype("string")
+
+    # Remove currency symbols, NBSP, thin spaces; unify decimal comma to dot
+    df["Price"] = (
+        df["Price"]
+        .str.replace(r'[\u00A0\u202F]', '', regex=True)   # non‑breaking / thin spaces
+        .str.replace(r'[€]', '', regex=True)
+        .str.replace(',', '.', regex=False)
+        .str.replace(r'[^0-9.\-]', '', regex=True)        # keep digits . -
+        .str.strip()
+    )
+
+    def normalize_decimal(s):
+        if s is None or pd.isna(s) or s == "":
+            return np.nan
+        parts = s.split('.')
+        if len(parts) <= 2:
+            return s
+        return ''.join(parts[:-1]) + '.' + parts[-1]
+
+    df["Price"] = df["Price"].apply(normalize_decimal)
+    df["Price"] = pd.to_numeric(df["Price"], errors='coerce')
     df = df[df["Price"].notna()]
-    df = df[df["Price"].apply(lambda x: x.replace('.', '', 1).isdigit())]
-    df["Price"] = df["Price"].astype(float)
 
-    # Nettoyage des ratings
-    df["Rating"] = df["Rating"].replace("Non spécifié", np.nan).astype(float)
+    # --- Clean Rating ---
+    df["Rating"] = (
+        df["Rating"]
+        .astype("string")
+        .str.strip()
+        .replace({"Non spécifié": None, "Non specifie": None, "nan": None, "": None})
+    )
+    df["Rating"] = pd.to_numeric(df["Rating"], errors='coerce')
 
-    # Nettoyage des dates
+    # --- Parse Timestamp ---
     df["Timestamp"] = pd.to_datetime(df["Timestamp"], errors="coerce", dayfirst=True)
-    df = df[df["Timestamp"].notnull()]
-    df["Day"] = df["Timestamp"] .dt.floor("D")  #garde date complète + jour
+    df = df[df["Timestamp"].notna()]
+    df["Day"] = df["Timestamp"].dt.floor("D")
+
+    print(f"Delimiter détecté: '{sep}' | Header détecté: {has_header}")
+    print(f"Lignes initiales: {original_len} | Après nettoyage: {len(df)} | Supprimées: {original_len - len(df)}")
     print("Dates uniques dans le fichier :")
     print(df["Day"].value_counts())
 
@@ -35,6 +121,7 @@ def load_and_clean_data(path):
 
 # 2. Génération des identifiants lisibles
 def extract_model_code(product_name):
+    # (Legacy function now unused; kept for fallback/reference)
     name = product_name.lower().replace("apple", "").replace("iphone", "ip")
 
     # Génération (ip14, ip15, ip16, etc.)
@@ -73,10 +160,9 @@ def extract_model_code(product_name):
 def create_ids(df):
     df["PlatformCode"] = "car"
     df["SellerCode"] = df["Seller"].str.lower().str.replace(r'\W+', '', regex=True)
-    df["ModelCode"] = df["Product"].apply(extract_model_code)
-    df["StateCode"] = "n"  # "neuf" pour tous
-
-    # Sans doublon "nn"
+    # New: use get_model_code; fallback to 'unk' if not detectable
+    df["ModelCode"] = df["Product"].astype(str).apply(lambda x: get_model_code(x) or "unk")
+    df["StateCode"] = "n"
     df["ReadableID"] = df["PlatformCode"] + "_" + df["SellerCode"] + "_" + df["ModelCode"] + df["StateCode"]
     return df
 

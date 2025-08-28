@@ -41,6 +41,9 @@ logging.basicConfig(
     ]
 )
 
+# Nouveau délimiteur CSV
+CSV_DELIMITER = ';'  # Utilisation du point-virgule comme séparateur CSV
+
 HTML_SELECTORS = {
     "Product Name": "h1[class^='cbBiP clamp']",
     "Price": ".vcEUR",
@@ -60,8 +63,9 @@ def fetch_html(url, html="page_content.html"):
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
         options.add_argument('--no-sandbox')
+        options.binary_location = '/usr/bin/chromium-browser'
 
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        driver = webdriver.Chrome(options=options)
         driver.set_window_size(1920, 1080)
         driver.get(url)
         
@@ -197,7 +201,7 @@ def get_initial_batch_id(csv_file='product_details.csv'):
             if not lines:
                 return 0
             last_line = lines[-1].rstrip('\n')
-            parts = [p.strip() for p in last_line.split(',')]
+            parts = [p.strip() for p in last_line.split(CSV_DELIMITER)]
             if parts and parts[-1].isdigit():
                 logging.info(f"Last batch_id found in CSV: {parts[-1]}")
                 return int(parts[-1]) + 1
@@ -214,15 +218,14 @@ batch_id = get_initial_batch_id()
 def write_to_csv(products):
     try:
         logging.info("Writing to CSV")
-        with open('product_details.csv', "a", newline="", encoding='utf-8') as file:
-            writer = csv.writer(file)
+        with open('scraping_leclerc.csv', "a", newline="", encoding='utf-8') as file:
+            writer = csv.writer(file, delimiter=CSV_DELIMITER)
             if file.tell() == 0:
                 writer.writerow([
                     "Platform", "Product Name", "Seller", "Price",
                     "Delivery Fees", "Delivery Date", "Product State",
                     "Seller Rating", "Timestamp", "Batch ID"
                 ])
-
             for product in products:
                 writer.writerow([
                     product.get("Platform", ''),
@@ -236,8 +239,7 @@ def write_to_csv(products):
                     product.get('Timestamp', ''),
                     batch_id
                 ])
-            # writer.writerow(["------------------------------------------------------------------------------------------------------------------------------------"])
-        logging.info(f"Wrote {len(products)} products to CSV")
+        logging.info(f"Wrote {len(products)} products to CSV with delimiter '{CSV_DELIMITER}'")
     except Exception as e:
         logging.error(f"Error writing to CSV: {str(e)}")
 
@@ -249,12 +251,37 @@ def main():
         "https://www.e.leclerc/of/apple-iphone-16-plus-17-cm-6-7-double-sim-ios-18-5g-usb-type-c-512-go-noir-0195949724169",
         "https://www.e.leclerc/of/apple-iphone-16-plus-17-cm-6-7-double-sim-ios-18-5g-usb-type-c-256-go-noir-0195949723216",
         "https://www.e.leclerc/of/apple-iphone-16-plus-17-cm-6-7-double-sim-ios-18-5g-usb-type-c-128-go-noir-0195949722264",
+        "https://www.e.leclerc/fp/apple-iphone-16-pro-16-cm-6-3-double-sim-ios-18-5g-usb-type-c-128-go-noir-0195949771200",
+        "https://www.e.leclerc/fp/apple-iphone-16-pro-16-cm-6-3-double-sim-ios-18-5g-usb-type-c-256-go-noir-0195949771965",
+        "https://www.e.leclerc/fp/apple-iphone-16-pro-16-cm-6-3-double-sim-ios-18-5g-usb-type-c-512-go-noir-0195949772726",
         "https://www.e.leclerc/of/apple-iphone-16-pro-16-cm-6-3-double-sim-ios-18-5g-usb-type-c-1-to-noir-0195949773488",
+        "https://www.e.leclerc/fp/apple-iphone-16-pro-max-17-5-cm-6-9-double-sim-ios-18-5g-usb-type-c-256-go-noir-0195949805813",
+        "https://www.e.leclerc/fp/apple-iphone-16-pro-max-17-5-cm-6-9-double-sim-ios-18-5g-usb-type-c-512-go-noir-0195949806575",
+        "https://www.e.leclerc/fp/apple-iphone-16-pro-max-17-5-cm-6-9-double-sim-ios-18-5g-usb-type-c-1-to-noir-0195949807336",
         "https://www.e.leclerc/fp/apple-iphone-15-15-5-cm-6-1-double-sim-ios-17-5g-usb-type-c-512-go-noir-0195949037795?offer_id=72931002",
         "https://www.e.leclerc/of/smartphone-apple-iphone-15-256gb-noir-0195949036965",
         "https://www.e.leclerc/of/smartphone-apple-iphone-15-128gb-noir-0195949036064",
+        "https://www.e.leclerc/fp/smartphone-apple-iphone-15-pro-128gb-noir-titanium-0195949018572",
+        "https://www.e.leclerc/fp/smartphone-apple-iphone-15-pro-max-256gb-noir-titanium-0195949048258",
         "https://www.e.leclerc/of/apple-iphone-14-15-5-cm-6-1-double-sim-ios-17-5g-512-go-noir-0194253411550",
-        "https://www.e.leclerc/of/smartphone-apple-iphone-14-256go-noir-midnight-0194253409908"
+        "https://www.e.leclerc/of/smartphone-apple-iphone-14-256go-noir-midnight-0194253409908",
+        "https://www.e.leclerc/fp/apple-iphone-14-15-5-cm-6-1-double-sim-ios-17-5g-128-go-noir-0194253408253",
+        "https://www.e.leclerc/fp/smartphone-apple-iphone-14-plus-128go-noir-midnight-0194253373476",
+        "https://www.e.leclerc/fp/apple-iphone-14-plus-17-cm-6-7-double-sim-ios-17-5g-256-go-noir-0194253374626",
+        "https://www.e.leclerc/fp/apple-iphone-14-plus-17-cm-6-7-double-sim-ios-17-5g-512-go-noir-0194253375777",
+        "https://www.e.leclerc/fp/apple-iphone-14-pro-15-5-cm-6-1-double-sim-ios-16-5g-256-go-noir-0194253402497",
+        "https://www.e.leclerc/fp/apple-iphone-14-pro-max-17-cm-6-7-double-sim-ios-17-5g-128-go-noir-0194253379942",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-15-8-cm-6-2-double-sim-android-15-5g-usb-type-c-12-go-128-go-4000-mah-argent-8806095851792",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-15-8-cm-6-2-double-sim-android-15-5g-usb-type-c-12-go-256-go-4000-mah-argent-8806095851488",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-15-8-cm-6-2-double-sim-android-15-5g-usb-type-c-12-go-512-go-4000-mah-argent-8806095851433",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-17-cm-6-7-double-sim-android-15-5g-usb-type-c-12-go-512-go-4900-mah-argent-8806095857602",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-ultra-17-5-cm-6-9-double-sim-android-15-5g-usb-type-c-12-go-256-go-5000-mah-gris-titane-8806095860237",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-ultra-17-5-cm-6-9-double-sim-android-15-5g-usb-type-c-12-go-512-go-5000-mah-gris-titane-8806095859934",
+        "https://www.e.leclerc/fp/samsung-galaxy-s25-ultra-17-5-cm-6-9-double-sim-android-15-5g-usb-type-c-12-go-1-to-5000-mah-gris-titane-8806095859880",
+        "https://www.e.leclerc/fp/samsung-galaxy-s24-15-8-cm-6-2-double-sim-android-14-5g-usb-type-c-8-go-128-go-4000-mah-gris-couleur-marbre-8806095299822",
+        "https://www.e.leclerc/fp/samsung-galaxy-s24-smartphone-256gb-argent-8806095299808",
+        "https://www.e.leclerc/fp/samsung-galaxy-s24-smartphone-256gb-argent-8806095306810",
+        "https://www.e.leclerc/fp/samsung-galaxy-s24-ultra-smartphone-256gb-gris-8806095309446"
     ]
 
     for url in urls:

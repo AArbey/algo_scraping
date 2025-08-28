@@ -67,6 +67,7 @@ drop_privileges()
 # Configuration des fichiers et paramètres
 # -----------------------------------------------------------------------------
 EXCEL_FILE = "../ID_EXCEL.xlsx"
+EXCEL_LINK_FILE = "../lien.xlsx"
 PARQUET_FILE = "Rakuten_data.parquet"
 LOG_FILE = "log_rakuten.log"
 SELLER_CACHE_FILE = "seller_cache.parquet"
@@ -74,6 +75,7 @@ INTERVAL = 60 * 10  # 30 minutes
 CACHE_EXPIRY = timedelta(hours=24)  # 24 heures
 CACHE_MAX_AGE = timedelta(days=30)  # Supprimer les entrées non mises à jour depuis 30 jours
 SELLER_PREFIXES_TO_SKIP = ["Club_R_", "ClubR_"]  # Liste des préfixes à exclure
+CSV_SEPARATOR = ';'  # Séparateur CSV utilisé pour toutes les lectures/écritures
 
 # Configuration du logging
 logging.basicConfig(
@@ -115,9 +117,10 @@ def extract_pid_cid(url):
 # -----------------------------------------------------------------------------
 def load_seller_cache():
     """Charge le cache des vendeurs depuis un fichier CSV."""
-    if os.path.exists(SELLER_CACHE_FILE.replace('.parquet', '.csv')):
+    cache_csv_path = SELLER_CACHE_FILE.replace('.parquet', '.csv')
+    if os.path.exists(cache_csv_path):
         try:
-            df_cache = pd.read_csv(SELLER_CACHE_FILE.replace('.parquet', '.csv'))
+            df_cache = pd.read_csv(cache_csv_path)
             logging.debug(f"Cache des vendeurs chargé avec {len(df_cache)} entrées.")
             if 'last_scraped' in df_cache.columns and df_cache['last_scraped'].dtype == object:
                 df_cache['last_scraped'] = pd.to_datetime(df_cache['last_scraped'])
@@ -158,6 +161,7 @@ def load_excel_data():
         logging.debug(f"Excel chargé avec {len(df)} lignes.")
         df_selected = df.iloc[:, [2, 14]].dropna()
         logging.debug(f"{len(df_selected)} enregistrements valides après suppression des NA.")
+        print(df_selected.head())
         return df_selected
     except Exception as e:
         logging.error(f"Erreur lors de la lecture du fichier Excel : {e}")
@@ -230,7 +234,7 @@ def save_to_parquet_old(data, filename=PARQUET_FILE):
         logging.error(f"Erreur lors de l'enregistrement en Parquet : {e}")
         try:
             backup_file = filename.replace('.parquet', '_backup.csv')
-            df_new.to_csv(backup_file, index=False)
+            df_new.to_csv(backup_file, index=False, sep=CSV_SEPARATOR, encoding='utf-8')
             logging.info(f"Sauvegarde de secours effectuée dans {backup_file}")
         except Exception as backup_err:
             logging.error(f"Échec de la sauvegarde de secours : {backup_err}")
@@ -243,13 +247,13 @@ def save_to_csv(data, filename="Rakuten_data.csv"):
             return
 
         df_new = pd.DataFrame(data)
-        # on ajoute en fin sans recharger l’ancien CSV
         df_new.to_csv(
             filename,
             mode='a',
             header=not os.path.exists(filename),
             index=False,
-            encoding='utf-8'
+            encoding='utf-8',
+            sep=CSV_SEPARATOR
         )
         logging.info(f"{len(df_new)} offres ajoutées dans {filename}")
     except Exception as e:
@@ -514,7 +518,7 @@ def main():
     csv_file = "Rakuten_data.csv"
     if os.path.exists(csv_file):
         try:
-            last_val = pd.read_csv(csv_file, encoding='utf-8').tail(1).iloc[0, -1]
+            last_val = pd.read_csv(csv_file, encoding='utf-8', sep=CSV_SEPARATOR).tail(1).iloc[0, -1]
             last_num = pd.to_numeric(last_val, errors='coerce')
             batch_id = int(last_num) + 1 if not pd.isna(last_num) else 0
             logging.debug(f"Batch ID initialisé à {batch_id} à partir du fichier CSV.")
@@ -531,8 +535,14 @@ def main():
 
     while True:
         start_time = time.time()
-        df_links = load_excel_data()
-        num_telephones = len(df_links)
+
+        # On charge les liens et id des téléphones depuis l'excel
+
+        excel_data = pd.read_excel(EXCEL_LINK_FILE, sheet_name="RAKUTEN", dtype={"idsmartphone": str})
+        links = excel_data["Link"].tolist()
+        idsmartphones = excel_data["idsmartphone"].tolist()
+
+        num_telephones = len(idsmartphones)
         logging.debug(f"{num_telephones} téléphones à scrapper.")
 
         if num_telephones == 0:
@@ -542,11 +552,11 @@ def main():
 
         request_interval = INTERVAL / num_telephones
         logging.debug(f"Intervalle entre chaque requête principale : {request_interval:.2f} secondes.")
+        
+        
+        for url, idsmartphone in zip(links, idsmartphones):
 
-        for index, row in df_links.iterrows():
-            idsmartphone = row.iloc[0]
-            url = str(row.iloc[1])
-
+            
             if "rakuten" not in url.lower():
                 logging.warning(f"Lien invalide détecté ({url}), redémarrage de la liste.")
                 break

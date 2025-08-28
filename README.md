@@ -34,7 +34,7 @@ sudo apt-get update
 sudo apt-key export D38B4796 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/chrome.gpg
 
 # Puis, installez Google Chrome :
-sudo apt-get install google-chrome-stable
+sudo apt-get install chromium
 ```
 
 ### Créer un venv
@@ -400,6 +400,18 @@ sudo systemctl start fnac_scraping
 ```bash
 # Pour afficher les logs du service FNAC
 sudo journalctl -u fnac_scraping -f
+```
+
+## Enable tous les services de scraping
+
+```bash
+# Pour activer tous les services de scraping au démarrage
+sudo systemctl enable fnac_scraping
+sudo systemctl enable amazon_scraping
+sudo systemctl enable cdiscount_scraping
+sudo systemctl enable rakuten_scraping
+sudo systemctl enable leclerc_scraping
+sudo systemctl enable carrefour_scraping
 ```
 
 ## Lancer tout les services de scraping

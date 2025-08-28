@@ -14,6 +14,9 @@ from selenium.common.exceptions import TimeoutException
 import subprocess
 import os
 import pwd
+import random
+import atexit
+import signal
 
 def drop_privileges():
     if os.getuid() != 0:
@@ -66,6 +69,23 @@ def start_xvfb():
 
 lockfile = "/tmp/scraping_carrefour.lock"
 
+# register cleanup to always remove the lockfile
+def remove_lockfile():
+    try:
+        if os.path.exists(lockfile):
+            os.remove(lockfile)
+            print("Lockfile removed.")
+    except Exception as e:
+        print(f"Error removing lockfile: {e}")
+
+def signal_handler(signum, frame):
+    remove_lockfile()
+    sys.exit(0)
+
+atexit.register(remove_lockfile)
+signal.signal(signal.SIGINT, signal_handler)
+signal.signal(signal.SIGTERM, signal_handler)
+
 if os.path.exists(lockfile):
     print("Script déjà en cours. Abandon.")
     sys.exit()
@@ -88,6 +108,7 @@ def accept_condition(driver):
 
 def close_all_modals(driver):
     try:
+        time.sleep(5)
         modals = driver.find_elements(By.CSS_SELECTOR, "dialog[open].c-modal, div.c-modal[open]")
         for modal in modals:
             try:
@@ -97,22 +118,46 @@ def close_all_modals(driver):
                 time.sleep(1)
             except Exception as e:
                 print(f"Impossible de fermer une popup : {e}")
+
+        # Close promotional popups using multiple possible selectors
+        popup_selectors = ["button.by_close.by-js-close", ".by_popin_overlay.by-js-close"]
+        for sel in popup_selectors:
+            elems = driver.find_elements(By.CSS_SELECTOR, sel)
+            for el in elems:
+                try:
+                    driver.execute_script("arguments[0].click();", el)
+                    print(f"Popup promotionnelle fermée ({sel}).")
+                    time.sleep(1)
+                except Exception as e:
+                    print(f"Impossible de cliquer sur popup promotionnelle ({sel}): {e}")
+
+
+
     except Exception as e:
         print(f"Erreur en cherchant les modals : {e}")
 
 
 
-def search_product(driver, search_query):
+def search_product(driver, search_query, retry=True):
     try:
         close_all_modals(driver)
+        print("Waiting for search bar to be clickable...")
         search_bar = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.ID, HTML_SELECTORS["search_bar"]))
         )
+        print("Search bar found, entering search query...")
         search_bar.click()
         search_bar.send_keys(search_query)
+        print("Search query entered, submitting...")
         search_bar.send_keys(Keys.RETURN)
     except Exception as e:
+        if retry:
+            print("Trying again to search")
+            time.sleep(2)
+            search_product(driver, search_query, retry=False)  # Réessayer la recherche
         print(f"Erreur recherche : {e}")
+
+
 
 
 def get_product_url(driver):
@@ -140,6 +185,8 @@ def get_product_url(driver):
             return None
     except Exception as e:
         print(f"Erreur lors de la récupération du produit: {e}")
+        driver.get(URL)  # Revenir à la page d'accueil
+        close_all_modals(driver)
         return None
 
 def scrape_product(driver, product_url):
@@ -291,7 +338,7 @@ def write_combined_data_to_csv(data, sellers_data, batch_id, csv_file="/home/scr
         return
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
-        writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
+        writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL, delimiter=';')
         if not file_exists:
             writer.writerow([
                 "Platform", "Product Name", "Seller", "Delivery Info",
@@ -311,19 +358,37 @@ def main():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.binary_location = '/usr/bin/google-chrome'
+    chrome_options.binary_location = '/usr/bin/chromium-browser'
     #chrome_options.add_argument("--user-data-dir=/tmp/chrome_user_data_vm_carrefour")
     driver = webdriver.Chrome(options=chrome_options)
 
-    product_ids = ['0195949822865', '0195949821899', '0195949724169','0195949723216', '0195949722264', '0195949773488', 
-                   '0195949807336', '0195949037863', '0195949036965', '0195949036064', '0195949042539', '0195949041631', 
-                   '0195949040733', '0195949020735', '019594904969']
+    #product_ids = ['0195949822865', '0195949821899', '0195949724169','0195949723216', '0195949722264', '0195949773488', 
+    #               '0195949807336', '0195949037863', '0195949036965', '0195949036064', '0195949042539', '0195949041631', 
+    #               '0195949040733', '0195949020735', '019594904969']
+
+    product_ids = ['0195949823763','0195949822865','0195949821967',
+'0195949724169','0195949723216','0195949722264','0195949773488',
+'0195949807336','0195949037863','0195949036965','0195949036064',
+'0195949042539','0195949041631','0195949040733','0195949020735',
+'0195949049699','0194253408253','0194253409809','0194253411550',
+'0194253373476','0194253374626','0194253375777','0194253401179',
+'0194253403814','0194253405139','0194253379942','0194253381686',
+'8806095851792','8806095851488','8806095857725','8806095857602',
+'8806095860107','8806095860237','8806095859934','8806095851433',
+'8806095859910','8806095859743','8806095859880','8806095299785',
+'8806095306797','8806095307633','8806095414485','8806095414478'
+]
 
     accept_condition(driver)
     sellers_data=[]
 
+    
+
     for product_id in product_ids:
         try:
+            # Waiting a random time before each product to avoid being blocked
+            time.sleep(random.uniform(2, 5))
+
             print(f"Scraping ID: {product_id}")
             search_product(driver, product_id)
             product_url = get_product_url(driver)
@@ -350,11 +415,12 @@ if __name__ == "__main__":
         if os.path.exists(csv_file):
             try:
                 with open(csv_file, newline="") as f:
-                    last_line = None
-                    for last_line in f:
+                    reader = csv.reader(f, delimiter=';')
+                    last_row = None
+                    for last_row in reader:
                         pass
-                if last_line:
-                    last_col = last_line.strip().split(",")[-1]
+                if last_row and len(last_row) > 0:
+                    last_col = last_row[-1]
                     if last_col.isdigit():
                         batch_id = int(last_col) + 1
             except Exception:

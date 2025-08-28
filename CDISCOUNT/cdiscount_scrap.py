@@ -214,11 +214,13 @@ def search_product(driver, search_query):
         except Exception as js_error:
             print(f"JavaScript fallback failed: {js_error}")
 
-def filter_products(driver, dont_stop=False):
+def filter_products_apple(driver, dont_stop=False):
     print("------------------filter_products--------------------")
     try:
         # Attendre que la page se charge
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
+
+
     except Exception as e:
         print(f"Error in waiting for page to load: {e}")
         raise
@@ -258,7 +260,7 @@ def filter_products(driver, dont_stop=False):
 
         # Appuyer sur le filtre "Noir"
         noir_checkbox = None
-        for i in range(1, 10):  # On essaie de trouver la checkbox dans les indices 1 à 9
+        for i in range(1, 15):  # On essaie de trouver la checkbox dans les indices 1 à 14
             couleurs_checkboxes = driver.find_elements(By.NAME, f"FacetForm.SelectedFacets[{i}]")
             print(f"Searching for 'Noir' checkbox in FacetForm.SelectedFacets[{i}]...")
             print(f"Found {len(couleurs_checkboxes)} checkboxes in this facet.")
@@ -289,68 +291,151 @@ def filter_products(driver, dont_stop=False):
         if not dont_stop:
             raise
 
-# Autre méthode pour récupérer les liens, on filtrait par la taille de stockage
-# cependant, certains modèles n'ont pas la taille de stockage dans leur description mais uniquement dans le titre
-# Donc cette méthode n'est pas utilisée pour l'instant
+def filter_products_samsung(driver, dont_stop=False):
+    print("------------------filter_products--------------------")
+    try:
+        # Attendre que la page se charge
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
+    except Exception as e:
+        print(f"Error in waiting for page to load: {e}")
+        raise
+    
+    try:
+        # On appuie sur le bouton spécifiant qu'on cherche dans la catégorie "Smartphone"
+        # <label class=" ">        Smartphone <span class="pCount">(3 947)</span><input type="checkbox" name="NavigationForm.SelectedNavigationPath" value="categorycodepath/07|0703|070302" class="initialized"></label>
 
-#    try:
-#        # Attendre un temps aléatoire entre 1 et 5 secondes
-#        time.sleep(1 + 4 * random.random())
-#
-#        # Cliquer sur le bouton "+ de choix" de la catégorie "Capacité de stockage"
-#        # le bouton n'es pas une checkbox, c'est :
-#        # <div class="mvFLink jsFLink mgFLinkSeeLess">de choix</div>
-#        
-#        more_choices_button = WebDriverWait(driver, 10).until(
-#            EC.element_to_be_clickable((By.XPATH, "//div[contains(@class, 'mvFLink') and contains(text(), 'de choix')]"))
-#        )
-#        
-#        print("Scrolling into view and clicking...")
-#        driver.execute_script("arguments[0].scrollIntoView(true);", more_choices_button)
-#        print("Clicking on '+ de choix' button for storage size...")
-#        driver.execute_script("arguments[0].click();", more_choices_button)
-#        time.sleep(2)  # Attendre que le menu se déploie
-#
-#    except Exception as e:
-#        print(f"Error in clicking '+ de choix' button for storage size: {e}, ça peut être que le bouton n'existe pas, on continue.")
-#    
-#    try:
-#        # En fonctione de la taille qu'on veut filtrer, la valeur de la checkbox change
-#        if taille_stockage == "128 Go":
-#            taille_stockage = "Capacité de stockage/[64002,128001]"
-#        elif taille_stockage == "256 Go":
-#            taille_stockage = "Capacité de stockage/[128002,256001]"
-#        elif taille_stockage == "512 Go":
-#            taille_stockage = "Capacité de stockage/[256002,512001]"
-#        elif taille_stockage == "1 To":
-#            taille_stockage = "Capacité de stockage/[512002,*}"
-#
-#        # Sélectionner la capacité de stockage "taille_stockage"
-#        print(f"Searching for checkbox with value '{taille_stockage}'...")
-#        tailles_checkboxes = driver.find_elements(By.NAME, "FacetForm.SelectedFacets[1]")
-#        for cbox in tailles_checkboxes:
-#            cbox_v = cbox.get_attribute("value")
-#            if cbox_v == taille_stockage:
-#                storage_option = cbox
-#                break
-#        else:
-#            print("taille stockage checkbox not found.")
-#            # Si on arrive pas à trouver la checkbox, on arrête le script complètement
-#            print(f"Le filtre de taille de stockage '{taille_stockage}' n'est pas disponible, on renvoie une exception.")
-#            raise ValueError(f"Filtre de taille de stockage '{taille_stockage}' non disponible.")
-#
-#
-#        print(f"Applying filter for storage size '{taille_stockage}'...")
-#        driver.execute_script("arguments[0].scrollIntoView(true);", storage_option)
-#        driver.execute_script("arguments[0].click();", storage_option)
-#
-#        print(f"Filtre '{taille_stockage}' appliqué.")
-#
-#    except Exception as e:
-#        # remonte l'exception si on n'arrive pas à trouver la checkbox de taille de stockage
-#        raise
+        print("Applying filter for 'Smartphone' category...")
 
-def get_products_url(driver):
+        smartphone_checkbox = None
+        marque_checkboxes = driver.find_elements(By.NAME, "NavigationForm.SelectedNavigationPath")
+        for cbox in marque_checkboxes:
+            cbox_v = cbox.get_attribute("value")
+            if cbox_v == "categorycodepath/07|0703|070302":
+                smartphone_checkbox = cbox
+                break
+        if not smartphone_checkbox:
+            raise ValueError("Filtre 'Smartphone' non disponible.")
+    
+    except Exception as e:
+        print(f"Error in filtering products with filter 'Smartphone': {e}")
+        if not dont_stop:
+            raise
+
+    try:
+
+        time.sleep(3 + 4 * random.random())
+
+        # Appuyer sur le filtre "Samsung"
+
+        print("Applying filter for 'Samsung'...")
+        # We find the list of checkboxes and look for the one with value "Marque/samsung"
+        samsung_checkbox = None
+        for i in range(1, 15):  # On essaie de trouver la checkbox dans les indices 1 à 9
+            marque_checkboxes = driver.find_elements(By.NAME, f"FacetForm.SelectedFacets[{i}]")
+            for cbox in marque_checkboxes:
+                cbox_v = cbox.get_attribute("value")
+                if cbox_v == "Marque/samsung":
+                    samsung_checkbox = cbox
+                    break
+        if not samsung_checkbox:
+            raise ValueError("Filtre 'Samsung' non disponible.")
+
+        print("Samsung checkbox found, scrolling into view...")
+
+        driver.execute_script("arguments[0].scrollIntoView(true);", samsung_checkbox)
+
+        print("Clicking on Samsung checkbox...")
+        # force‐click via JS to avoid “element not interactable”
+        driver.execute_script("arguments[0].click();", samsung_checkbox)
+
+        print("Filtre 'Samsung' appliqué.")
+    except Exception as e:
+        print(f"Error in filtering products with filter 'Samsung': {e}")
+        raise
+
+    # Spécifique à samsung, on précise qu'il est compatible 5g pour enlever les vieux modèles ou bas de gamme
+
+    #try:
+    #    # Attendre un temps aléatoire entre 1 et 5 secondes
+    #    time.sleep(1 + 4 * random.random())
+    #    # Appuyer sur le filtre "5g"
+    #    cinq_g_checkbox = None
+    #    for i in range(1, 10):  # On essaie de trouver la checkbox dans les indices 1 à 9
+    #        couleurs_checkboxes = driver.find_elements(By.NAME, f"FacetForm.SelectedFacets[{i}]")
+    #        print(f"Searching for '5g' checkbox in FacetForm.SelectedFacets[{i}]...")
+    #        print(f"Found {len(couleurs_checkboxes)} checkboxes in this facet.")
+    #        k=0
+    #        for cbox in couleurs_checkboxes:
+    #            cbox_v = cbox.get_attribute("value")
+    #            if cbox_v == "Réseau compatible/5g":
+    #                cinq_g_checkbox = cbox
+    #                print("Found '5g' checkbox")
+    #                break
+    #            if k > 10:
+    #                print("Too many checkboxes found, breaking the loop to avoid performance issues.")
+    #                break
+    #            k+=1
+    #    if not cinq_g_checkbox:
+    #        # Raise an exception if the 5g checkbox is not found
+    #        raise ValueError("Filtre '5g' non disponible.")
+    #    print("Applying filter for '5g'...")
+    #    driver.execute_script("arguments[0].scrollIntoView(true);", cinq_g_checkbox)
+    #    print("Clicking on 5g checkbox...")
+    #    driver.execute_script("arguments[0].click();", cinq_g_checkbox)
+    #    print("Filtre '5g' appliqué.")
+#
+    #except Exception as e:
+    #    print(f"Error in filtering products with filter '5g': {e}")
+    #    if not dont_stop: #for debugging
+    #        raise
+
+    try:
+        # Attendre un temps aléatoire entre 3 et 7 secondes
+        time.sleep(3 + 4 * random.random())
+
+        # Appuyer sur le filtre "Gris"
+        gris_checkbox = None
+        for i in range(0, 15):  # On essaie de trouver la checkbox dans les indices 1 à 9
+            couleurs_checkboxes = driver.find_elements(By.NAME, f"FacetForm.SelectedFacets[{i}]")
+            k=0
+            print(f"Now looking at checkbox {couleurs_checkboxes}")
+            for cbox in couleurs_checkboxes:
+                cbox_v = cbox.get_attribute("value")
+                print(f"Current checkbox value: {cbox_v}")
+                if cbox_v == "Couleur/gris":
+                    gris_checkbox = cbox
+                    print("Found 'Gris' checkbox")
+                    break
+                if k > 10:
+                    print("Too many checkboxes found, breaking the loop to avoid performance issues.")
+                    break
+                k+=1
+
+        # Saves the html for debugging with timestamp
+        #timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        #filename = f"cdiscount_filter_samsung_{timestamp}.html"
+        #with open(filename, "w", encoding="utf-8") as f:
+        #    f.write(driver.page_source)
+        #print(f"Filter page HTML saved: {filename}")
+
+        if not gris_checkbox:
+            # Raise an exception if the Gris checkbox is not found
+            raise ValueError("Filtre 'Gris' non disponible.")
+		
+        print("Applying filter for 'Gris'...")
+        driver.execute_script("arguments[0].scrollIntoView(true);", gris_checkbox)
+        print("Clicking on Gris checkbox...")
+        driver.execute_script("arguments[0].click();", gris_checkbox)
+        print("Filtre 'Gris' appliqué.")
+        
+
+    except Exception as e:
+        print(f"Error in filtering products with filter 'Gris': {e}")
+        #if not dont_stop:
+        #    raise
+    
+
+def get_products_url(driver, marque):
     print("------------------get_products_url--------------------")
 
     # On cherche ici à récupérer tout les liens de produits sur chaque page de résultats
@@ -403,37 +488,31 @@ def get_products_url(driver):
                 print(f"Pas de page suivante trouvée pour la page {page_number}, on arrête la récupération des liens.")
                 keep_going = False
 
-
-            # On cherche le bouton "Page suivante" de manière robuste
-            #try:
-            #    next_btn = WebDriverWait(driver, 10).until(
-            #        EC.element_to_be_clickable((By.CSS_SELECTOR, 'input.jsNxtPage'))
-            #    )
-            #    print("Page suivante trouvée, on clique dessus.")
-            #    driver.execute_script("arguments[0].scrollIntoView(true);", next_btn)
-            #    # clic JS pour éviter l'interception
-            #    driver.execute_script("arguments[0].click();", next_btn)
-            #    time.sleep(10)  # Attendre que la page se charge
-            #    print("Nouvelle page chargée.")
-            #    filter_products(driver, dont_stop=True)  # On refiltre les produits pour s'assurer que les filtres sont appliqués
-            #    page_number += 1
-            #except TimeoutException:
-            #    print("Pas de pages suivantes, on arrête la récupération des liens.")
-            #    keep_going = False
-
         
         print("Il y a " + str(len(product_urls)) + " produits trouvés, on va les filtrer.")
-        for product_url in product_urls:
-            # On vérifie que le lien correspond à un modèle cherché et de la taille de stockage voulue
-            # les liens doivent correspondre au regex suivant :
-            # ^https:\/\/www\.cdiscount\.com\/telephonie\/telephone-mobile\/(apple-)?iphone-(14|15|16|16e)-(plus-|pro-|pro-max-)?(128gb|256gb|512gb|1tb)-(black|midnight)-.*$
-            # Si le lien correspond au regex :
-            if re.match(r"^https:\/\/www\.cdiscount\.com\/telephonie\/telephone-mobile\/(apple-)?iphone-(14|15|16|16e)-(plus-|pro-|pro-max-)?(128gb|256gb|512gb|1tb)-(noir|black|midnight|space-black)(?:[-/].*)?$", product_url):
-                print(f"➡️ Produit trouvé : {product_url}")
-                good_product_urls.append(product_url)
-            else:
-                print(f"❌ Produit non valide : {product_url}, on le supprime de la liste.")
-        return good_product_urls
+        print("Marque recherchée :", marque)
+        if marque == "apple":
+            for product_url in product_urls:
+                # On vérifie que le lien correspond à un modèle cherché et de la taille de stockage voulue
+                # les liens doivent correspondre au regex suivant :
+                # ^https:\/\/www\.cdiscount\.com\/telephonie\/telephone-mobile\/(apple-)?iphone-(14|15|16|16e)-(plus-|pro-|pro-max-)?(128gb|256gb|512gb|1tb)-(black|midnight)-.*$
+                # Si le lien correspond au regex :
+                if re.match(r"^https:\/\/www\.cdiscount\.com\/telephonie\/telephone-mobile\/(apple-)?iphone-(14|15|16|16e)-(plus-|pro-|pro-max-)?(128gb|256gb|512gb|1tb)-(noir|black|midnight|space-black)(?:[-/].*)?$", product_url):
+                    print(f"➡️ Produit trouvé : {product_url}")
+                    good_product_urls.append(product_url)
+                else:
+                    print(f"❌ Produit non valide : {product_url}, on le supprime de la liste.")
+            return good_product_urls
+        elif marque == "galaxy":
+            for product_url in product_urls:
+                if re.match(r"^https:\/\/www\.cdiscount\.com\/telephonie\/telephone-mobile\/(samsung-)?galaxy-(s23|s24|s25)(?:[-/].*)?$", product_url):
+                    print(f"➡️ Produit trouvé : {product_url}")
+                    good_product_urls.append(product_url)
+                else:
+                    print(f"❌ Produit non valide : {product_url}, on le supprime de la liste.")
+            return good_product_urls
+        else:
+            print("ERREUR, marque non reconnue :", marque)
     except Exception as e:
         print(f"Error in retrieving product URLs: {e}")
         return None
@@ -463,6 +542,10 @@ def scrape_product_details(driver, product_url):
         product_name_element = soup.find('div', class_=HTML_SELECTORS["first_product_name"])
         product_name = product_name_element.get_text(strip=True) if product_name_element else "N/A"
         print("Product Name:", product_name)
+
+        # Si il y a "Tiroir Carte" dans le nom du produit, on ignore le produit
+        if "Tiroir Carte" in product_name:
+            return None
 
         product_price_element = soup.find('span', class_=HTML_SELECTORS["first_product_price"])
         product_price = product_price_element.get_text(strip=True) if product_price_element else "N/A"
@@ -586,7 +669,7 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
                 if seller_sales_numbers:
                     seller_sales_numbers = [sales.get_text(strip=True).split()[-1] for sales in seller_sales_numbers]
                 # Il faut encore enlever le : devant le chiffre, actuellement c'est encore ":3998"
-                seller_sales_numbers = [sales.replace(":", "") for sales in seller_sales_numbers]
+                seller_sales_numbers = [sales.replace(":", "") for sales in seller_sales_numbers] # type: ignore
                 print("Seller Sales Number Found after cleaning:", seller_sales_numbers)
 
                 # On vérifie que ratings_elements ne contient pas la note du produit en lui même
@@ -595,7 +678,7 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 
                 #On récupère ensuite la note précise dont la class est c-stars-rating__note dans product_rating_info
                 if product_rating_info:
-                    product_rating = product_rating_info.find('span', class_='c-stars-rating__note')
+                    product_rating = product_rating_info.find('span', class_='c-stars-rating__note') 
                     print("Product rating found:", product_rating.get_text(strip=True))
                     # Si il y a un rating pour le produit, on enlève le premier élément de ratings_elements
                     if ratings_elements and ratings_elements[0].get_text(strip=True) == product_rating.get_text(strip=True):
@@ -684,7 +767,7 @@ def fetch_data_from_pages(driver, url, html_selector, data_type):
 def write_combined_data_to_csv(sellers, prices, product_data, csv_file="/home/scraping/algo_scraping/CDISCOUNT/scraping_cdiscount.csv", write_product_details=True, batch_id=0):    
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, "a", newline="") as f:
-        writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
+        writer = csv.writer(f, delimiter=';', quoting=csv.QUOTE_MINIMAL)
 
         if write_product_details:
             # add Batch ID column + seller details
@@ -752,9 +835,8 @@ def main():
         try:
             with open(csv_file, "r", newline="") as f:
                 lines = [line for line in f if line.strip()]
-            # Scan backwards for the last numeric batch_id
             for line in reversed(lines):
-                parts = line.strip().split(",")
+                parts = line.strip().split(";")
                 last_col = parts[-1]
                 if last_col.isdigit():
                     batch_id = int(last_col) + 1
@@ -765,9 +847,8 @@ def main():
             pass
     else:
         print("CSV file does not exist, starting with batch_id 0.")
-        # Dans ce cas, on  ajoute au fichier la première ligne d'entête
         with open(csv_file, "w", newline="") as f:
-            writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
+            writer = csv.writer(f, delimiter=';', quoting=csv.QUOTE_MINIMAL)
             writer.writerow([
                 "Platform", "Product Name", "Price", "Product state",
                 "Seller", "Seller Status", "Seller Rating",
@@ -792,7 +873,10 @@ def main():
         if not driver.session_id:
             print("Session invalide, on stoppe.")
             return
-
+        
+        ##########################################################################################################
+        #####################################       APPLE IPHONES       ##########################################
+        ##########################################################################################################
         print(f"Recherche de tout les iphones...")
         search_product(driver, "iphone")
 
@@ -804,7 +888,7 @@ def main():
 
         # On applique les filtres requis, cette fonction va raise une error si il n'y a pas de checkbox pour la couleur
         try:
-            filter_products(driver)
+            filter_products_apple(driver)
         except Exception as e:
             print(f"Erreur lors du filtrage des produits: {e}")
             raise
@@ -814,10 +898,50 @@ def main():
         time.sleep(1 + 4 * random.random())
 
 
-        product_urls = get_products_url(driver)
-        
-        for product_url in product_urls :
+        product_urls_apple = get_products_url(driver, "apple")
+        print(f"Nombre de produits trouvés pour apple : {len(product_urls_apple)}")
 
+        ##########################################################################################################
+        ##################################       Samsung Galaxy S       ##########################################
+        ##########################################################################################################
+
+
+        print(f"Recherche de tout les samsung...")
+        search_product(driver, "samsung")
+
+        # Délai aléatoire entre 1 et 5 secondes
+        time.sleep(1 + 4 * random.random())
+
+        # Filtrer les produits
+        print(f"Filtrage des produits... ")
+
+        # On applique les filtres requis, cette fonction va raise une error si il n'y a pas de checkbox pour la couleur
+        try:
+            filter_products_samsung(driver)
+        except Exception as e:
+            print(f"Erreur lors du filtrage des produits: {e}")
+            raise
+
+
+        # Délai aléatoire entre 1 et 5 secondes
+        time.sleep(1 + 4 * random.random())
+
+
+        product_urls_samsung = get_products_url(driver, "galaxy")
+        nb_products = len(product_urls_samsung)
+        print(f"Nombre de produits trouvés pour Samsung : {nb_products}")
+
+        # On combine les deux listes de produits
+        product_urls = product_urls_apple + product_urls_samsung
+        total_products = len(product_urls)
+        print(f"Nombre total de produits trouvés : {total_products}")
+        # On mélange les produits pour éviter de toujours traiter les mêmes produits en premier
+        random.shuffle(product_urls)
+
+        k=0
+        for product_url in product_urls :
+            print(f"Now at product {k} / {len(product_urls)}")
+            k+=1
             product_data = scrape_product_details(driver, product_url)
             other_offers_url = get_more_offers_page(driver)
             if other_offers_url:
@@ -827,7 +951,7 @@ def main():
             else:
                 write_combined_data_to_csv([], [], product_data, csv_file, write_product_details=True, batch_id=batch_id)
 
-            time.sleep(2)
+            time.sleep(random.uniform(2, 7))  # Délai aléatoire entre 1 et 3 secondes entre chaque produit 
 
         # end of one full cycle
         print("Cycle fini, pour le batch_id", batch_id)

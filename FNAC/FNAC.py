@@ -36,7 +36,7 @@ from bs4 import BeautifulSoup
 EXCEL_FILE = './../lien.xlsx'
 CSV_FILE = "fnac_offers.csv"
 ZIP_FILE = "JSON_FNAC.zip"
-SCRAPE_INTERVAL = 1 * 60 * 60  # 1 heure en secondes
+SCRAPE_INTERVAL = 2 * 60 * 60  # 2 heures en secondes
 MAX_RETRY = 2
 
 # Charger les données depuis le fichier Excel
@@ -48,7 +48,31 @@ idsmartphones = excel_data["idsmartphone"].tolist()
 # Liste de User-Agents, pour éviter le blocage
 user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"
 ]
+
+def generate_headers(user_agent):
+    return {
+        "authority": "www.fnac.com",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "cache-control": "max-age=0",
+        "dnt": "1",
+        "sec-ch-ua": '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": user_agent,
+        "referer": "https://www.fnac.com/",
+        "cookie": "PFNAC=1;",  # Cookie minimal pour éviter les blocages
+    }
 
 # LOGGER
 logger = logging.getLogger()
@@ -63,28 +87,17 @@ def scrape_fnac_product_info(url, phone_name, idsmartphone, batch_id):
     while retry_count < MAX_RETRY:
         try:
             user_agent = random.choice(user_agents)
-            headers = {
-                "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-                "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
-                "cache-control": "max-age=0",
-                "dnt": "1",
-                "sec-fetch-dest": "document",
-                "sec-fetch-mode": "navigate",
-                "sec-fetch-site": "same-site",
-                "sec-fetch-user": "?1",
-                "upgrade-insecure-requests": "1",
-                "user-agent": user_agent
-                ,"accept-encoding": "gzip, deflate, br"
-                ,"connection": "keep-alive"
-                ,"referer": "https://www.fnac.com/"
-                ,"origin": "https://www.fnac.com"
-            }
-            # Use a session to manage cookies and avoid 403
+            headers = generate_headers(user_agent)
+            
+            # Utiliser une session avec gestion avancée des cookies
             session = requests.Session()
             session.headers.update(headers)
-            # Preload FNAC homepage to get cookies
-            homepage_resp = session.get("https://www.fnac.com", timeout=10)
-            logging.info("FNAC homepage loaded, status code: %d", homepage_resp.status_code)
+            
+            # Ajouter un délai aléatoire avant la requête
+            delay = random.uniform(5, 15)
+            logging.info(f"Attente de {delay:.2f}s avant la requête...")
+            time.sleep(delay)
+
 
             response = session.get(url, timeout=10)
 
@@ -101,9 +114,9 @@ def scrape_fnac_product_info(url, phone_name, idsmartphone, batch_id):
                     if 'subscriptionplans' in json_data:
                         del json_data['subscriptionplans']
 
-                    time = datetime.now()
-                    url_timestamp = time.strftime('%Y%m%d_%H%M%S')
-                    timestamp = time.strftime("%d/%m/%Y %H:%M:%S")
+                    cur_time = datetime.now()
+                    url_timestamp = cur_time.strftime('%Y%m%d_%H%M%S')
+                    timestamp = cur_time.strftime("%d/%m/%Y %H:%M:%S")
                     json_filename = f'fnac_digitalData_{url_timestamp}.json'
                     with open(json_filename, 'w', encoding='utf-8') as f:
                         json.dump(json_data, f, ensure_ascii=False, indent=4)
